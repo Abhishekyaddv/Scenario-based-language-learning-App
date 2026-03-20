@@ -7,3 +7,7 @@ export const registerUser = (formData) => {
 export const loginUser = (email, password) => {
   return axiosInstance.post("/login-user", email, password);
 };
+
+export const updateProfile = (data) =>{
+  return axiosInstance.patch("/user/update-profile", data)
+}

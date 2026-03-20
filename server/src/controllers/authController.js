@@ -105,3 +105,12 @@ export const loginUser = async (req, res) => {
     res.status(500).json({ message: "Internal server error." });
   }
 }
+
+export const onboardingUser = async (req, res) => {
+
+  try {
+    
+  } catch (error) {
+    
+  }
+}
