@@ -5,7 +5,9 @@ import express from 'express'
 import registerRoute from './src/routes/register.js'
 import loginRoute from './src/routes/login.js'
 import userRoute from './src/routes/user.js'
+import updateRoute from './src/routes/updateProfile.js'
 import connectDB from "./src/config/db.js";
+
 
 
 const app = express();
@@ -28,6 +30,9 @@ app.use("/api", registerRoute)
 app.use("/api", loginRoute)
 
 app.use("/api/user", userRoute)
+
+app.use("/api", updateRoute)
+
 
 connectDB()
 

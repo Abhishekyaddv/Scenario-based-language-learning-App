@@ -9,5 +9,5 @@ export const loginUser = (email, password) => {
 };
 
 export const updateProfile = (data) =>{
-  return axiosInstance.patch("/user/update-profile", data)
+  return axiosInstance.patch("/update-profile", data)
 }
