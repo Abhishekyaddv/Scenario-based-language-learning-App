@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { updateProfile } from '../services/authService';
 import { useNavigate } from 'react-router-dom'
+import LingoAILoader from '../components/LingoAILoader';
 
 /* ─── Inline styles / design tokens ──────────────────────────────────────── */
 const styles = `
@@ -447,6 +448,7 @@ const styles = `
 `
 
 const Onboarding = () => {
+  const [showLoader, setShowLoader] = useState(false);
   const navigate = useNavigate();
 
   const [isLoading, setIsLoading] = useState(false);
@@ -580,19 +582,32 @@ const Onboarding = () => {
   // ── BUG FIX #1: Build final payload locally so async state isn't stale ──
   // ── BUG FIX #2: fixed disabled logic (|| not &&) ──
   const handleNext = async () => {
+
+    console.log('token:', localStorage.getItem('token'));
+
     if (selectedInterests.length === 0 || isLoading) return;
     setIsLoading(true);
     const finalData = { ...onboardingData, interests: selectedInterests };
     try {
+
       const response = await updateProfile(finalData);
       localStorage.setItem('token', response.data.token);
-      navigate('/journey');
+      setShowLoader(true);
+      // navigate('/journey');
+
     } catch (error) {
+
       console.error('Error updating profile:', error);
+
     } finally {
+
       setIsLoading(false);
     }
   };
+  
+  if (showLoader) {
+  return <LingoAILoader onComplete={() => navigate('/journey')} />;
+}
 
   const handleClick = () => setCurrentStep((s) => s + 1);
 

@@ -30,6 +30,7 @@ const Register = () => {
 
       try {
         const response = await registerUser(formData);
+        console.log('register response:', response.data);
         localStorage.setItem('token', response.data.token)
         navigate('/onboarding')
         
