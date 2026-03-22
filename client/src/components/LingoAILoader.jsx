@@ -7,7 +7,7 @@ const STEPS = [
   { label: "Building Your Path",    tags: ["Cognitive Mapping", "Resource Indexing", "Persona Sync", "Curriculum Ready"] },
 ];
 
-const TOTAL_DURATION = 6500; // ms
+const TOTAL_DURATION = 8500; // ms
 
 const css = `
   @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap');
