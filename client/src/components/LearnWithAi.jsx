@@ -1,19 +1,10 @@
 import React from 'react'
-import { 
-  Check, 
-  Play, 
-  Lock, 
+import {  
   Sparkles, 
   MessageCircle, 
   Type, 
   BookOpen, 
   ChevronRight, 
-  MessageSquare,
-  User,
-  Settings,
-  LogOut,
-  Flame,
-  Award
 } from 'lucide-react';
 
 const LearnWithAi = () => {

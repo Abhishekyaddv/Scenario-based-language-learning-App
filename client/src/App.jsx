@@ -8,6 +8,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
 import Journey from "./pages/Journey";
+import Lessons from "./pages/Lessons";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Route path="/about-project" element={<AboutProjectPage />} />
       <Route path="/onboarding" element={<Onboarding />} />
       <Route path="/journey" element={<Journey />} />
+      <Route path="/lessons/:chapterId" element={<Lessons />} />
     </Routes>
     </BrowserRouter>
     </>

@@ -589,7 +589,6 @@ const Onboarding = () => {
     setIsLoading(true);
     const finalData = { ...onboardingData, interests: selectedInterests };
     try {
-
       const response = await updateProfile(finalData);
       localStorage.setItem('token', response.data.token);
       setShowLoader(true);

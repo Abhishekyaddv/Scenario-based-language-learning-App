@@ -4,6 +4,7 @@ import { Check, Play, Lock } from 'lucide-react';
 import { motion } from 'framer-motion';
 import LearnWithAi from '../components/LearnWithAi';
 import Profileviewer from '../components/Profileviewer';
+import { useNavigate } from "react-router-dom";
 
 const Journey = () => {
   const [chapters, setChapters] = useState([]);
@@ -11,7 +12,7 @@ const Journey = () => {
   const [error, setError] = useState('');
   const [progress, setProgress] = useState(null);
   const [selectedChapter, setSelectedChapter] = useState(null);
-
+  const navigate = useNavigate();
   const user = JSON.parse(localStorage.getItem('user') || '{}');
 
   useEffect(() => {
@@ -56,6 +57,14 @@ const Journey = () => {
   const progressPercent = chapters.length
     ? Math.round((completedCount / chapters.length) * 100)
     : 0;
+
+    const handleStart = (chapter) =>{
+      if (!chapter?.id) {
+      console.error("Invalid chapter");
+      return;
+    }
+      navigate(`/lessons/${chapter.id}`);
+    }
 
   return (
     <div className="min-h-screen bg-[#FCF8F5] font-sans text-[#1C1917] flex">
@@ -118,7 +127,12 @@ const Journey = () => {
                     <motion.button
                       whileHover={{ scale: 1.12 }}
                       whileTap={{ scale: 0.95 }}
-                      onClick={() => status !== 'locked' && setSelectedChapter(chapter)}
+                      onClick={() => {
+                        if (status !== 'locked') {
+                          setSelectedChapter(chapter);
+                          handleStart?.(chapter);        // ← add your handleStart here
+                        }
+                      }}
                       className={`relative z-10 flex-shrink-0 w-20 h-20 md:w-24 md:h-24 rounded-full border-8 border-[#FCF8F5] shadow-xl flex items-center justify-center transition-all duration-300
                         ${
                           status === 'completed'

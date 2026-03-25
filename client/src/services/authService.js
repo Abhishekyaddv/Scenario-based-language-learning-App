@@ -20,3 +20,7 @@ export const fetchChapters = (level) => {
 export const fetchProgress = () => {
   return axiosInstance.get("/progress");
 };
+
+export const fetchLessonsByChapter = (level, chapterId) => {
+  return axiosInstance.get(`/lessons/${level}/${chapterId}`)
+}
