@@ -6,12 +6,13 @@ import registerRoute from './src/routes/register.js'
 import loginRoute from './src/routes/login.js'
 import userRoute from './src/routes/user.js'
 import updateRoute from './src/routes/updateProfile.js'
+import lessonsRoute from './src/routes/lessons.js'
+import progressRoute from "./src/routes/progress.js";
 import connectDB from "./src/config/db.js";
 
 
-
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -32,6 +33,11 @@ app.use("/api", loginRoute)
 app.use("/api/user", userRoute)
 
 app.use("/api", updateRoute)
+
+app.use("/api/lessons", lessonsRoute)
+
+app.use("/api/progress", progressRoute);
+
 
 
 connectDB()

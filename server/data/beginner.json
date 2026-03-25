@@ -1,0 +1,304 @@
+[
+  {
+    "level": "beginner",
+    "chapters": [
+      {
+        "id": "beginner_ch1",
+        "title": "Greetings & Introductions",
+        "description": "Learn basic hellos, goodbyes, and how to introduce yourself.",
+        "lessons": [
+          {
+            "id": "b_ch1_l1",
+            "type": "vocabulary",
+            "prompt": "What does 'Hola' mean?",
+            "options": ["Hello", "Goodbye", "Thank you", "Please"],
+            "correctAnswer": "Hello",
+            "explanation": "'Hola' is the most common informal greeting."
+          },
+          {
+            "id": "b_ch1_l2",
+            "type": "translate",
+            "prompt": "Translate: 'My name is Rahul'",
+            "correctAnswer": "Me llamo Rahul",
+            "hint": "Use 'Me llamo' + your name."
+          },
+          {
+            "id": "b_ch1_l3",
+            "type": "fill_blank",
+            "prompt": "Buenos ___, ¿cómo estás?",
+            "correctAnswer": "días",
+            "explanation": "'Buenos días' means Good morning."
+          },
+          {
+            "id": "b_ch1_l4",
+            "type": "translate",
+            "prompt": "Translate: 'See you later'",
+            "correctAnswer": "Hasta luego",
+            "hint": "Think of 'Until later'."
+          }
+        ]
+      },
+      {
+        "id": "beginner_ch2",
+        "title": "Numbers & Colors",
+        "description": "Master counting from 1 to 10 and identifying basic colors.",
+        "lessons": [
+          {
+            "id": "b_ch2_l1",
+            "type": "vocabulary",
+            "prompt": "Which of these is the number 'five'?",
+            "options": ["Tres", "Cinco", "Siete", "Nueve"],
+            "correctAnswer": "Cinco",
+            "explanation": "Uno, dos, tres, cuatro, CINCO."
+          },
+          {
+            "id": "b_ch2_l2",
+            "type": "fill_blank",
+            "prompt": "El cielo es de color ___.",
+            "correctAnswer": "azul",
+            "explanation": "The sky is blue ('azul')."
+          },
+          {
+            "id": "b_ch2_l3",
+            "type": "translate",
+            "prompt": "Translate: 'Three white cats'",
+            "correctAnswer": "Tres gatos blancos",
+            "hint": "Pluralize both the noun and the color."
+          }
+        ]
+      },
+      {
+        "id": "beginner_ch3",
+        "title": "Family & Friends",
+        "description": "Learn to talk about your relatives and relationships.",
+        "lessons": [
+          {
+            "id": "b_ch3_l1",
+            "type": "vocabulary",
+            "prompt": "How do you say 'Brother'?",
+            "options": ["Padre", "Hermano", "Tío", "Abuelo"],
+            "correctAnswer": "Hermano",
+            "explanation": "'Hermano' is brother, 'Hermana' is sister."
+          },
+          {
+            "id": "b_ch3_l2",
+            "type": "translate",
+            "prompt": "Translate: 'She is my mother'",
+            "correctAnswer": "Ella es mi madre",
+            "hint": "Use 'Ella es' for 'She is'."
+          },
+          {
+            "id": "b_ch3_l3",
+            "type": "fill_blank",
+            "prompt": "Mi ___ se llama Carlos.",
+            "correctAnswer": "amigo",
+            "explanation": "'Amigo' means male friend."
+          }
+        ]
+      },
+      {
+        "id": "beginner_ch4",
+        "title": "Food & Dining",
+        "description": "Order food and talk about your favorite meals.",
+        "lessons": [
+          {
+            "id": "b_ch4_l1",
+            "type": "vocabulary",
+            "prompt": "What is 'Water' in Spanish?",
+            "options": ["Leche", "Jugo", "Agua", "Café"],
+            "correctAnswer": "Agua",
+            "explanation": "'Agua' is water."
+          },
+          {
+            "id": "b_ch4_l2",
+            "type": "fill_blank",
+            "prompt": "Quiero comer una ___ de queso.",
+            "correctAnswer": "hamburguesa",
+            "explanation": "I want to eat a cheese *hamburger*."
+          },
+          {
+            "id": "b_ch4_l3",
+            "type": "translate",
+            "prompt": "Translate: 'The bill, please'",
+            "correctAnswer": "La cuenta, por favor",
+            "hint": "Use 'La cuenta' for the check/bill."
+          }
+        ]
+      },
+      {
+        "id": "beginner_ch5",
+        "title": "Time & Dates",
+        "description": "Learn days of the week and how to tell time.",
+        "lessons": [
+          {
+            "id": "b_ch5_l1",
+            "type": "vocabulary",
+            "prompt": "Which day is 'Monday'?",
+            "options": ["Martes", "Lunes", "Jueves", "Sábado"],
+            "correctAnswer": "Lunes",
+            "explanation": "The week starts with 'Lunes'."
+          },
+          {
+            "id": "b_ch5_l2",
+            "type": "translate",
+            "prompt": "Translate: 'What time is it?'",
+            "correctAnswer": "¿Qué hora es?",
+            "hint": "Use the verb 'ser' (es)."
+          },
+          {
+            "id": "b_ch5_l3",
+            "type": "fill_blank",
+            "prompt": "Hoy es viernes, mañana es ___.",
+            "correctAnswer": "sábado",
+            "explanation": "Tomorrow is Saturday."
+          }
+        ]
+      },
+      {
+        "id": "beginner_ch6",
+        "title": "Clothing & Shopping",
+        "description": "Talk about what you are wearing and buying clothes.",
+        "lessons": [
+          {
+            "id": "b_ch6_l1",
+            "type": "vocabulary",
+            "prompt": "How do you say 'Shirt'?",
+            "options": ["Pantalones", "Zapatos", "Camisa", "Sombrero"],
+            "correctAnswer": "Camisa",
+            "explanation": "'Camisa' is a button-up shirt or t-shirt."
+          },
+          {
+            "id": "b_ch6_l2",
+            "type": "translate",
+            "prompt": "Translate: 'How much does it cost?'",
+            "correctAnswer": "¿Cuánto cuesta?",
+            "hint": "Use the verb 'costar'."
+          },
+          {
+            "id": "b_ch6_l3",
+            "type": "fill_blank",
+            "prompt": "Necesito comprar una ___ nueva.",
+            "correctAnswer": "chaqueta",
+            "explanation": "'Chaqueta' means jacket."
+          }
+        ]
+      },
+      {
+        "id": "beginner_ch7",
+        "title": "Daily Activities",
+        "description": "Use regular verbs to describe your everyday life.",
+        "lessons": [
+          {
+            "id": "b_ch7_l1",
+            "type": "vocabulary",
+            "prompt": "What does 'Trabajar' mean?",
+            "options": ["To sleep", "To eat", "To work", "To study"],
+            "correctAnswer": "To work",
+            "explanation": "'Trabajar' is the verb for working."
+          },
+          {
+            "id": "b_ch7_l2",
+            "type": "fill_blank",
+            "prompt": "Yo ___ español todos los días.",
+            "correctAnswer": "estudio",
+            "explanation": "Conjugate 'estudiar' for 'yo'."
+          },
+          {
+            "id": "b_ch7_l3",
+            "type": "translate",
+            "prompt": "Translate: 'She reads a book'",
+            "correctAnswer": "Ella lee un libro",
+            "hint": "Conjugate 'leer' for 'ella'."
+          }
+        ]
+      },
+      {
+        "id": "beginner_ch8",
+        "title": "Directions & Places",
+        "description": "Navigate the city and find common locations.",
+        "lessons": [
+          {
+            "id": "b_ch8_l1",
+            "type": "vocabulary",
+            "prompt": "How do you say 'Library'?",
+            "options": ["Librería", "Biblioteca", "Escuela", "Banco"],
+            "correctAnswer": "Biblioteca",
+            "explanation": "'Librería' is a bookstore. 'Biblioteca' is a library."
+          },
+          {
+            "id": "b_ch8_l2",
+            "type": "translate",
+            "prompt": "Translate: 'Where is the bathroom?'",
+            "correctAnswer": "¿Dónde está el baño?",
+            "hint": "Use 'está' for locations."
+          },
+          {
+            "id": "b_ch8_l3",
+            "type": "fill_blank",
+            "prompt": "El restaurante está a la ___.",
+            "correctAnswer": "derecha",
+            "explanation": "It is on the right ('derecha')."
+          }
+        ]
+      },
+      {
+        "id": "beginner_ch9",
+        "title": "Weather & Seasons",
+        "description": "Describe the climate and different times of the year.",
+        "lessons": [
+          {
+            "id": "b_ch9_l1",
+            "type": "vocabulary",
+            "prompt": "What does 'Hace frío' mean?",
+            "options": ["It is hot", "It is raining", "It is cold", "It is sunny"],
+            "correctAnswer": "It is cold",
+            "explanation": "'Frío' means cold."
+          },
+          {
+            "id": "b_ch9_l2",
+            "type": "translate",
+            "prompt": "Translate: 'It is raining today'",
+            "correctAnswer": "Hoy está lloviendo",
+            "hint": "Use the present progressive of 'llover'."
+          },
+          {
+            "id": "b_ch9_l3",
+            "type": "fill_blank",
+            "prompt": "Mi estación favorita es el ___.",
+            "correctAnswer": "verano",
+            "explanation": "'Verano' means summer."
+          }
+        ]
+      },
+      {
+        "id": "beginner_ch10",
+        "title": "Hobbies & Interests",
+        "description": "Talk about what you like to do in your free time.",
+        "lessons": [
+          {
+            "id": "b_ch10_l1",
+            "type": "vocabulary",
+            "prompt": "What does 'Me gusta bailar' mean?",
+            "options": ["I like to sing", "I like to dance", "I like to run", "I like to cook"],
+            "correctAnswer": "I like to dance",
+            "explanation": "'Bailar' is to dance."
+          },
+          {
+            "id": "b_ch10_l2",
+            "type": "fill_blank",
+            "prompt": "¿Qué te gusta ___ en tu tiempo libre?",
+            "correctAnswer": "hacer",
+            "explanation": "'Hacer' means 'to do'."
+          },
+          {
+            "id": "b_ch10_l3",
+            "type": "translate",
+            "prompt": "Translate: 'I play soccer'",
+            "correctAnswer": "Juego al fútbol",
+            "hint": "Conjugate 'jugar' (stem-changing u->ue)."
+          }
+        ]
+      }
+    ]
+  }
+]

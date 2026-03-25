@@ -11,3 +11,12 @@ export const loginUser = (data) => {
 export const updateProfile = (data) =>{
   return axiosInstance.patch("/update-profile", data)
 }
+
+
+export const fetchChapters = (level) => {
+  return axiosInstance.get(`/lessons/${level}`)
+}
+
+export const fetchProgress = () => {
+  return axiosInstance.get("/progress");
+};

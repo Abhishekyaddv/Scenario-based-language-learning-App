@@ -1,0 +1,297 @@
+[
+  {
+    "level": "advanced",
+    "chapters": [
+      {
+        "id": "advanced_ch1",
+        "title": "Expressing Doubt & Emotion",
+        "description": "Master the present subjunctive to express desires, doubts, and emotions.",
+        "lessons": [
+          {
+            "id": "a_ch1_l1",
+            "type": "vocabulary",
+            "prompt": "Which sentence uses the subjunctive correctly?",
+            "options": ["Espero que vienes", "Espero que vengas", "Espero que venir", "Espero que veniste"],
+            "correctAnswer": "Espero que vengas",
+            "explanation": "Verbs of hope ('esperar') trigger the subjunctive 'vengas'."
+          },
+          {
+            "id": "a_ch1_l2",
+            "type": "fill_blank",
+            "prompt": "Dudo que él ___ la verdad.",
+            "correctAnswer": "sepa",
+            "explanation": "'Saber' in the present subjunctive is 'sepa'."
+          },
+          {
+            "id": "a_ch1_l3",
+            "type": "translate",
+            "prompt": "Translate: 'It is important that we study'",
+            "correctAnswer": "Es importante que estudiemos",
+            "hint": "Impersonal expressions require the subjunctive."
+          }
+        ]
+      },
+      {
+        "id": "advanced_ch2",
+        "title": "Hypothetical Situations",
+        "description": "Combine the conditional and past subjunctive for 'if' clauses.",
+        "lessons": [
+          {
+            "id": "a_ch2_l1",
+            "type": "vocabulary",
+            "prompt": "What does 'Si tuviera dinero' mean?",
+            "options": ["If I have money", "If I had money", "If I will have money", "If I had had money"],
+            "correctAnswer": "If I had money",
+            "explanation": "This uses the imperfect subjunctive for an unlikely current situation."
+          },
+          {
+            "id": "a_ch2_l2",
+            "type": "fill_blank",
+            "prompt": "Si yo fuera tú, no lo ___.",
+            "correctAnswer": "haría",
+            "explanation": "The conditional 'haría' (I would do) pairs with the past subjunctive."
+          },
+          {
+            "id": "a_ch2_l3",
+            "type": "translate",
+            "prompt": "Translate: 'If we studied more, we would pass'",
+            "correctAnswer": "Si estudiáramos más, aprobaríamos",
+            "hint": "Use imperfect subjunctive for the 'if' clause, conditional for the result."
+          }
+        ]
+      },
+      {
+        "id": "advanced_ch3",
+        "title": "Idioms & Colloquialisms",
+        "description": "Sound like a native by using common regional phrases and idioms.",
+        "lessons": [
+          {
+            "id": "a_ch3_l1",
+            "type": "vocabulary",
+            "prompt": "What does the idiom 'Tomar el pelo' literally translate to, and what does it mean?",
+            "options": ["Take the hair / To go bald", "Drink the hair / To be confused", "Take the hair / To pull someone's leg", "Cut the hair / To start fresh"],
+            "correctAnswer": "Take the hair / To pull someone's leg",
+            "explanation": "It means to joke or trick someone playfully."
+          },
+          {
+            "id": "a_ch3_l2",
+            "type": "fill_blank",
+            "prompt": "No cuesta un ojo de la ___, es muy barato.",
+            "correctAnswer": "cara",
+            "explanation": "'Costar un ojo de la cara' means to cost an arm and a leg."
+          },
+          {
+            "id": "a_ch3_l3",
+            "type": "translate",
+            "prompt": "Translate the idiom: 'It's a piece of cake'",
+            "correctAnswer": "Es pan comido",
+            "hint": "Think of 'eaten bread'."
+          }
+        ]
+      },
+      {
+        "id": "advanced_ch4",
+        "title": "Politics & Society",
+        "description": "Discuss government, laws, and social issues.",
+        "lessons": [
+          {
+            "id": "a_ch4_l1",
+            "type": "vocabulary",
+            "prompt": "What are 'Los derechos humanos'?",
+            "options": ["Human errors", "Human rights", "Human nature", "Human laws"],
+            "correctAnswer": "Human rights",
+            "explanation": "'Derechos' translates to rights."
+          },
+          {
+            "id": "a_ch4_l2",
+            "type": "translate",
+            "prompt": "Translate: 'The government passed a new law'",
+            "correctAnswer": "El gobierno aprobó una nueva ley",
+            "hint": "Use the preterite of 'aprobar'."
+          },
+          {
+            "id": "a_ch4_l3",
+            "type": "fill_blank",
+            "prompt": "Las ___ se llevarán a cabo en noviembre.",
+            "correctAnswer": "elecciones",
+            "explanation": "'Elecciones' means elections."
+          }
+        ]
+      },
+      {
+        "id": "advanced_ch5",
+        "title": "Arts & Literature",
+        "description": "Critique paintings, books, and cultural movements.",
+        "lessons": [
+          {
+            "id": "a_ch5_l1",
+            "type": "vocabulary",
+            "prompt": "What does 'La obra maestra' mean?",
+            "options": ["The master builder", "The construction site", "The masterpiece", "The long play"],
+            "correctAnswer": "The masterpiece",
+            "explanation": "'Obra' is work (of art), 'maestra' is master."
+          },
+          {
+            "id": "a_ch5_l2",
+            "type": "fill_blank",
+            "prompt": "El ___ principal de la novela es fascinante.",
+            "correctAnswer": "personaje",
+            "explanation": "'Personaje' refers to a character in a story."
+          },
+          {
+            "id": "a_ch5_l3",
+            "type": "translate",
+            "prompt": "Translate: 'It is a contemporary painting'",
+            "correctAnswer": "Es una pintura contemporánea",
+            "hint": "Match the feminine adjective."
+          }
+        ]
+      },
+      {
+        "id": "advanced_ch6",
+        "title": "Science & Future",
+        "description": "Discuss discoveries using the Future Perfect and Conditional Perfect.",
+        "lessons": [
+          {
+            "id": "a_ch6_l1",
+            "type": "vocabulary",
+            "prompt": "Which of these is the Future Perfect tense?",
+            "options": ["Habría hablado", "Habré hablado", "Había hablado", "Haya hablado"],
+            "correctAnswer": "Habré hablado",
+            "explanation": "'Habré' is the future form of 'haber'."
+          },
+          {
+            "id": "a_ch6_l2",
+            "type": "translate",
+            "prompt": "Translate: 'By 2050, we will have discovered it'",
+            "correctAnswer": "Para el 2050, lo habremos descubierto",
+            "hint": "Use the future perfect of 'descubrir'."
+          },
+          {
+            "id": "a_ch6_l3",
+            "type": "fill_blank",
+            "prompt": "Yo ___ ido, pero no tuve tiempo.",
+            "correctAnswer": "habría",
+            "explanation": "'Habría ido' (Conditional Perfect) means 'I would have gone'."
+          }
+        ]
+      },
+      {
+        "id": "advanced_ch7",
+        "title": "Debates & Opinions",
+        "description": "Learn connectors to construct strong arguments and express viewpoints.",
+        "lessons": [
+          {
+            "id": "a_ch7_l1",
+            "type": "vocabulary",
+            "prompt": "What does 'Sin embargo' mean?",
+            "options": ["Furthermore", "Therefore", "However", "Because"],
+            "correctAnswer": "However",
+            "explanation": "It is a common contrast connector."
+          },
+          {
+            "id": "a_ch7_l2",
+            "type": "fill_blank",
+            "prompt": "Por un lado es caro, pero por otro ___, es de alta calidad.",
+            "correctAnswer": "lado",
+            "explanation": "'Por otro lado' means 'on the other hand'."
+          },
+          {
+            "id": "a_ch7_l3",
+            "type": "translate",
+            "prompt": "Translate: 'From my point of view'",
+            "correctAnswer": "Desde mi punto de vista",
+            "hint": "Translate literally."
+          }
+        ]
+      },
+      {
+        "id": "advanced_ch8",
+        "title": "Business & Economics",
+        "description": "Navigate corporate vocabulary and economic trends.",
+        "lessons": [
+          {
+            "id": "a_ch8_l1",
+            "type": "vocabulary",
+            "prompt": "What are 'Las inversiones'?",
+            "options": ["The inventions", "The investments", "The inversions", "The invoices"],
+            "correctAnswer": "The investments",
+            "explanation": "'Invertir' is the verb to invest."
+          },
+          {
+            "id": "a_ch8_l2",
+            "type": "translate",
+            "prompt": "Translate: 'The company went bankrupt'",
+            "correctAnswer": "La empresa se fue a la quiebra",
+            "hint": "'Ir a la quiebra' means to go bankrupt."
+          },
+          {
+            "id": "a_ch8_l3",
+            "type": "fill_blank",
+            "prompt": "Hemos firmado un nuevo ___ comercial.",
+            "correctAnswer": "acuerdo",
+            "explanation": "'Acuerdo' means agreement or contract."
+          }
+        ]
+      },
+      {
+        "id": "advanced_ch9",
+        "title": "Cultural Nuances",
+        "description": "Understand subtle cultural phrasing and courtesy rules.",
+        "lessons": [
+          {
+            "id": "a_ch9_l1",
+            "type": "vocabulary",
+            "prompt": "What does it mean if someone says 'Buen provecho'?",
+            "options": ["Good luck", "Enjoy your meal", "Have a good trip", "Take care"],
+            "correctAnswer": "Enjoy your meal",
+            "explanation": "Said before eating, similar to 'Bon appétit'."
+          },
+          {
+            "id": "a_ch9_l2",
+            "type": "fill_blank",
+            "prompt": "Te lo agradezco de todo ___.",
+            "correctAnswer": "corazón",
+            "explanation": "'De todo corazón' means with all my heart."
+          },
+          {
+            "id": "a_ch9_l3",
+            "type": "translate",
+            "prompt": "Translate: 'Make yourself at home'",
+            "correctAnswer": "Estás en tu casa",
+            "hint": "Literally: 'You are in your house'."
+          }
+        ]
+      },
+      {
+        "id": "advanced_ch10",
+        "title": "Abstract Concepts",
+        "description": "Discuss philosophy, psychology, and theoretical ideas.",
+        "lessons": [
+          {
+            "id": "a_ch10_l1",
+            "type": "vocabulary",
+            "prompt": "What does 'El libre albedrío' mean?",
+            "options": ["The free bird", "Free time", "Free will", "Free trade"],
+            "correctAnswer": "Free will",
+            "explanation": "A common philosophical term for freedom of choice."
+          },
+          {
+            "id": "a_ch10_l2",
+            "type": "translate",
+            "prompt": "Translate: 'Happiness is subjective'",
+            "correctAnswer": "La felicidad es subjetiva",
+            "hint": "Remember to use the feminine article for 'felicidad'."
+          },
+          {
+            "id": "a_ch10_l3",
+            "type": "fill_blank",
+            "prompt": "El ___ del universo es un misterio.",
+            "correctAnswer": "origen",
+            "explanation": "'Origen' means origin or beginning."
+          }
+        ]
+      }
+    ]
+  }
+]
