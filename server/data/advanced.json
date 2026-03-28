@@ -11,7 +11,12 @@
             "id": "a_ch1_l1",
             "type": "vocabulary",
             "prompt": "Which sentence uses the subjunctive correctly?",
-            "options": ["Espero que vienes", "Espero que vengas", "Espero que venir", "Espero que veniste"],
+            "options": [
+              "Espero que vienes",
+              "Espero que vengas",
+              "Espero que venir",
+              "Espero que veniste"
+            ],
             "correctAnswer": "Espero que vengas",
             "explanation": "Verbs of hope ('esperar') trigger the subjunctive 'vengas'."
           },
@@ -29,7 +34,29 @@
             "correctAnswer": "Es importante que estudiemos",
             "hint": "Impersonal expressions require the subjunctive."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Expressing Doubt & Emotion",
+          "intro": "The present subjunctive mode is critical in Spanish when dealing with uncertainty, emotion, or influence.",
+          "concepts": [
+            {
+              "term": "The Subjunctive Mood",
+              "explanation": "Not a tense, but a mood used for subjective realities."
+            },
+            {
+              "term": "Espero que vengas",
+              "explanation": "I hope that you come. \"Esperar\" triggers the subjunctive \"vengas\"."
+            },
+            {
+              "term": "Dudo que sepa",
+              "explanation": "I doubt he knows. \"Dudar\" triggers the subjunctive \"sepa\"."
+            },
+            {
+              "term": "Impersonal Expressions",
+              "explanation": "Phrases like \"Es importante que...\" require the subjunctive."
+            }
+          ]
+        }
       },
       {
         "id": "advanced_ch2",
@@ -40,7 +67,12 @@
             "id": "a_ch2_l1",
             "type": "vocabulary",
             "prompt": "What does 'Si tuviera dinero' mean?",
-            "options": ["If I have money", "If I had money", "If I will have money", "If I had had money"],
+            "options": [
+              "If I have money",
+              "If I had money",
+              "If I will have money",
+              "If I had had money"
+            ],
             "correctAnswer": "If I had money",
             "explanation": "This uses the imperfect subjunctive for an unlikely current situation."
           },
@@ -58,7 +90,29 @@
             "correctAnswer": "Si estudiáramos más, aprobaríamos",
             "hint": "Use imperfect subjunctive for the 'if' clause, conditional for the result."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Hypothetical Situations",
+          "intro": "Construct complex conditional expressions by chaining the past subjunctive and conditional tenses.",
+          "concepts": [
+            {
+              "term": "Si + Past Subjunctive",
+              "explanation": "Used to state an unlikely or impossible condition. \"Si tuviera dinero...\" (If I had money)."
+            },
+            {
+              "term": "Conditional Result",
+              "explanation": "The result clause uses the conditional: \"haría\" (would do), \"compraría\" (would buy)."
+            },
+            {
+              "term": "Si yo fuera...",
+              "explanation": "If I were... \"Si yo fuera tú\" (If I were you)."
+            },
+            {
+              "term": "Estudiáramos",
+              "explanation": "We studied (Past subjunctive). Notice the accent on the third-to-last syllable."
+            }
+          ]
+        }
       },
       {
         "id": "advanced_ch3",
@@ -69,7 +123,12 @@
             "id": "a_ch3_l1",
             "type": "vocabulary",
             "prompt": "What does the idiom 'Tomar el pelo' literally translate to, and what does it mean?",
-            "options": ["Take the hair / To go bald", "Drink the hair / To be confused", "Take the hair / To pull someone's leg", "Cut the hair / To start fresh"],
+            "options": [
+              "Take the hair / To go bald",
+              "Drink the hair / To be confused",
+              "Take the hair / To pull someone's leg",
+              "Cut the hair / To start fresh"
+            ],
             "correctAnswer": "Take the hair / To pull someone's leg",
             "explanation": "It means to joke or trick someone playfully."
           },
@@ -87,7 +146,29 @@
             "correctAnswer": "Es pan comido",
             "hint": "Think of 'eaten bread'."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Idioms & Colloquialisms",
+          "intro": "Idioms do not translate literally. Learn sentences native speakers use to convey tone.",
+          "concepts": [
+            {
+              "term": "Tomar el pelo",
+              "explanation": "To trick or playfully tease someone. (Literally: take the hair)."
+            },
+            {
+              "term": "Costar un ojo de la cara",
+              "explanation": "To be extremely expensive. (Literally: cost an eye from the face)."
+            },
+            {
+              "term": "Pan comido",
+              "explanation": "Very easy. A piece of cake. (Literally: eaten bread)."
+            },
+            {
+              "term": "Estar en las nubes",
+              "explanation": "To be daydreaming. (Literally: to be in the clouds)."
+            }
+          ]
+        }
       },
       {
         "id": "advanced_ch4",
@@ -98,7 +179,12 @@
             "id": "a_ch4_l1",
             "type": "vocabulary",
             "prompt": "What are 'Los derechos humanos'?",
-            "options": ["Human errors", "Human rights", "Human nature", "Human laws"],
+            "options": [
+              "Human errors",
+              "Human rights",
+              "Human nature",
+              "Human laws"
+            ],
             "correctAnswer": "Human rights",
             "explanation": "'Derechos' translates to rights."
           },
@@ -116,7 +202,29 @@
             "correctAnswer": "elecciones",
             "explanation": "'Elecciones' means elections."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Politics & Society",
+          "intro": "Argue social realities using high-level civic vocabulary and advanced verbs.",
+          "concepts": [
+            {
+              "term": "Los derechos humanos",
+              "explanation": "Human rights."
+            },
+            {
+              "term": "Aprobar una ley",
+              "explanation": "To pass a law. \"El gobierno aprobó\"."
+            },
+            {
+              "term": "Las elecciones",
+              "explanation": "The elections."
+            },
+            {
+              "term": "Llevar a cabo",
+              "explanation": "To carry out or execute (a plan or event)."
+            }
+          ]
+        }
       },
       {
         "id": "advanced_ch5",
@@ -127,7 +235,12 @@
             "id": "a_ch5_l1",
             "type": "vocabulary",
             "prompt": "What does 'La obra maestra' mean?",
-            "options": ["The master builder", "The construction site", "The masterpiece", "The long play"],
+            "options": [
+              "The master builder",
+              "The construction site",
+              "The masterpiece",
+              "The long play"
+            ],
             "correctAnswer": "The masterpiece",
             "explanation": "'Obra' is work (of art), 'maestra' is master."
           },
@@ -145,7 +258,29 @@
             "correctAnswer": "Es una pintura contemporánea",
             "hint": "Match the feminine adjective."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Arts & Literature",
+          "intro": "Expand your ability to review and discuss cultural exports thoughtfully.",
+          "concepts": [
+            {
+              "term": "La obra maestra",
+              "explanation": "The masterpiece."
+            },
+            {
+              "term": "El personaje",
+              "explanation": "The character (in a book or movie)."
+            },
+            {
+              "term": "Contemporáneo/a",
+              "explanation": "Contemporary. Adjectives must agree in gender and number with the noun."
+            },
+            {
+              "term": "El autor / La autora",
+              "explanation": "The author."
+            }
+          ]
+        }
       },
       {
         "id": "advanced_ch6",
@@ -156,7 +291,12 @@
             "id": "a_ch6_l1",
             "type": "vocabulary",
             "prompt": "Which of these is the Future Perfect tense?",
-            "options": ["Habría hablado", "Habré hablado", "Había hablado", "Haya hablado"],
+            "options": [
+              "Habría hablado",
+              "Habré hablado",
+              "Había hablado",
+              "Haya hablado"
+            ],
             "correctAnswer": "Habré hablado",
             "explanation": "'Habré' is the future form of 'haber'."
           },
@@ -174,7 +314,29 @@
             "correctAnswer": "habría",
             "explanation": "'Habría ido' (Conditional Perfect) means 'I would have gone'."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Science & Future Constraints",
+          "intro": "Make predictions and express past impossibilities using advanced perfect tenses.",
+          "concepts": [
+            {
+              "term": "Future Perfect",
+              "explanation": "Will have done. Example: \"Para el 2050, habremos descubierto...\""
+            },
+            {
+              "term": "Conditional Perfect",
+              "explanation": "Would have done. Example: \"Yo habría ido...\" (I would have gone)."
+            },
+            {
+              "term": "Habré / Habría",
+              "explanation": "Conjugations of the auxiliary verb \"haber\" driving these complex tenses."
+            },
+            {
+              "term": "El descubrimiento",
+              "explanation": "The discovery."
+            }
+          ]
+        }
       },
       {
         "id": "advanced_ch7",
@@ -185,7 +347,12 @@
             "id": "a_ch7_l1",
             "type": "vocabulary",
             "prompt": "What does 'Sin embargo' mean?",
-            "options": ["Furthermore", "Therefore", "However", "Because"],
+            "options": [
+              "Furthermore",
+              "Therefore",
+              "However",
+              "Because"
+            ],
             "correctAnswer": "However",
             "explanation": "It is a common contrast connector."
           },
@@ -203,7 +370,29 @@
             "correctAnswer": "Desde mi punto de vista",
             "hint": "Translate literally."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Debates & Opinion Syntax",
+          "intro": "Learn transition words and connectors to build iron-clad, cohesive arguments.",
+          "concepts": [
+            {
+              "term": "Sin embargo",
+              "explanation": "However / Nevertheless."
+            },
+            {
+              "term": "Por otro lado",
+              "explanation": "On the other hand."
+            },
+            {
+              "term": "Desde mi punto de vista",
+              "explanation": "From my point of view."
+            },
+            {
+              "term": "Por lo tanto",
+              "explanation": "Therefore."
+            }
+          ]
+        }
       },
       {
         "id": "advanced_ch8",
@@ -214,7 +403,12 @@
             "id": "a_ch8_l1",
             "type": "vocabulary",
             "prompt": "What are 'Las inversiones'?",
-            "options": ["The inventions", "The investments", "The inversions", "The invoices"],
+            "options": [
+              "The inventions",
+              "The investments",
+              "The inversions",
+              "The invoices"
+            ],
             "correctAnswer": "The investments",
             "explanation": "'Invertir' is the verb to invest."
           },
@@ -232,7 +426,29 @@
             "correctAnswer": "acuerdo",
             "explanation": "'Acuerdo' means agreement or contract."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Business & Economics",
+          "intro": "Sound professional in corporate or macroeconomic interactions.",
+          "concepts": [
+            {
+              "term": "Las inversiones",
+              "explanation": "Investments."
+            },
+            {
+              "term": "Ir a la quiebra",
+              "explanation": "To go bankrupt."
+            },
+            {
+              "term": "El acuerdo",
+              "explanation": "The agreement, contract, or deal."
+            },
+            {
+              "term": "El mercado",
+              "explanation": "The market."
+            }
+          ]
+        }
       },
       {
         "id": "advanced_ch9",
@@ -243,7 +459,12 @@
             "id": "a_ch9_l1",
             "type": "vocabulary",
             "prompt": "What does it mean if someone says 'Buen provecho'?",
-            "options": ["Good luck", "Enjoy your meal", "Have a good trip", "Take care"],
+            "options": [
+              "Good luck",
+              "Enjoy your meal",
+              "Have a good trip",
+              "Take care"
+            ],
             "correctAnswer": "Enjoy your meal",
             "explanation": "Said before eating, similar to 'Bon appétit'."
           },
@@ -261,7 +482,29 @@
             "correctAnswer": "Estás en tu casa",
             "hint": "Literally: 'You are in your house'."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Cultural Nuances",
+          "intro": "Incorporate polite expressions and cultural phrasing to sound truly fluent and attentive.",
+          "concepts": [
+            {
+              "term": "Buen provecho",
+              "explanation": "Enjoy your meal / Bon appétit."
+            },
+            {
+              "term": "De todo corazón",
+              "explanation": "With all my heart / Sincerely."
+            },
+            {
+              "term": "Estás en tu casa",
+              "explanation": "Make yourself at home. (Literally: You are in your house)."
+            },
+            {
+              "term": "Agradecer",
+              "explanation": "To thank or appreciate. \"Te lo agradezco\"."
+            }
+          ]
+        }
       },
       {
         "id": "advanced_ch10",
@@ -272,7 +515,12 @@
             "id": "a_ch10_l1",
             "type": "vocabulary",
             "prompt": "What does 'El libre albedrío' mean?",
-            "options": ["The free bird", "Free time", "Free will", "Free trade"],
+            "options": [
+              "The free bird",
+              "Free time",
+              "Free will",
+              "Free trade"
+            ],
             "correctAnswer": "Free will",
             "explanation": "A common philosophical term for freedom of choice."
           },
@@ -290,7 +538,29 @@
             "correctAnswer": "origen",
             "explanation": "'Origen' means origin or beginning."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Abstract Concepts",
+          "intro": "Debate intangible questions spanning philosophy, humanity, and the universe.",
+          "concepts": [
+            {
+              "term": "El libre albedrío",
+              "explanation": "Free will."
+            },
+            {
+              "term": "Subjetivo / Objetivo",
+              "explanation": "Subjective / Objective."
+            },
+            {
+              "term": "El origen",
+              "explanation": "The origin or root cause."
+            },
+            {
+              "term": "La felicidad",
+              "explanation": "Happiness."
+            }
+          ]
+        }
       }
     ]
   }

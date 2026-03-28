@@ -11,7 +11,12 @@
             "id": "b_ch1_l1",
             "type": "vocabulary",
             "prompt": "What does 'Hola' mean?",
-            "options": ["Hello", "Goodbye", "Thank you", "Please"],
+            "options": [
+              "Hello",
+              "Goodbye",
+              "Thank you",
+              "Please"
+            ],
             "correctAnswer": "Hello",
             "explanation": "'Hola' is the most common informal greeting."
           },
@@ -36,7 +41,29 @@
             "correctAnswer": "Hasta luego",
             "hint": "Think of 'Until later'."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Greetings & Introductions",
+          "intro": "Before we begin the exercises, let's review the most common ways to greet people in Spanish.",
+          "concepts": [
+            {
+              "term": "Hola",
+              "explanation": "The most common and versatile way to say Hello in Spanish."
+            },
+            {
+              "term": "Buenos días",
+              "explanation": "Good morning (used until noon)."
+            },
+            {
+              "term": "Me llamo...",
+              "explanation": "My name is... (Literally: I call myself...)"
+            },
+            {
+              "term": "Hasta luego",
+              "explanation": "See you later / Until later."
+            }
+          ]
+        }
       },
       {
         "id": "beginner_ch2",
@@ -47,7 +74,12 @@
             "id": "b_ch2_l1",
             "type": "vocabulary",
             "prompt": "Which of these is the number 'five'?",
-            "options": ["Tres", "Cinco", "Siete", "Nueve"],
+            "options": [
+              "Tres",
+              "Cinco",
+              "Siete",
+              "Nueve"
+            ],
             "correctAnswer": "Cinco",
             "explanation": "Uno, dos, tres, cuatro, CINCO."
           },
@@ -65,7 +97,29 @@
             "correctAnswer": "Tres gatos blancos",
             "hint": "Pluralize both the noun and the color."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Numbers & Colors",
+          "intro": "Master counting from 1 to 10 and identifying basic colors to describe the world around you.",
+          "concepts": [
+            {
+              "term": "Uno, dos, tres, cuatro, cinco",
+              "explanation": "The numbers 1 through 5."
+            },
+            {
+              "term": "Seis, siete, ocho, nueve, diez",
+              "explanation": "The numbers 6 through 10."
+            },
+            {
+              "term": "Azul",
+              "explanation": "Blue. For example, \"El cielo es azul\" (The sky is blue)."
+            },
+            {
+              "term": "Blanco",
+              "explanation": "White. Remember to match pluralization: \"gatos blancos\" (white cats)."
+            }
+          ]
+        }
       },
       {
         "id": "beginner_ch3",
@@ -76,7 +130,12 @@
             "id": "b_ch3_l1",
             "type": "vocabulary",
             "prompt": "How do you say 'Brother'?",
-            "options": ["Padre", "Hermano", "Tío", "Abuelo"],
+            "options": [
+              "Padre",
+              "Hermano",
+              "Tío",
+              "Abuelo"
+            ],
             "correctAnswer": "Hermano",
             "explanation": "'Hermano' is brother, 'Hermana' is sister."
           },
@@ -94,7 +153,29 @@
             "correctAnswer": "amigo",
             "explanation": "'Amigo' means male friend."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Family & Friends",
+          "intro": "Learn how to refer to the important people in your life using simple Spanish nouns.",
+          "concepts": [
+            {
+              "term": "Hermano / Hermana",
+              "explanation": "Brother / Sister. The \"H\" is silent in Spanish."
+            },
+            {
+              "term": "Madre / Padre",
+              "explanation": "Mother / Father. Use \"Ella es mi madre\" to say \"She is my mother\"."
+            },
+            {
+              "term": "Amigo / Amiga",
+              "explanation": "Friend (male / female)."
+            },
+            {
+              "term": "Abuelo / Abuela",
+              "explanation": "Grandfather / Grandmother."
+            }
+          ]
+        }
       },
       {
         "id": "beginner_ch4",
@@ -105,7 +186,12 @@
             "id": "b_ch4_l1",
             "type": "vocabulary",
             "prompt": "What is 'Water' in Spanish?",
-            "options": ["Leche", "Jugo", "Agua", "Café"],
+            "options": [
+              "Leche",
+              "Jugo",
+              "Agua",
+              "Café"
+            ],
             "correctAnswer": "Agua",
             "explanation": "'Agua' is water."
           },
@@ -123,7 +209,29 @@
             "correctAnswer": "La cuenta, por favor",
             "hint": "Use 'La cuenta' for the check/bill."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Food & Dining",
+          "intro": "Food is central to Spanish culture. Learn how to order your favorite meals and drinks.",
+          "concepts": [
+            {
+              "term": "Agua",
+              "explanation": "Water. Essential for any meal."
+            },
+            {
+              "term": "Hamburguesa",
+              "explanation": "Hamburger. An easy cognate."
+            },
+            {
+              "term": "La cuenta, por favor",
+              "explanation": "The bill, please. Use this when you are ready to pay."
+            },
+            {
+              "term": "Quiero comer",
+              "explanation": "I want to eat... Followed by the noun you desire."
+            }
+          ]
+        }
       },
       {
         "id": "beginner_ch5",
@@ -134,7 +242,12 @@
             "id": "b_ch5_l1",
             "type": "vocabulary",
             "prompt": "Which day is 'Monday'?",
-            "options": ["Martes", "Lunes", "Jueves", "Sábado"],
+            "options": [
+              "Martes",
+              "Lunes",
+              "Jueves",
+              "Sábado"
+            ],
             "correctAnswer": "Lunes",
             "explanation": "The week starts with 'Lunes'."
           },
@@ -152,7 +265,29 @@
             "correctAnswer": "sábado",
             "explanation": "Tomorrow is Saturday."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Time & Dates",
+          "intro": "Keep a tight schedule by mastering the days of the week and telling time.",
+          "concepts": [
+            {
+              "term": "Lunes",
+              "explanation": "Monday. Unlike English, days of the week are not capitalized in Spanish."
+            },
+            {
+              "term": "Sábado / Domingo",
+              "explanation": "Saturday / Sunday (The weekend)."
+            },
+            {
+              "term": "¿Qué hora es?",
+              "explanation": "What time is it? Literally \"What hour is it?\"."
+            },
+            {
+              "term": "Hoy / Mañana",
+              "explanation": "Today / Tomorrow."
+            }
+          ]
+        }
       },
       {
         "id": "beginner_ch6",
@@ -163,7 +298,12 @@
             "id": "b_ch6_l1",
             "type": "vocabulary",
             "prompt": "How do you say 'Shirt'?",
-            "options": ["Pantalones", "Zapatos", "Camisa", "Sombrero"],
+            "options": [
+              "Pantalones",
+              "Zapatos",
+              "Camisa",
+              "Sombrero"
+            ],
             "correctAnswer": "Camisa",
             "explanation": "'Camisa' is a button-up shirt or t-shirt."
           },
@@ -181,7 +321,29 @@
             "correctAnswer": "chaqueta",
             "explanation": "'Chaqueta' means jacket."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Clothing & Shopping",
+          "intro": "Ready to hit the stores? Let's cover essential vocabulary for clothing and making purchases.",
+          "concepts": [
+            {
+              "term": "Camisa",
+              "explanation": "Shirt, specifically a button-up or dress shirt."
+            },
+            {
+              "term": "Chaqueta",
+              "explanation": "Jacket. Perfect for when it's chilly."
+            },
+            {
+              "term": "¿Cuánto cuesta?",
+              "explanation": "How much does it cost? Use the verb \"costar\"."
+            },
+            {
+              "term": "Comprar",
+              "explanation": "To buy or purchase."
+            }
+          ]
+        }
       },
       {
         "id": "beginner_ch7",
@@ -192,7 +354,12 @@
             "id": "b_ch7_l1",
             "type": "vocabulary",
             "prompt": "What does 'Trabajar' mean?",
-            "options": ["To sleep", "To eat", "To work", "To study"],
+            "options": [
+              "To sleep",
+              "To eat",
+              "To work",
+              "To study"
+            ],
             "correctAnswer": "To work",
             "explanation": "'Trabajar' is the verb for working."
           },
@@ -210,7 +377,29 @@
             "correctAnswer": "Ella lee un libro",
             "hint": "Conjugate 'leer' for 'ella'."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Daily Activities",
+          "intro": "Use regular -ar, -er, and -ir verbs to describe exactly what you do during the day.",
+          "concepts": [
+            {
+              "term": "Trabajar",
+              "explanation": "To work."
+            },
+            {
+              "term": "Estudiar",
+              "explanation": "To study. \"Yo estudio\" means \"I study\"."
+            },
+            {
+              "term": "Leer",
+              "explanation": "To read. \"Ella lee\" means \"She reads\"."
+            },
+            {
+              "term": "Todos los días",
+              "explanation": "Every day."
+            }
+          ]
+        }
       },
       {
         "id": "beginner_ch8",
@@ -221,7 +410,12 @@
             "id": "b_ch8_l1",
             "type": "vocabulary",
             "prompt": "How do you say 'Library'?",
-            "options": ["Librería", "Biblioteca", "Escuela", "Banco"],
+            "options": [
+              "Librería",
+              "Biblioteca",
+              "Escuela",
+              "Banco"
+            ],
             "correctAnswer": "Biblioteca",
             "explanation": "'Librería' is a bookstore. 'Biblioteca' is a library."
           },
@@ -239,7 +433,29 @@
             "correctAnswer": "derecha",
             "explanation": "It is on the right ('derecha')."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Directions & Places",
+          "intro": "Navigate your city and find exactly where you need to go using spatial words.",
+          "concepts": [
+            {
+              "term": "Biblioteca",
+              "explanation": "Library. Wait out! \"Librería\" means bookstore."
+            },
+            {
+              "term": "¿Dónde está...?",
+              "explanation": "Where is...? Use the verb \"estar\" for locations."
+            },
+            {
+              "term": "A la derecha / izquierda",
+              "explanation": "To the right / To the left."
+            },
+            {
+              "term": "El baño",
+              "explanation": "The bathroom."
+            }
+          ]
+        }
       },
       {
         "id": "beginner_ch9",
@@ -250,7 +466,12 @@
             "id": "b_ch9_l1",
             "type": "vocabulary",
             "prompt": "What does 'Hace frío' mean?",
-            "options": ["It is hot", "It is raining", "It is cold", "It is sunny"],
+            "options": [
+              "It is hot",
+              "It is raining",
+              "It is cold",
+              "It is sunny"
+            ],
             "correctAnswer": "It is cold",
             "explanation": "'Frío' means cold."
           },
@@ -268,7 +489,29 @@
             "correctAnswer": "verano",
             "explanation": "'Verano' means summer."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Weather & Seasons",
+          "intro": "Description of the climate typically requires the verb \"hacer\" instead of \"ser\". Let's see how it works.",
+          "concepts": [
+            {
+              "term": "Hace frío",
+              "explanation": "It is cold. (Literally: It makes cold)."
+            },
+            {
+              "term": "Hace sol",
+              "explanation": "It is sunny. (Literally: It makes sun)."
+            },
+            {
+              "term": "Está lloviendo",
+              "explanation": "It is raining right now."
+            },
+            {
+              "term": "Verano / Invierno",
+              "explanation": "Summer / Winter."
+            }
+          ]
+        }
       },
       {
         "id": "beginner_ch10",
@@ -279,7 +522,12 @@
             "id": "b_ch10_l1",
             "type": "vocabulary",
             "prompt": "What does 'Me gusta bailar' mean?",
-            "options": ["I like to sing", "I like to dance", "I like to run", "I like to cook"],
+            "options": [
+              "I like to sing",
+              "I like to dance",
+              "I like to run",
+              "I like to cook"
+            ],
             "correctAnswer": "I like to dance",
             "explanation": "'Bailar' is to dance."
           },
@@ -297,7 +545,29 @@
             "correctAnswer": "Juego al fútbol",
             "hint": "Conjugate 'jugar' (stem-changing u->ue)."
           }
-        ]
+        ],
+        "learningMaterial": {
+          "title": "Hobbies & Interests",
+          "intro": "Learn to talk about the things you are passionate about doing in your free time.",
+          "concepts": [
+            {
+              "term": "Me gusta",
+              "explanation": "I like... followed by an infinitive verb."
+            },
+            {
+              "term": "Bailar / Cantar",
+              "explanation": "To dance / To sing."
+            },
+            {
+              "term": "Jugar",
+              "explanation": "To play a sport or game. (e.g. \"Juego al fútbol\")."
+            },
+            {
+              "term": "Tiempo libre",
+              "explanation": "Free time."
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,295 +1,565 @@
 {
   "level": "intermediate",
   "chapters": [
-      {
-        "id": "intermediate_ch1",
+    {
+      "id": "intermediate_ch1",
+      "title": "Daily Routines",
+      "description": "Describe your day using reflexive verbs.",
+      "lessons": [
+        {
+          "id": "i_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'Despertarse' mean?",
+          "options": [
+            "To go to sleep",
+            "To wake up",
+            "To eat breakfast",
+            "To shower"
+          ],
+          "correctAnswer": "To wake up",
+          "explanation": "It's a reflexive verb used when you wake yourself up."
+        },
+        {
+          "id": "i_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "Yo ___ lavo los dientes todos los días.",
+          "correctAnswer": "me",
+          "explanation": "Use the reflexive pronoun 'me' for 'yo'."
+        },
+        {
+          "id": "i_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'We get up early'",
+          "correctAnswer": "Nos levantamos temprano",
+          "hint": "Use the 'nosotros' reflexive pronoun."
+        }
+      ],
+      "learningMaterial": {
         "title": "Daily Routines",
-        "description": "Describe your day using reflexive verbs.",
-        "lessons": [
+        "intro": "When we describe actions done to ourselves, we use reflexive verbs and pronouns.",
+        "concepts": [
           {
-            "id": "i_ch1_l1",
-            "type": "vocabulary",
-            "prompt": "What does 'Despertarse' mean?",
-            "options": ["To go to sleep", "To wake up", "To eat breakfast", "To shower"],
-            "correctAnswer": "To wake up",
-            "explanation": "It's a reflexive verb used when you wake yourself up."
+            "term": "Reflexive Verbs",
+            "explanation": "Verbs ending in \"-se\" indicating the subject is also the receiver of the action."
           },
           {
-            "id": "i_ch1_l2",
-            "type": "fill_blank",
-            "prompt": "Yo ___ lavo los dientes todos los días.",
-            "correctAnswer": "me",
-            "explanation": "Use the reflexive pronoun 'me' for 'yo'."
+            "term": "Despertarse",
+            "explanation": "To wake up (oneself)."
           },
           {
-            "id": "i_ch1_l3",
-            "type": "translate",
-            "prompt": "Translate: 'We get up early'",
-            "correctAnswer": "Nos levantamos temprano",
-            "hint": "Use the 'nosotros' reflexive pronoun."
-          }
-        ]
-      },
-      {
-        "id": "intermediate_ch2",
-        "title": "Past Vacations",
-        "description": "Talk about where you went and what you did using the Preterite tense.",
-        "lessons": [
-          {
-            "id": "i_ch2_l1",
-            "type": "fill_blank",
-            "prompt": "El año pasado, yo ___ a España.",
-            "correctAnswer": "fui",
-            "explanation": "'Fui' is the preterite 'I went' (from the verb 'ir')."
+            "term": "Me, Te, Se, Nos",
+            "explanation": "Reflexive pronouns. \"Yo me lavo\" (I wash myself)."
           },
           {
-            "id": "i_ch2_l2",
-            "type": "vocabulary",
-            "prompt": "How do you say 'We ate' in the past tense?",
-            "options": ["Comemos", "Comíamos", "Comimos", "Comeremos"],
-            "correctAnswer": "Comimos",
-            "explanation": "'Comimos' is the preterite form for nosotros."
-          },
-          {
-            "id": "i_ch2_l3",
-            "type": "translate",
-            "prompt": "Translate: 'I visited the museum'",
-            "correctAnswer": "Visité el museo",
-            "hint": "Use the 'yo' form of 'visitar' in the preterite."
-          }
-        ]
-      },
-      {
-        "id": "intermediate_ch3",
-        "title": "Childhood Memories",
-        "description": "Describe what things used to be like using the Imperfect tense.",
-        "lessons": [
-          {
-            "id": "i_ch3_l1",
-            "type": "vocabulary",
-            "prompt": "Which verb tense is used for habitual actions in the past?",
-            "options": ["Preterite", "Imperfect", "Future", "Conditional"],
-            "correctAnswer": "Imperfect",
-            "explanation": "The imperfect is used for 'used to' or 'was doing'."
-          },
-          {
-            "id": "i_ch3_l2",
-            "type": "fill_blank",
-            "prompt": "Cuando era niño, ___ al parque todos los días.",
-            "correctAnswer": "iba",
-            "explanation": "'Iba' is the imperfect of 'ir' (I used to go)."
-          },
-          {
-            "id": "i_ch3_l3",
-            "type": "translate",
-            "prompt": "Translate: 'We used to play soccer'",
-            "correctAnswer": "Jugábamos al fútbol",
-            "hint": "Remember the accent mark on the first 'a' in jugábamos."
-          }
-        ]
-      },
-      {
-        "id": "intermediate_ch4",
-        "title": "Health & Body",
-        "description": "Describe symptoms and body parts at the doctor.",
-        "lessons": [
-          {
-            "id": "i_ch4_l1",
-            "type": "vocabulary",
-            "prompt": "What does 'Me duele la cabeza' mean?",
-            "options": ["My back hurts", "I have a headache", "My stomach hurts", "I am tired"],
-            "correctAnswer": "I have a headache",
-            "explanation": "'Cabeza' means head."
-          },
-          {
-            "id": "i_ch4_l2",
-            "type": "fill_blank",
-            "prompt": "El médico me recetó unas ___.",
-            "correctAnswer": "pastillas",
-            "explanation": "'Pastillas' means pills/medicine."
-          },
-          {
-            "id": "i_ch4_l3",
-            "type": "translate",
-            "prompt": "Translate: 'I feel sick'",
-            "correctAnswer": "Me siento enfermo",
-            "hint": "Use the reflexive verb 'sentirse'."
-          }
-        ]
-      },
-      {
-        "id": "intermediate_ch5",
-        "title": "Housing & Chores",
-        "description": "Talk about rooms in the house and domestic tasks.",
-        "lessons": [
-          {
-            "id": "i_ch5_l1",
-            "type": "vocabulary",
-            "prompt": "What is 'El dormitorio'?",
-            "options": ["Kitchen", "Living Room", "Bathroom", "Bedroom"],
-            "correctAnswer": "Bedroom",
-            "explanation": "It is the room where you sleep ('dormir')."
-          },
-          {
-            "id": "i_ch5_l2",
-            "type": "translate",
-            "prompt": "Translate: 'I have to clean the kitchen'",
-            "correctAnswer": "Tengo que limpiar la cocina",
-            "hint": "Use 'Tener que' for 'have to'."
-          },
-          {
-            "id": "i_ch5_l3",
-            "type": "fill_blank",
-            "prompt": "Por favor, saca la ___.",
-            "correctAnswer": "basura",
-            "explanation": "'Sacar la basura' means to take out the trash."
-          }
-        ]
-      },
-      {
-        "id": "intermediate_ch6",
-        "title": "Technology & Communication",
-        "description": "Discuss computers, phones, and the internet.",
-        "lessons": [
-          {
-            "id": "i_ch6_l1",
-            "type": "vocabulary",
-            "prompt": "How do you say 'To download'?",
-            "options": ["Subir", "Descargar", "Navegar", "Imprimir"],
-            "correctAnswer": "Descargar",
-            "explanation": "'Descargar' is to download, 'Subir' is to upload."
-          },
-          {
-            "id": "i_ch6_l2",
-            "type": "fill_blank",
-            "prompt": "Se me olvidó mi ___.",
-            "correctAnswer": "contraseña",
-            "explanation": "'Contraseña' means password."
-          },
-          {
-            "id": "i_ch6_l3",
-            "type": "translate",
-            "prompt": "Translate: 'Send me a message'",
-            "correctAnswer": "Envíame un mensaje",
-            "hint": "Use the command form of 'enviar' with the pronoun 'me'."
-          }
-        ]
-      },
-      {
-        "id": "intermediate_ch7",
-        "title": "Travel & Transportation",
-        "description": "Book flights, hotels, and ask for directions.",
-        "lessons": [
-          {
-            "id": "i_ch7_l1",
-            "type": "vocabulary",
-            "prompt": "What does 'El vuelo' mean?",
-            "options": ["The train", "The flight", "The ticket", "The luggage"],
-            "correctAnswer": "The flight",
-            "explanation": "'Vuelo' comes from the verb 'volar' (to fly)."
-          },
-          {
-            "id": "i_ch7_l2",
-            "type": "translate",
-            "prompt": "Translate: 'A round trip ticket'",
-            "correctAnswer": "Un boleto de ida y vuelta",
-            "hint": "Literally: 'A ticket of going and returning'."
-          },
-          {
-            "id": "i_ch7_l3",
-            "type": "fill_blank",
-            "prompt": "Tengo una ___ a nombre de García.",
-            "correctAnswer": "reserva",
-            "explanation": "'Reserva' means reservation."
-          }
-        ]
-      },
-      {
-        "id": "intermediate_ch8",
-        "title": "Work & Professions",
-        "description": "Talk about jobs, interviews, and the office.",
-        "lessons": [
-          {
-            "id": "i_ch8_l1",
-            "type": "vocabulary",
-            "prompt": "Which of these means 'The Boss'?",
-            "options": ["El empleado", "El jefe", "El compañero", "El cliente"],
-            "correctAnswer": "El jefe",
-            "explanation": "'Jefe' is boss or manager."
-          },
-          {
-            "id": "i_ch8_l2",
-            "type": "fill_blank",
-            "prompt": "Tengo una ___ de trabajo mañana.",
-            "correctAnswer": "entrevista",
-            "explanation": "'Entrevista' means interview."
-          },
-          {
-            "id": "i_ch8_l3",
-            "type": "translate",
-            "prompt": "Translate: 'I am looking for a job'",
-            "correctAnswer": "Estoy buscando trabajo",
-            "hint": "Use the present progressive of 'buscar'."
-          }
-        ]
-      },
-      {
-        "id": "intermediate_ch9",
-        "title": "Environment & Nature",
-        "description": "Discuss animals, landscapes, and conservation.",
-        "lessons": [
-          {
-            "id": "i_ch9_l1",
-            "type": "vocabulary",
-            "prompt": "What does 'El medio ambiente' mean?",
-            "options": ["The middle of the room", "The environment", "The forest", "The weather"],
-            "correctAnswer": "The environment",
-            "explanation": "This is the set phrase for 'the environment'."
-          },
-          {
-            "id": "i_ch9_l2",
-            "type": "translate",
-            "prompt": "Translate: 'We must protect the earth'",
-            "correctAnswer": "Debemos proteger la tierra",
-            "hint": "Use 'deber' for 'must'."
-          },
-          {
-            "id": "i_ch9_l3",
-            "type": "fill_blank",
-            "prompt": "Hay mucha ___ en esta ciudad.",
-            "correctAnswer": "contaminación",
-            "explanation": "'Contaminación' means pollution."
-          }
-        ]
-      },
-      {
-        "id": "intermediate_ch10",
-        "title": "Entertainment & Media",
-        "description": "Talk about movies, music, and the news.",
-        "lessons": [
-          {
-            "id": "i_ch10_l1",
-            "type": "vocabulary",
-            "prompt": "What is 'Una película'?",
-            "options": ["A song", "A book", "A movie", "A news report"],
-            "correctAnswer": "A movie",
-            "explanation": "You watch 'películas' at the cinema."
-          },
-          {
-            "id": "i_ch10_l2",
-            "type": "fill_blank",
-            "prompt": "¿Has visto las ___ de hoy?",
-            "correctAnswer": "noticias",
-            "explanation": "'Noticias' means the news."
-          },
-          {
-            "id": "i_ch10_l3",
-            "type": "translate",
-            "prompt": "Translate: 'The concert was amazing'",
-            "correctAnswer": "El concierto fue increíble",
-            "hint": "Use the preterite of 'ser'."
+            "term": "Levantarse",
+            "explanation": "To get up out of bed."
           }
         ]
       }
-    ]
-  }
+    },
+    {
+      "id": "intermediate_ch2",
+      "title": "Past Vacations",
+      "description": "Talk about where you went and what you did using the Preterite tense.",
+      "lessons": [
+        {
+          "id": "i_ch2_l1",
+          "type": "fill_blank",
+          "prompt": "El año pasado, yo ___ a España.",
+          "correctAnswer": "fui",
+          "explanation": "'Fui' is the preterite 'I went' (from the verb 'ir')."
+        },
+        {
+          "id": "i_ch2_l2",
+          "type": "vocabulary",
+          "prompt": "How do you say 'We ate' in the past tense?",
+          "options": [
+            "Comemos",
+            "Comíamos",
+            "Comimos",
+            "Comeremos"
+          ],
+          "correctAnswer": "Comimos",
+          "explanation": "'Comimos' is the preterite form for nosotros."
+        },
+        {
+          "id": "i_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I visited the museum'",
+          "correctAnswer": "Visité el museo",
+          "hint": "Use the 'yo' form of 'visitar' in the preterite."
+        }
+      ],
+      "learningMaterial": {
+        "title": "Past Vacations (Preterite)",
+        "intro": "The preterite tense is used to describe completed actions that happened at a specific point in the past.",
+        "concepts": [
+          {
+            "term": "Fui",
+            "explanation": "I went (irregular preterite form of \"ir\")."
+          },
+          {
+            "term": "Comimos",
+            "explanation": "We ate (regular preterite form of \"comer\")."
+          },
+          {
+            "term": "Visité",
+            "explanation": "I visited (regular preterite form of \"visitar\")."
+          },
+          {
+            "term": "El año pasado",
+            "explanation": "Last year. A common time marker for the preterite."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intermediate_ch3",
+      "title": "Childhood Memories",
+      "description": "Describe what things used to be like using the Imperfect tense.",
+      "lessons": [
+        {
+          "id": "i_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "Which verb tense is used for habitual actions in the past?",
+          "options": [
+            "Preterite",
+            "Imperfect",
+            "Future",
+            "Conditional"
+          ],
+          "correctAnswer": "Imperfect",
+          "explanation": "The imperfect is used for 'used to' or 'was doing'."
+        },
+        {
+          "id": "i_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "Cuando era niño, ___ al parque todos los días.",
+          "correctAnswer": "iba",
+          "explanation": "'Iba' is the imperfect of 'ir' (I used to go)."
+        },
+        {
+          "id": "i_ch3_l3",
+          "type": "translate",
+          "prompt": "Translate: 'We used to play soccer'",
+          "correctAnswer": "Jugábamos al fútbol",
+          "hint": "Remember the accent mark on the first 'a' in jugábamos."
+        }
+      ],
+      "learningMaterial": {
+        "title": "Childhood Memories (Imperfect)",
+        "intro": "The imperfect tense is used to describe ongoing past actions, habits, or what things \"used to be\" like.",
+        "concepts": [
+          {
+            "term": "Imperfect Tense",
+            "explanation": "Translates to \"used to do\" or \"was doing\"."
+          },
+          {
+            "term": "Iba",
+            "explanation": "I used to go (irregular imperfect of \"ir\")."
+          },
+          {
+            "term": "Jugábamos",
+            "explanation": "We used to play. (Notice the accent mark on the antechultimante syllable)."
+          },
+          {
+            "term": "Cuando era niño/a",
+            "explanation": "When I was a child..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intermediate_ch4",
+      "title": "Health & Body",
+      "description": "Describe symptoms and body parts at the doctor.",
+      "lessons": [
+        {
+          "id": "i_ch4_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'Me duele la cabeza' mean?",
+          "options": [
+            "My back hurts",
+            "I have a headache",
+            "My stomach hurts",
+            "I am tired"
+          ],
+          "correctAnswer": "I have a headache",
+          "explanation": "'Cabeza' means head."
+        },
+        {
+          "id": "i_ch4_l2",
+          "type": "fill_blank",
+          "prompt": "El médico me recetó unas ___.",
+          "correctAnswer": "pastillas",
+          "explanation": "'Pastillas' means pills/medicine."
+        },
+        {
+          "id": "i_ch4_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I feel sick'",
+          "correctAnswer": "Me siento enfermo",
+          "hint": "Use the reflexive verb 'sentirse'."
+        }
+      ],
+      "learningMaterial": {
+        "title": "Health & Body",
+        "intro": "Feeling unwell? Learn essential medical vocabulary and how to describe symptoms.",
+        "concepts": [
+          {
+            "term": "Me duele...",
+            "explanation": "My (body part) hurts. Use this like \"Me gusta\"."
+          },
+          {
+            "term": "La cabeza",
+            "explanation": "The head. (\"Me duele la cabeza\")."
+          },
+          {
+            "term": "Pastillas",
+            "explanation": "Pills or medication prescribed by a doctor."
+          },
+          {
+            "term": "Sentirse",
+            "explanation": "To feel. \"Me siento enfermo\" (I feel sick)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intermediate_ch5",
+      "title": "Housing & Chores",
+      "description": "Talk about rooms in the house and domestic tasks.",
+      "lessons": [
+        {
+          "id": "i_ch5_l1",
+          "type": "vocabulary",
+          "prompt": "What is 'El dormitorio'?",
+          "options": [
+            "Kitchen",
+            "Living Room",
+            "Bathroom",
+            "Bedroom"
+          ],
+          "correctAnswer": "Bedroom",
+          "explanation": "It is the room where you sleep ('dormir')."
+        },
+        {
+          "id": "i_ch5_l2",
+          "type": "translate",
+          "prompt": "Translate: 'I have to clean the kitchen'",
+          "correctAnswer": "Tengo que limpiar la cocina",
+          "hint": "Use 'Tener que' for 'have to'."
+        },
+        {
+          "id": "i_ch5_l3",
+          "type": "fill_blank",
+          "prompt": "Por favor, saca la ___.",
+          "correctAnswer": "basura",
+          "explanation": "'Sacar la basura' means to take out the trash."
+        }
+      ],
+      "learningMaterial": {
+        "title": "Housing & Chores",
+        "intro": "Expand your vocabulary around the house using daily chores and precise locations.",
+        "concepts": [
+          {
+            "term": "El dormitorio",
+            "explanation": "The bedroom (from \"dormir\" - to sleep)."
+          },
+          {
+            "term": "Tener que + Infinitive",
+            "explanation": "To have to do something. \"Tengo que limpiar\"."
+          },
+          {
+            "term": "La cocina / El baño",
+            "explanation": "The kitchen / The bathroom."
+          },
+          {
+            "term": "Sacar la basura",
+            "explanation": "To take out the trash."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intermediate_ch6",
+      "title": "Technology & Communication",
+      "description": "Discuss computers, phones, and the internet.",
+      "lessons": [
+        {
+          "id": "i_ch6_l1",
+          "type": "vocabulary",
+          "prompt": "How do you say 'To download'?",
+          "options": [
+            "Subir",
+            "Descargar",
+            "Navegar",
+            "Imprimir"
+          ],
+          "correctAnswer": "Descargar",
+          "explanation": "'Descargar' is to download, 'Subir' is to upload."
+        },
+        {
+          "id": "i_ch6_l2",
+          "type": "fill_blank",
+          "prompt": "Se me olvidó mi ___.",
+          "correctAnswer": "contraseña",
+          "explanation": "'Contraseña' means password."
+        },
+        {
+          "id": "i_ch6_l3",
+          "type": "translate",
+          "prompt": "Translate: 'Send me a message'",
+          "correctAnswer": "Envíame un mensaje",
+          "hint": "Use the command form of 'enviar' with the pronoun 'me'."
+        }
+      ],
+      "learningMaterial": {
+        "title": "Technology & Communication",
+        "intro": "Live in the digital age with modern Spanish vocabulary for computers and phones.",
+        "concepts": [
+          {
+            "term": "Descargar / Subir",
+            "explanation": "To download / To upload or raise."
+          },
+          {
+            "term": "La contraseña",
+            "explanation": "The password."
+          },
+          {
+            "term": "Enviar un mensaje",
+            "explanation": "To send a message."
+          },
+          {
+            "term": "Olvidar",
+            "explanation": "To forget. \"Se me olvidó\" (I forgot it)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intermediate_ch7",
+      "title": "Travel & Transportation",
+      "description": "Book flights, hotels, and ask for directions.",
+      "lessons": [
+        {
+          "id": "i_ch7_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'El vuelo' mean?",
+          "options": [
+            "The train",
+            "The flight",
+            "The ticket",
+            "The luggage"
+          ],
+          "correctAnswer": "The flight",
+          "explanation": "'Vuelo' comes from the verb 'volar' (to fly)."
+        },
+        {
+          "id": "i_ch7_l2",
+          "type": "translate",
+          "prompt": "Translate: 'A round trip ticket'",
+          "correctAnswer": "Un boleto de ida y vuelta",
+          "hint": "Literally: 'A ticket of going and returning'."
+        },
+        {
+          "id": "i_ch7_l3",
+          "type": "fill_blank",
+          "prompt": "Tengo una ___ a nombre de García.",
+          "correctAnswer": "reserva",
+          "explanation": "'Reserva' means reservation."
+        }
+      ],
+      "learningMaterial": {
+        "title": "Travel & Transportation",
+        "intro": "Book your trips and navigate transport hubs naturally.",
+        "concepts": [
+          {
+            "term": "El vuelo",
+            "explanation": "The flight (from \"volar\" - to fly)."
+          },
+          {
+            "term": "Ida y vuelta",
+            "explanation": "Round trip ticket. (Literally: going and returning)."
+          },
+          {
+            "term": "La reserva",
+            "explanation": "The reservation or booking."
+          },
+          {
+            "term": "El equipaje",
+            "explanation": "The luggage or baggage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intermediate_ch8",
+      "title": "Work & Professions",
+      "description": "Talk about jobs, interviews, and the office.",
+      "lessons": [
+        {
+          "id": "i_ch8_l1",
+          "type": "vocabulary",
+          "prompt": "Which of these means 'The Boss'?",
+          "options": [
+            "El empleado",
+            "El jefe",
+            "El compañero",
+            "El cliente"
+          ],
+          "correctAnswer": "El jefe",
+          "explanation": "'Jefe' is boss or manager."
+        },
+        {
+          "id": "i_ch8_l2",
+          "type": "fill_blank",
+          "prompt": "Tengo una ___ de trabajo mañana.",
+          "correctAnswer": "entrevista",
+          "explanation": "'Entrevista' means interview."
+        },
+        {
+          "id": "i_ch8_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I am looking for a job'",
+          "correctAnswer": "Estoy buscando trabajo",
+          "hint": "Use the present progressive of 'buscar'."
+        }
+      ],
+      "learningMaterial": {
+        "title": "Work & Professions",
+        "intro": "Discuss office life, interviews, and your job hunting efforts.",
+        "concepts": [
+          {
+            "term": "El jefe / La jefa",
+            "explanation": "The boss or manager."
+          },
+          {
+            "term": "La entrevista",
+            "explanation": "The interview."
+          },
+          {
+            "term": "Buscar trabajo",
+            "explanation": "To look for a job."
+          },
+          {
+            "term": "La empresa",
+            "explanation": "The company or enterprise."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intermediate_ch9",
+      "title": "Environment & Nature",
+      "description": "Discuss animals, landscapes, and conservation.",
+      "lessons": [
+        {
+          "id": "i_ch9_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'El medio ambiente' mean?",
+          "options": [
+            "The middle of the room",
+            "The environment",
+            "The forest",
+            "The weather"
+          ],
+          "correctAnswer": "The environment",
+          "explanation": "This is the set phrase for 'the environment'."
+        },
+        {
+          "id": "i_ch9_l2",
+          "type": "translate",
+          "prompt": "Translate: 'We must protect the earth'",
+          "correctAnswer": "Debemos proteger la tierra",
+          "hint": "Use 'deber' for 'must'."
+        },
+        {
+          "id": "i_ch9_l3",
+          "type": "fill_blank",
+          "prompt": "Hay mucha ___ en esta ciudad.",
+          "correctAnswer": "contaminación",
+          "explanation": "'Contaminación' means pollution."
+        }
+      ],
+      "learningMaterial": {
+        "title": "Environment & Nature",
+        "intro": "Express your thoughts on climate issues and planetary protection.",
+        "concepts": [
+          {
+            "term": "El medio ambiente",
+            "explanation": "The environment (set phrase)."
+          },
+          {
+            "term": "Deber + Infinitive",
+            "explanation": "Should or must do. \"Debemos proteger\"."
+          },
+          {
+            "term": "Contaminación",
+            "explanation": "Pollution or contamination."
+          },
+          {
+            "term": "La tierra",
+            "explanation": "The Earth or dirt."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intermediate_ch10",
+      "title": "Entertainment & Media",
+      "description": "Talk about movies, music, and the news.",
+      "lessons": [
+        {
+          "id": "i_ch10_l1",
+          "type": "vocabulary",
+          "prompt": "What is 'Una película'?",
+          "options": [
+            "A song",
+            "A book",
+            "A movie",
+            "A news report"
+          ],
+          "correctAnswer": "A movie",
+          "explanation": "You watch 'películas' at the cinema."
+        },
+        {
+          "id": "i_ch10_l2",
+          "type": "fill_blank",
+          "prompt": "¿Has visto las ___ de hoy?",
+          "correctAnswer": "noticias",
+          "explanation": "'Noticias' means the news."
+        },
+        {
+          "id": "i_ch10_l3",
+          "type": "translate",
+          "prompt": "Translate: 'The concert was amazing'",
+          "correctAnswer": "El concierto fue increíble",
+          "hint": "Use the preterite of 'ser'."
+        }
+      ],
+      "learningMaterial": {
+        "title": "Entertainment & Media",
+        "intro": "Share common interests regarding global media and the news cycle.",
+        "concepts": [
+          {
+            "term": "La película",
+            "explanation": "The movie or film."
+          },
+          {
+            "term": "Las noticias",
+            "explanation": "The news or daily broadcast."
+          },
+          {
+            "term": "El concierto",
+            "explanation": "The concert."
+          },
+          {
+            "term": "Increíble / Fascinante",
+            "explanation": "Amazing / Fascinating."
+          }
+        ]
+      }
+    }
+  ]
+}

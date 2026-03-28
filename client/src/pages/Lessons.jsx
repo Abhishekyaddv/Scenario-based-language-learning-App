@@ -8,6 +8,7 @@ import MultipleChoice from '../components/MultipleChoice';
 import Translate from '../components/Translate';
 import FillBlank from '../components/FillBlank';
 import Results from '../components/Results';
+import LearningView from '../components/LearningView';
 
 const Lessons = () => {
   const { chapterId } = useParams()
@@ -18,6 +19,7 @@ const Lessons = () => {
   const [score, setScore] = useState(0)
   const [isFinished, setIsFinished] = useState(false)
   const [isNextEnabled, setIsNextEnabled] = useState(false)
+  const [showLearning, setShowLearning] = useState(true)
   const user = JSON.parse(localStorage.getItem('user'))
   const navigate = useNavigate();
   
@@ -79,6 +81,46 @@ const handleNext = () => {
     }
   }
 
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-[#FCF8F5] flex items-center justify-center">
+        <p className="text-gray-500 font-medium">Loading chapter...</p>
+      </div>
+    );
+  }
+
+  // Render the Learning View first if data exists
+  if (showLearning && lessonsData?.learningMaterial) {
+    return (
+      <div className="min-h-screen bg-[#FCF8F5] font-sans text-[#1C1917]">
+        <header className="bg-white border-b border-gray-100 z-50 shadow-sm">
+          <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+            <button
+              onClick={() => navigate('/journey')}
+              className="flex items-center gap-2 text-gray-600 hover:text-[#eb5e28] transition-colors"
+            >
+              <ArrowLeft size={24} />
+              <span className="font-medium hover:underline flex items-center h-full">Back to Journey</span>
+            </button>
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-semibold text-[#eb5e28]">
+                Unit {chapterId.split('_')[1] || ''}
+              </span>
+            </div>
+            <div className="w-20" /> {/* Spacer for centering */}
+          </div>
+        </header>
+
+        <div className="max-w-4xl mx-auto py-8 md:py-12">
+          <LearningView 
+            learningMaterial={lessonsData.learningMaterial} 
+            onStart={() => setShowLearning(false)} 
+          />
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-[#FCF8F5] font-sans text-[#1C1917] pb-24">
       <header className="sticky top-0 bg-white border-b border-gray-100 z-50 shadow-sm">
@@ -118,11 +160,10 @@ const handleNext = () => {
       </header>
 
        <div className="max-w-2xl mx-auto px-6 pt-8">
-      {isLoading && <p>Loading...</p>}
 
-      {!isLoading && !isFinished && renderExercise()}
+      {!isFinished && renderExercise()}
 
-      {!isLoading && !isFinished &&  (
+      {!isFinished &&  (
         <div className="flex justify-center mt-8 w-full">
         <button onClick={handleNext} disabled={!isNextEnabled} className="text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-full text-xl px-4 py-2.5 focus:outline-none transition-colors w-full max-w-xs">
           Next
