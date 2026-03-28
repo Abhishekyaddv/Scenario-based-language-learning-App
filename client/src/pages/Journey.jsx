@@ -3,7 +3,7 @@ import { fetchChapters, fetchProgress } from '../services/authService';
 import { Check, Play, Lock } from 'lucide-react';
 import { motion } from 'framer-motion';
 import LearnWithAi from '../components/LearnWithAi';
-import Profileviewer from '../components/Profileviewer';
+import { ProfileAvatar, ProfileModal } from '../components/Profileviewer';
 import { useNavigate } from "react-router-dom";
 
 const Journey = () => {
@@ -12,6 +12,7 @@ const Journey = () => {
   const [error, setError] = useState('');
   const [progress, setProgress] = useState(null);
   const [selectedChapter, setSelectedChapter] = useState(null);
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
   const navigate = useNavigate();
   const user = JSON.parse(localStorage.getItem('user') || '{}');
 
@@ -23,9 +24,20 @@ const Journey = () => {
           fetchProgress(),
         ]);
 
-        const levelData = chaptersRes.data.find(
-          (item) => item.level.toLowerCase() === user.level.toLowerCase()
-        );
+        const data = chaptersRes.data;
+
+        // Handle both response shapes:
+        // Array: [{ level, chapters }]  |  Object: { level, chapters }
+        let levelData;
+        if (Array.isArray(data)) {
+          levelData = data.find(
+            (item) => item.level.toLowerCase() === user.level.toLowerCase()
+          );
+        } else if (data.level?.toLowerCase() === user.level.toLowerCase()) {
+          levelData = data;
+        } else {
+          levelData = data;
+        }
 
         setChapters(levelData?.chapters ?? []);
         setProgress(progressRes.data.progress);
@@ -68,28 +80,31 @@ const Journey = () => {
 
   return (
     <div className="min-h-screen bg-[#FCF8F5] font-sans text-[#1C1917] flex">
-      {/* Sidebar */}
-      <Profileviewer />
+      {/* Profile Modal */}
+      <ProfileModal isOpen={isProfileOpen} onClose={() => setIsProfileOpen(false)} />
 
       {/* Main Content */}
       <div className="flex-1 p-6 md:p-12 overflow-auto">
         <div className="max-w-5xl mx-auto">
           {/* Header */}
-          <div className="mb-12 text-center md:text-left">
-            <div className="flex items-center justify-between mb-4">
-              <h1 className="text-5xl font-extrabold tracking-tighter">Your Journey</h1>
-              <div className="hidden md:flex items-center gap-3 bg-white px-6 py-2 rounded-3xl shadow-sm">
+          <div className="mb-8 md:mb-12">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+              <div className="flex items-center gap-3 sm:gap-4">
+                <ProfileAvatar onClick={() => setIsProfileOpen(true)} />
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter">Your Journey</h1>
+              </div>
+              <div className="flex items-center gap-3 bg-white px-4 sm:px-6 py-2 rounded-3xl shadow-sm self-start sm:self-auto">
                 <span className="text-sm font-medium">Level {user.level}</span>
-                <div className="h-2 w-28 bg-gray-200 rounded-full overflow-hidden">
+                <div className="h-2 w-20 sm:w-28 bg-gray-200 rounded-full overflow-hidden">
                   <div
-                    className="h-full bg-[#A33D18] transition-all duration-500"
+                    className="h-full bg-[#eb5e28] transition-all duration-500"
                     style={{ width: `${progressPercent}%` }}
                   />
                 </div>
-                <span className="text-sm font-bold text-[#A33D18]">{progressPercent}%</span>
+                <span className="text-sm font-bold text-[#eb5e28]">{progressPercent}%</span>
               </div>
             </div>
-            <p className="text-gray-600 max-w-md mx-auto md:mx-0">
+            <p className="text-gray-600 max-w-md">
               Mastering Spanish • Keep the streak alive!
             </p>
           </div>
