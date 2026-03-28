@@ -24,3 +24,7 @@ export const fetchProgress = () => {
 export const fetchLessonsByChapter = (level, chapterId) => {
   return axiosInstance.get(`/lessons/${level}/${chapterId}`)
 }
+
+export const updateProgress = (data) =>{
+  return axiosInstance.post('/progress/update', data)
+}

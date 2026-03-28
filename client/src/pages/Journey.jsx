@@ -90,7 +90,7 @@ const Journey = () => {
               </div>
             </div>
             <p className="text-gray-600 max-w-md mx-auto md:mx-0">
-              Mastering Portuguese • Keep the streak alive!
+              Mastering Spanish • Keep the streak alive!
             </p>
           </div>
 
@@ -169,7 +169,7 @@ const Journey = () => {
 
                       {status === 'unlocked' && (
                         <div className="mt-6 inline-flex items-center gap-2 text-[#d55d42] font-medium text-sm">
-                          Start lesson <Play size={18} />
+                          {/* Start lesson <Play size={18} /> */}
                         </div>
                       )}
                     </motion.div>
