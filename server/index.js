@@ -2,12 +2,15 @@ import dotenv from "dotenv";
 dotenv.config();
 import cors from "cors"; 
 import express from 'express'
-import registerRoute from './src/routes/register.js'
-import loginRoute from './src/routes/login.js'
-import userRoute from './src/routes/user.js'
-import updateRoute from './src/routes/updateProfile.js'
-import lessonsRoute from './src/routes/lessons.js'
-import progressRoute from "./src/routes/progress.js";
+// import registerRoute from './src/routes/register.js'
+// import loginRoute from './src/routes/login.js'
+// import userRoute from './src/routes/user.js'
+// import updateRoute from './src/routes/updateProfile.js'
+// import lessonsRoute from './src/routes/lessons.js'
+import authRoute     from './src/routes/auth.js'
+import lessonsRoute  from './src/routes/lessons.js'
+import progressRoute from './src/routes/progress.js'
+import scenarioRoute from './src/routes/scenario.js'
 import connectDB from "./src/config/db.js";
 
 
@@ -26,17 +29,10 @@ app.get('/', (req, res) => {
   res.send("Hello World")
 })
 
-app.use("/api", registerRoute)
-
-app.use("/api", loginRoute)
-
-app.use("/api/user", userRoute)
-
-app.use("/api", updateRoute)
-
-app.use("/api/lessons", lessonsRoute)
-
-app.use("/api/progress", progressRoute);
+app.use('/api/auth',     authRoute)
+app.use('/api/lessons',  lessonsRoute)
+app.use('/api/progress', progressRoute)
+app.use('/api/scenario', scenarioRoute)
 
 
 
