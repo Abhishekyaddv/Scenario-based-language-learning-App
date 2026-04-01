@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Mail, Lock, User, EyeOff, Eye, LogIn, Loader2 } from 'lucide-react';
+import { Mail, Lock, User, EyeOff, Eye, LogIn, Loader2, ArrowLeft } from 'lucide-react';
 import toast, { Toaster } from 'react-hot-toast';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { loginUser } from '../services/authService';
 import { registerUser } from '../services/authService';
+import icon from '../assets/icon.png';
 
 const AuthPage = ({ initialMode = 'login' }) => {
   const navigate = useNavigate();
@@ -122,8 +123,51 @@ const AuthPage = ({ initialMode = 'login' }) => {
   const isLogin = mode === 'login';
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16"
       style={{ background: 'linear-gradient(180deg, #fffcf2 0%, #f5f0e8 50%, #fffcf2 100%)' }}>
+
+      {/* ─── AUTH NAVBAR ─────────────────────────────────────────── */}
+      <nav
+        className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4"
+        style={{
+          background: 'rgba(255,252,242,0.88)',
+          backdropFilter: 'blur(14px)',
+          WebkitBackdropFilter: 'blur(14px)',
+          borderBottom: '1px solid rgba(204,197,185,0.35)',
+        }}
+      >
+        {/* Back link */}
+        <Link
+          to="/"
+          className="flex items-center gap-2 text-sm font-medium transition-colors group"
+          style={{ color: '#403d39', textDecoration: 'none' }}
+          onMouseEnter={e => e.currentTarget.style.color = '#eb5e28'}
+          onMouseLeave={e => e.currentTarget.style.color = '#403d39'}
+        >
+          <ArrowLeft
+            size={16}
+            className="transition-transform group-hover:-translate-x-1"
+            style={{ transition: 'transform 0.2s ease' }}
+          />
+          Back to Home
+        </Link>
+
+        {/* Brand */}
+        <Link
+          to="/"
+          className="flex items-center gap-2 group"
+          style={{ textDecoration: 'none' }}
+        >
+          <div
+            className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center group-hover:scale-105 transition-transform"
+            style={{ border: '1px solid rgba(204,197,185,0.5)', background: '#fffcf2' }}
+          >
+            <img src={icon} alt="Contexto" className="w-8 h-8 object-contain rounded-md" />
+          </div>
+          <span className="font-semibold text-[15px]" style={{ color: '#252422', letterSpacing: '-0.01em' }}>Contexto</span>
+        </Link>
+      </nav>
+      {/* ─────────────────────────────────────────────────────────── */}
 
       <Toaster position="top-center" reverseOrder={false} />
 

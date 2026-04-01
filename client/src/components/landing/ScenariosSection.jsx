@@ -3,7 +3,7 @@ import { scenarios } from "./LandingStyles";
 
 export default function ScenariosSection() {
   return (
-    <section style={{ padding: "100px 24px 140px", position: "relative", background: "var(--surface)", borderTop: "1px solid var(--border)" }}>
+    <section id="scenarios" style={{ padding: "100px 24px 140px", position: "relative", background: "var(--surface)", borderTop: "1px solid var(--border)" }}>
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div>

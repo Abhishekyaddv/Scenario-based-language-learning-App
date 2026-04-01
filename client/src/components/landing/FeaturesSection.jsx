@@ -3,7 +3,7 @@ import { features } from "./LandingStyles";
 
 export default function FeaturesSection() {
   return (
-    <section style={{ padding: "120px 24px", position: "relative", background: "var(--bg)" }}>
+    <section id="features" style={{ padding: "120px 24px", position: "relative", background: "var(--bg)" }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 mb-6" style={{ fontSize: 13, color: "var(--primary)", fontWeight: 700 }}>
