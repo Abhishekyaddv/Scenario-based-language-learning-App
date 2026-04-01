@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Journey from "./pages/Journey";
 import Lessons from "./pages/Lessons";
 import ScenarioPage from "./pages/ScenarioPage";
+import ScenarioSession from "./pages/ScenarioSession"
 
 function App() {
 
@@ -27,6 +28,8 @@ function App() {
       <Route path="/journey" element={<Journey />} />
       <Route path="/lessons/:chapterId" element={<Lessons />} />
       <Route path="/scenario" element={<ScenarioPage />} />
+      <Route path="/scenario/session" element={<ScenarioSession />} />
+
     </Routes>
     </BrowserRouter>
     </>
