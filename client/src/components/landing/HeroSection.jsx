@@ -44,7 +44,7 @@ export default function HeroSection() {
           <div style={{ animation: "slide-up 0.8s ease forwards" }}>
             <div className="inline-flex items-center gap-2 rounded-full px-4 py-2 mb-8 shadow-sm" style={{ fontSize: 13, color: "var(--primary)", fontWeight: 600, background: "var(--surface)", border: "1px solid var(--border)" }}>
               <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--primary)", display: "inline-block", animation: "pulse-glow 2s infinite" }} />
-              Powered by GPT-4o & Claude
+              Powered by Gemini 2.5 Flash & Claude
             </div>
 
             <h1 className="font-display" style={{ fontSize: "clamp(46px, 6vw, 76px)", lineHeight: 1.05, fontWeight: 700, marginBottom: 24, color: "var(--text)", letterSpacing: "-0.02em" }}>
