@@ -48,7 +48,7 @@ useEffect(() => {
       })
 
       // update xp in localStorage
-      const user = JSON.parse(localStorage.getItem('user'))
+      const user = JSON.parse(localStorage.getItem('user') || '{}')
       user.xp = (user.xp || 0) + xpEarned
       localStorage.setItem('user', JSON.stringify(user))
 

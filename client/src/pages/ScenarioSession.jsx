@@ -22,7 +22,7 @@ const languageMap = {
 const ScenarioSession = () => {
   const location = useLocation()
   const navigate = useNavigate()
-  const user = JSON.parse(localStorage.getItem('user'))
+  const user = JSON.parse(localStorage.getItem('user') || '{}')
 
   // get script passed from Scenario.jsx via navigate state
   const { script, situation } = location.state || {}
@@ -86,7 +86,7 @@ const ScenarioSession = () => {
         })
         // update xp in localStorage
         const xpEarned = Math.round(totalScore / (scoredTurns || 1) / 10)
-        const stored = JSON.parse(localStorage.getItem('user'))
+        const stored = JSON.parse(localStorage.getItem('user') || '{}')
         stored.xp = (stored.xp || 0) + xpEarned
         localStorage.setItem('user', JSON.stringify(stored))
         setSessionSaved(true)

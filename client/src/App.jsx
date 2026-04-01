@@ -10,6 +10,7 @@ import Journey from "./pages/Journey";
 import Lessons from "./pages/Lessons";
 import ScenarioPage from "./pages/ScenarioPage";
 import ScenarioSession from "./pages/ScenarioSession"
+import { PrivateRoute, OnboardedRoute } from "./components/PrivateRoute";
 
 function App() {
 
@@ -19,16 +20,31 @@ function App() {
     
     <Routes>
 
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/register" element={<AuthPage initialMode="register" />} />
-      <Route path="/login" element={<AuthPage initialMode="login" />} />
-      <Route path="/about-me" element={<AboutMePage />} />
-      <Route path="/about-project" element={<AboutProjectPage />} />
-      <Route path="/onboarding" element={<Onboarding />} />
-      <Route path="/journey" element={<Journey />} />
-      <Route path="/lessons/:chapterId" element={<Lessons />} />
-      <Route path="/scenario" element={<ScenarioPage />} />
-      <Route path="/scenario/session" element={<ScenarioSession />} />
+      {/* ── Public routes ── */}
+      <Route path="/"               element={<LandingPage />} />
+      <Route path="/register"       element={<AuthPage initialMode="register" />} />
+      <Route path="/login"          element={<AuthPage initialMode="login" />} />
+      <Route path="/about-me"       element={<AboutMePage />} />
+      <Route path="/about-project"  element={<AboutProjectPage />} />
+
+      {/* ── Auth required (onboarding not required) ── */}
+      <Route path="/onboarding" element={
+        <PrivateRoute><Onboarding /></PrivateRoute>
+      } />
+
+      {/* ── Auth + onboarding required ── */}
+      <Route path="/journey" element={
+        <OnboardedRoute><Journey /></OnboardedRoute>
+      } />
+      <Route path="/lessons/:chapterId" element={
+        <OnboardedRoute><Lessons /></OnboardedRoute>
+      } />
+      <Route path="/scenario" element={
+        <OnboardedRoute><ScenarioPage /></OnboardedRoute>
+      } />
+      <Route path="/scenario/session" element={
+        <OnboardedRoute><ScenarioSession /></OnboardedRoute>
+      } />
 
     </Routes>
     </BrowserRouter>

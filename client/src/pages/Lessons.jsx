@@ -20,7 +20,7 @@ const Lessons = () => {
   const [isFinished, setIsFinished] = useState(false)
   const [isNextEnabled, setIsNextEnabled] = useState(false)
   const [showLearning, setShowLearning] = useState(true)
-  const user = JSON.parse(localStorage.getItem('user'))
+  const user = JSON.parse(localStorage.getItem('user') || '{}')
   const navigate = useNavigate();
   
   // these derive from lessonsData automatically
