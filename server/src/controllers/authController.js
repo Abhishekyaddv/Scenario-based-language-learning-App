@@ -112,9 +112,14 @@ export const updateProfile = async (req, res) => {
   console.log(userId);
   
   try {
+    const normalizedUpdates = {
+      ...updates,
+      level: typeof updates.level === "string" ? updates.level.toLowerCase() : updates.level,
+    }
+
     const updatedUser = await User.findByIdAndUpdate(
       userId,
-      {$set: { ...updates, isOnboarded: true}},
+      {$set: { ...normalizedUpdates, isOnboarded: true}},
       { new: true, runValidators: true }
     )
 

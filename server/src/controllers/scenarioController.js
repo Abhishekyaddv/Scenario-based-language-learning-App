@@ -62,13 +62,16 @@ export const saveSession = async (req, res) => {
       : 0
 
     const xpEarned = Math.round(overallScore / 10)
+    const normalizedLevel = typeof user.level === 'string'
+      ? user.level.toLowerCase()
+      : user.level
 
     // save session to MongoDB
     const session = await ScenarioSession.create({
       userId,
       scenarioType,
       language,
-      level: user.level,
+      level: normalizedLevel,
       transcript,
       overallScore,
       xpEarned,
