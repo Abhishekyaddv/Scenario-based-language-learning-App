@@ -1,0 +1,8 @@
+{
+  "name": "scenario-app",
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
