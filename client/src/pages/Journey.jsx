@@ -78,28 +78,38 @@ const Journey = () => {
     <div className="min-h-screen bg-[#FCF8F5] font-sans text-[#1C1917] flex flex-col">
       <ProfileModal isOpen={isProfileOpen} onClose={() => setIsProfileOpen(false)} />
 
-      {/* Top Navbar */}
-      <nav className="sticky top-0 z-40 bg-[#FCF8F5]/90 backdrop-blur-md border-b border-gray-200 px-4 md:px-8 py-3 shadow-sm">
-        <div className="max-w-4xl mx-auto flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <ProfileAvatar onClick={() => setIsProfileOpen(true)} className="cursor-pointer" />
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight hidden sm:block">
+      <div className="w-full pt-6 px-4">
+        {/* Floating pill container matching the reference design */}
+        <nav className="max-w-5xl mx-auto bg-white rounded-full px-4 md:px-3 py-2.5 shadow-[0_8px_24px_rgba(0,0,0,0.06)] border border-gray-100 flex items-center justify-between sticky top-0 z-40">
+          
+          {/* Left Side: Avatar & Title (Styled to replace the logo) */}
+          <div className="flex items-center gap-3 pl-2">
+            {/* Wrapped in the reference's purple theme color */}
+            <div className="text-[#8B5CF6]">
+              <ProfileAvatar onClick={() => setIsProfileOpen(true)} className="cursor-pointer" />
+            </div>
+            <h1 className="text-lg font-semibold tracking-tight text-gray-900 hidden sm:block">
               Your Journey
             </h1>
           </div>
           
-          <div className="flex items-center gap-3 bg-white px-4 sm:px-5 py-2 rounded-full shadow-sm border border-gray-100">
+          {/* Right Side: Level & Progress (Styled as the purple 'Free Trial' button) */}
+          <div className="flex items-center gap-3 bg-[#8B5CF6] hover:bg-[#7C3AED] transition-colors text-white px-5 py-2 rounded-full shadow-sm cursor-default">
             <span className="text-sm font-medium whitespace-nowrap">Level {user.level || 1}</span>
-            <div className="hidden sm:block h-2 w-20 md:w-28 bg-gray-100 rounded-full overflow-hidden">
+            
+            {/* Progress Bar styled with semi-transparent white */}
+            <div className="hidden sm:block h-1.5 w-16 md:w-20 bg-white/30 rounded-full overflow-hidden">
               <div
-                className="h-full bg-[#eb5e28] transition-all duration-500"
+                className="h-full bg-white transition-all duration-500 rounded-full"
                 style={{ width: `${progressPercent}%` }}
               />
             </div>
-            <span className="text-sm font-bold text-[#eb5e28]">{progressPercent}%</span>
+            
+            <span className="text-sm font-bold">{progressPercent}%</span>
           </div>
-        </div>
-      </nav>
+
+        </nav>
+      </div>
 
       {/* Main Content */}
       <main className="flex-1 w-full max-w-4xl mx-auto p-4 sm:p-6 md:p-8 overflow-x-hidden">
@@ -109,8 +119,83 @@ const Journey = () => {
 
         {/* Path Container */}
         <div className="relative mx-auto mt-4">
-          {/* Background subtle path line (Desktop Only) */}
-          <div className="absolute left-1/2 top-8 bottom-12 w-1.5 bg-gradient-to-b from-[#E5E5E5] via-[#D1D5DB] to-[#E5E5E5] -translate-x-1/2 rounded-full hidden md:block" />
+
+          {/* ── Animated Timeline Line (Desktop Only) ── */}
+          <style>{`
+            @keyframes pulse-timeline {
+              0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.7; }
+              50%       { transform: translate(-50%, -50%) scale(2.4); opacity: 0; }
+            }
+          `}</style>
+
+          <div className="absolute left-1/2 top-8 bottom-12 w-1.5 -translate-x-1/2 hidden md:block">
+
+            {/* Layer 1 — full-height gray track */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-b from-[#E5E5E5] via-[#D1D5DB] to-[#E5E5E5]" />
+
+            {/* Layer 2 — orange fill, grows from top based on completion */}
+            {progressPercent > 0 && (
+              <div
+                className="absolute top-0 left-0 right-0 rounded-full"
+                style={{
+                  height: `${progressPercent}%`,
+                  background: 'linear-gradient(to bottom, #eb5e28, #f4a261)',
+                  transition: 'height 1.2s cubic-bezier(0.4, 0, 0.2, 1)',
+                }}
+              />
+            )}
+
+            {/* Layer 3 — pulsing tip dot at the bottom edge of the fill */}
+            {progressPercent > 0 && progressPercent < 100 && (
+              <div
+                className="absolute"
+                style={{ top: `${progressPercent}%`, left: '50%' }}
+              >
+                {/* Expanding pulse ring */}
+                <div
+                  style={{
+                    position: 'absolute',
+                    width: 20,
+                    height: 20,
+                    borderRadius: '50%',
+                    background: 'rgba(235, 94, 40, 0.28)',
+                    animation: 'pulse-timeline 2s ease-in-out infinite',
+                  }}
+                />
+                {/* Inner solid dot */}
+                <div
+                  style={{
+                    position: 'absolute',
+                    width: 12,
+                    height: 12,
+                    borderRadius: '50%',
+                    background: '#eb5e28',
+                    transform: 'translate(-50%, -50%)',
+                    boxShadow: '0 0 0 3px rgba(235, 94, 40, 0.2), 0 2px 8px rgba(235, 94, 40, 0.4)',
+                  }}
+                />
+              </div>
+            )}
+
+            {/* When 100% complete — solid dot at the bottom, no pulse */}
+            {progressPercent === 100 && (
+              <div
+                className="absolute"
+                style={{ bottom: 0, left: '50%', transform: 'translate(-50%, 50%)' }}
+              >
+                <div
+                  style={{
+                    width: 14,
+                    height: 14,
+                    borderRadius: '50%',
+                    background: '#eb5e28',
+                    boxShadow: '0 0 0 4px rgba(235, 94, 40, 0.2)',
+                  }}
+                />
+              </div>
+            )}
+
+          </div>
 
           {isLoading ? (
             <div className="text-center py-20 text-gray-500 font-medium animate-pulse">Loading your path...</div>
