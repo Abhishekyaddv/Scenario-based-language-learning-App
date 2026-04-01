@@ -1,12 +1,20 @@
 import mongoose from "mongoose";
 
+let isConnected = false;
+
 const connectDB = async () => {
+  if (isConnected) {
+    console.log("Using existing MongoDB connection");
+    return;
+  }
+
   try {
-    await mongoose.connect(process.env.DB_CONNECTION_STRING);
-    console.log("MongoDB connected");
+    const db = await mongoose.connect(process.env.DB_CONNECTION_STRING);
+    isConnected = db.connections[0].readyState === 1;
+    console.log("MongoDB newly connected");
   } catch (error) {
     console.error("MongoDB connection failed:", error);
-    process.exit(1);
+    // Don't kill the Vercel process on error, just log it. Serverless will retry.
   }
 };
 

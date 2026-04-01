@@ -25,6 +25,13 @@ app.use(cors({
   credentials: true                                        // ← allows cookies/auth headers
 }));
 
+// Ensure the DB connection is attempted before routes fire in serverless mode.
+// It uses the cache we just added in db.js!
+app.use(async (req, res, next) => {
+  await connectDB();
+  next();
+});
+
 app.get('/', (req, res) => {
   res.send("Hello World")
 })
@@ -35,11 +42,12 @@ app.use('/api/progress', progressRoute)
 app.use('/api/scenario', scenarioRoute)
 
 
+// Vercel serverless functions load this module instead of running 'node index.js' directly.
+// Vercel auto-sets NODE_ENV to 'production'. We only listen if we are running locally.
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(port, () => {
+    console.log(`Server started on port ${port}`);
+  });
+}
 
-connectDB()
-
-app.listen(port, ()=>{
-  console.log(`Server started on port ${port}`);
-  
-})
-
+export default app;
