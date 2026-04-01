@@ -95,6 +95,7 @@ const AuthPage = ({ initialMode = 'login' }) => {
       const response = await registerUser(formData);
       console.log('register response:', response.data);
       localStorage.setItem('token', response.data.token);
+      localStorage.setItem('user', JSON.stringify(response.data.user));
       navigate('/onboarding');
 
       console.log('Registration successful:', response.data);
