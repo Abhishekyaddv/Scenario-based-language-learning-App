@@ -31,7 +31,7 @@ export default function HeroSection() {
   }, [typed]);
 
   return (
-    <section style={{ position: "relative", minHeight: "100vh", display: "flex", alignItems: "center", overflow: "hidden", paddingTop: 80 }}>
+    <section style={{ position: "relative", minHeight: "100vh", display: "flex", alignItems: "center", overflow: "hidden", paddingTop: 100 }}>
       <div className="mesh-bg" />
       <div className="grid-pattern" />
       <div className="orb" style={{ width: 600, height: 600, background: "radial-gradient(circle, rgba(235,94,40,0.12), transparent)", top: "10%", left: "-10%" }} />

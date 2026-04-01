@@ -19,7 +19,7 @@ export const landingStyle = `
     --dim: #ccc5b9;
   }
 
-  body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; overflow-x: hidden; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font-active, 'DM Sans', sans-serif); overflow-x: hidden; }
 
   .font-display { font-family: 'Fraunces', serif; }
 
@@ -94,7 +94,7 @@ export const landingStyle = `
     border: none;
     padding: 14px 32px;
     border-radius: 14px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-active, 'DM Sans', sans-serif);
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
@@ -116,7 +116,7 @@ export const landingStyle = `
     border: 1px solid var(--border);
     padding: 14px 32px;
     border-radius: 14px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-active, 'DM Sans', sans-serif);
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
