@@ -409,8 +409,15 @@ const ScenarioSession = () => {
               className="rounded-2xl px-4 py-3.5"
               style={{ background:'rgba(66,176,213,0.07)', border:'1px solid rgba(66,176,213,0.2)' }}
             >
-              <p className="text-[11px] font-extrabold text-[#2a6a7a] mb-1 uppercase tracking-widest">Suggested response</p>
-              <p className="text-sm text-[#2a6a7a] leading-relaxed">{turn.text}</p>
+              <p className="text-[11px] font-extrabold text-[#2a6a7a] mb-1.5 uppercase tracking-widest">Suggested response</p>
+              {/* Target language phrase */}
+              <p className="text-sm font-semibold text-[#2a6a7a] leading-relaxed">{turn.text}</p>
+              {/* English meaning */}
+              {turn.translation && (
+                <p className="text-xs text-[#2a6a7a]/65 italic mt-1 leading-relaxed border-t border-[#42B0D5]/10 pt-1.5">
+                  {turn.translation}
+                </p>
+              )}
             </div>
 
             {/* Input card */}

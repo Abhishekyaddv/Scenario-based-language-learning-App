@@ -13,19 +13,78 @@ import {
 import { motion, AnimatePresence } from 'framer-motion';
 import GeneratingModal from '../components/GeneratingModal';
 
-const examples = [
-  "I'm at a remote village in Mexico and want to buy a cold drink from a local shop",
-  "I need to ask for directions to the train station in Paris",
-  "I'm at a local market in Tokyo trying to negotiate the price of a souvenir",
-  "I checked into the wrong hotel room and need to explain to the front desk",
-  "I'm at a pharmacy in Spain trying to describe my symptoms to the pharmacist",
-  "I want to compliment a chef at a small restaurant in Italy about the food",
-];
+const examplesByLanguage = {
+  Spanish: [
+    "I want to order tapas and ask the waiter for a local wine recommendation at a bar in Madrid",
+    "I need to buy a metro card at a station in Barcelona and ask which line goes to the city centre",
+    "I’m at a pharmacy in Seville and need to describe a headache and ask for medicine",
+    "I want to complain politely to the hotel receptionist in Mexico City that my room has no hot water",
+    "I’m at a market in Buenos Aires trying to negotiate the price of a leather jacket",
+    "I want to ask a local in Madrid for the best place to eat paella near the plaza mayor",
+  ],
+  French: [
+    "I want to order a croissant and café au lait at a boulangerie in Lyon and ask about today’s specials",
+    "I need to buy a train ticket at Gare du Nord and ask which platform departs for Marseille",
+    "I’m at a pharmacy in Nice and need to explain I have a sore throat and a slight fever",
+    "I want to ask a neighbour in Paris if they can recommend a good local brasserie nearby",
+    "I’m at a market in Bordeaux trying to buy cheese and ask the vendor what pairs well with it",
+    "I need to ask for directions to the Eiffel Tower from a stranger on the street",
+  ],
+  German: [
+    "I want to order a pretzel and a beer at a traditional Bavarian Biergarten in Munich",
+    "I need to buy a weekly transit pass at a U-Bahn station in Berlin and ask about discounts",
+    "I’m at a pharmacy in Hamburg and need to describe a stomach ache and ask for a remedy",
+    "I want to ask a shop assistant in Cologne if a jacket comes in a different size",
+    "I’m at a Christmas market in Frankfurt trying to buy ornaments and negotiate a bundle deal",
+    "I need to check in to my hotel in Berlin and ask about the breakfast hours",
+  ],
+  Italian: [
+    "I want to order pasta and a glass of local wine at a trattoria in Rome",
+    "I need to buy a bus ticket in Florence and ask the driver which stop is closest to the Uffizi",
+    "I’m at a pharmacy in Naples describing that I have an upset stomach after eating",
+    "I want to ask a local in Milan for directions to the nearest metro station",
+    "I’m at a food market in Bologna trying to buy prosciutto and asking about the origin",
+    "I want to complain to the waiter that my pizza was cold and ask for a replacement",
+  ],
+  Japanese: [
+    "I want to order ramen at a small restaurant in Tokyo and ask about the spice level",
+    "I need to buy a Suica card at a train station in Osaka and ask how to top it up",
+    "I’m at a convenience store in Kyoto trying to find the bathroom and ask a staff member",
+    "I want to ask a shopkeeper in Shibuya if they have a smaller size for a traditional yukata",
+    "I’m at a sushi restaurant and want to ask the chef what fish is freshest today",
+    "I need to apologise to a hotel staff member in Tokyo that I accidentally broke something",
+  ],
+  Portuguese: [
+    "I want to order a pastry and an espresso at a café in Lisbon and ask what the local speciality is",
+    "I need to ask for directions to the nearest beach in Porto from a passerby",
+    "I’m at a pharmacy in Brazil describing that I have a headache and need a painkiller",
+    "I want to buy fresh fish at a market in Lisbon and ask the vendor what is in season",
+    "I’m at a hotel in Rio and want to ask the concierge to recommend a safe neighbourhood for an evening walk",
+    "I want to complain to a restaurant in São Paulo that my order was wrong",
+  ],
+  Hindi: [
+    "I want to order chai and samosas at a roadside stall in Delhi and ask how spicy they are",
+    "I need to ask an auto-rickshaw driver in Mumbai to take me to the nearest metro station",
+    "I’m at a pharmacy in Jaipur and need to describe that I have a fever and body aches",
+    "I want to bargain with a shopkeeper at a market in Agra for a souvenir",
+    "I’m at a railway station in Chennai and need to ask which platform the train to Bangalore departs from",
+    "I want to ask a local in Varanasi for a recommendation for an authentic thali restaurant",
+  ],
+  Mandarin: [
+    "I want to order dim sum at a tea house in Beijing and ask the server to explain the menu",
+    "I need to buy a metro card in Shanghai and ask a station assistant how to top it up",
+    "I’m at a pharmacy in Chengdu and need to describe that I have a cold and a cough",
+    "I want to bargain with a street vendor at a night market in Xi’an for a silk scarf",
+    "I’m at a hotel in Guangzhou and want to ask for a room closer to a higher floor with a city view",
+    "I want to ask a local in Beijing which bus goes to the Forbidden City",
+  ],
+};
 
 const ScenarioPage = () => {
   const navigate = useNavigate();
   const user = JSON.parse(localStorage.getItem('user') || '{}');
   const language = user?.targetLanguage || 'Spanish';
+  const examples = examplesByLanguage[language] || examplesByLanguage['Spanish'];
 
   const [situation, setSituation] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);

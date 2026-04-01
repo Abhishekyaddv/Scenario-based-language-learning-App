@@ -13,15 +13,17 @@ export const generateScenario = async (req, res) => {
       return res.status(404).json({ message: "User not found" });
     }
 
-    const userLevel = user.level; 
+    const userLevel = user.level;
     const userInterests = user.interests;
+    // Always use language from DB — never trust client-sent value
+    const userLanguage = user.targetLanguage || 'Spanish';
 
-    const script = await generateScenarioScript({ 
-  situation, 
-  language, 
-  level: userLevel, 
-  interests: userInterests    // use the DB value, not req.body interests
-});
+    const script = await generateScenarioScript({
+      situation,
+      language: userLanguage,   // DB value, not req.body.language
+      level: userLevel,
+      interests: userInterests,
+    });
 
     res.status(200).json({ script })
 
