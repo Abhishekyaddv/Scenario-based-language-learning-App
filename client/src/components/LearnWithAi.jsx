@@ -1,78 +1,54 @@
-import React from 'react'
-import {  
-  Sparkles, 
-  MessageCircle, 
-  Type, 
-  BookOpen, 
-  ChevronRight, 
-} from 'lucide-react';
+import React from 'react';
+import { Sparkles, MessageCircle, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { useNavigate } from "react-router-dom";
 
 const LearnWithAi = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    // Navigate to the AI conversation practice page
+    navigate('/scenario');
+  };
+
   return (
-    <div className="w-full lg:w-80 flex-shrink-0">
-            <div className="bg-[#FFF5EE] rounded-3xl p-6 border border-[#FCEAE1]">
-              <div className="flex items-center gap-2 mb-6 text-[#1C1917]">
-                <Sparkles className="text-[#DE5B1A]" size={20} />
-                <h2 className="text-lg font-extrabold tracking-tight">Learn with AI</h2>
-              </div>
+    <motion.div
+      whileHover={{ scale: 1.01, y: -2 }}
+      whileTap={{ scale: 0.98 }}
+      onClick={handleClick}
+      className="w-full bg-gradient-to-r from-[#FFF5EE] to-white rounded-3xl p-6 md:p-8 border-2 border-[#FCEAE1] shadow-md hover:shadow-xl hover:shadow-[#DE5B1A]/10 transition-all cursor-pointer relative overflow-hidden group mb-10"
+    >
+      {/* Background decorative element */}
+      <div className="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-br from-[#DE5B1A]/20 to-transparent rounded-full opacity-50 transition-transform duration-500 group-hover:scale-125" />
 
-              <div className="flex flex-col gap-4 mb-8">
-                {/* AI Card 1 */}
-                <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="bg-[#F5F8FF] w-8 h-8 rounded-lg flex items-center justify-center mb-4">
-                    <MessageCircle size={16} className="text-[#3A5B7C]" />
-                  </div>
-                  <h3 className="font-bold text-sm mb-1.5">AI Conversation Practice</h3>
-                  <p className="text-[11px] text-gray-500 mb-4 leading-relaxed">
-                    Real-time speaking practice with context-aware AI.
-                  </p>
-                  <button className="text-[10px] font-bold text-[#DE5B1A] flex items-center gap-1 uppercase tracking-wider">
-                    Try Now <ChevronRight size={12} />
-                  </button>
-                </div>
-
-                {/* AI Card 2 */}
-                <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="bg-[#EAF5F4] w-8 h-8 rounded-lg flex items-center justify-center mb-4">
-                    <Type size={16} className="text-[#2B6A68]" />
-                  </div>
-                  <h3 className="font-bold text-sm mb-1.5">Grammar Tutor</h3>
-                  <p className="text-[11px] text-gray-500 mb-4 leading-relaxed">
-                    Deep dive into complex sentence structures.
-                  </p>
-                  <button className="text-[10px] font-bold text-[#DE5B1A] flex items-center gap-1 uppercase tracking-wider">
-                    Review Rules <ChevronRight size={12} />
-                  </button>
-                </div>
-
-                {/* AI Card 3 */}
-                <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="bg-[#F3F4F6] w-8 h-8 rounded-lg flex items-center justify-center mb-4">
-                    <BookOpen size={16} className="text-[#374151]" />
-                  </div>
-                  <h3 className="font-bold text-sm mb-1.5">Personalized Vocabulary</h3>
-                  <p className="text-[11px] text-gray-500 mb-4 leading-relaxed">
-                    Words generated from your interests and weak points.
-                  </p>
-                  <button className="text-[10px] font-bold text-[#DE5B1A] flex items-center gap-1 uppercase tracking-wider">
-                    Study List <ChevronRight size={12} />
-                  </button>
-                </div>
-              </div>
-
-              {/* Today's Goal */}
-              <div>
-                <div className="flex justify-between items-center mb-3">
-                  <span className="text-xs font-bold">Today's Goal</span>
-                  <span className="text-xs font-bold text-[#A33D18]">20/30 XP</span>
-                </div>
-                <div className="h-1.5 w-full bg-[#FCEAE1] rounded-full overflow-hidden">
-                  <div className="h-full bg-[#A33D18] w-[66%] rounded-full"></div>
-                </div>
-              </div>
-            </div>
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 relative z-10">
+        <div className="flex items-start sm:items-center gap-4">
+          <div className="bg-[#DE5B1A] w-12 h-12 md:w-14 md:h-14 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg shadow-[#DE5B1A]/30 transition-transform group-hover:rotate-12">
+            <MessageCircle className="text-white" size={26} fill="currentColor" />
           </div>
-  )
-}
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <Sparkles className="text-[#DE5B1A] hidden sm:block" size={18} />
+              <h2 className="text-xl md:text-2xl font-extrabold tracking-tight text-[#1C1917]">
+                Learn with AI
+              </h2>
+              <span className="bg-[#DE5B1A]/10 text-[#DE5B1A] text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
+                Recommended
+              </span>
+            </div>
+            <p className="text-gray-600 text-sm md:text-base leading-relaxed max-w-lg">
+              Supercharge your Spanish! Practice real-time speaking in context-aware, immersive AI scenarios.
+            </p>
+          </div>
+        </div>
 
-export default LearnWithAi
+        <div className="w-full sm:w-auto flex-shrink-0">
+          <button className="w-full sm:w-auto bg-[#1C1917] text-white px-6 py-3 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-[#332e2a] transition-colors">
+            Try Now <ChevronRight size={18} />
+          </button>
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+
+export default LearnWithAi;

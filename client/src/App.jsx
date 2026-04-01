@@ -8,6 +8,7 @@ import AuthPage from "./pages/AuthPage";
 import Navbar from "./components/Navbar";
 import Journey from "./pages/Journey";
 import Lessons from "./pages/Lessons";
+import ScenarioPage from "./pages/ScenarioPage";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Route path="/onboarding" element={<Onboarding />} />
       <Route path="/journey" element={<Journey />} />
       <Route path="/lessons/:chapterId" element={<Lessons />} />
+      <Route path="/scenario" element={<ScenarioPage />} />
     </Routes>
     </BrowserRouter>
     </>

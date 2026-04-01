@@ -156,22 +156,7 @@ export const ProfileModal = ({ isOpen, onClose }) => {
 
         {/* Action Buttons */}
         <div className="px-8 py-5 flex flex-col gap-1.5">
-          <button
-            className="flex items-center gap-3 text-sm font-medium p-3 rounded-xl transition-all w-full text-left"
-            style={{ color: '#403d39' }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(235,94,40,0.06)'; e.currentTarget.style.color = '#eb5e28'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#403d39'; }}
-          >
-            <User size={18} /> My Account
-          </button>
-          <button
-            className="flex items-center gap-3 text-sm font-medium p-3 rounded-xl transition-all w-full text-left"
-            style={{ color: '#403d39' }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(235,94,40,0.06)'; e.currentTarget.style.color = '#eb5e28'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#403d39'; }}
-          >
-            <Settings size={18} /> Preferences
-          </button>
+         
           <button
             onClick={handleLogout}
             className="flex items-center gap-3 text-sm font-medium p-3 rounded-xl transition-all w-full text-left mt-1"
