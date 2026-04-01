@@ -8,14 +8,14 @@ import {
 
 // maps language name to speech synthesis code
 const languageMap = {
-  'Spanish':    'es-ES',
-  'French':     'fr-FR',
-  'German':     'de-DE',
-  'Italian':    'it-IT',
-  'Japanese':   'ja-JP',
+  'Spanish': 'es-ES',
+  'French': 'fr-FR',
+  'German': 'de-DE',
+  'Italian': 'it-IT',
+  'Japanese': 'ja-JP',
   'Portuguese': 'pt-BR',
-  'Hindi':      'hi-IN',
-  'Mandarin':   'zh-CN',
+  'Hindi': 'hi-IN',
+  'Mandarin': 'zh-CN',
 }
 
 const ScenarioSession = () => {
@@ -349,13 +349,12 @@ const ScenarioSession = () => {
             </div>
 
             {/* input area */}
-            <div className={`bg-white border-2 rounded-2xl transition-all duration-200 ${
-              feedback
+            <div className={`bg-white border-2 rounded-2xl transition-all duration-200 ${feedback
                 ? feedback.correct
                   ? 'border-green-400'
                   : 'border-red-400'
                 : 'border-gray-200 focus-within:border-[#A33D18]'
-            }`}>
+              }`}>
               <textarea
                 ref={inputRef}
                 value={userInput}
@@ -377,11 +376,10 @@ const ScenarioSession = () => {
                 <button
                   onClick={handleMic}
                   disabled={!!feedback || isValidating}
-                  className={`flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg transition-all ${
-                    isListening
+                  className={`flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg transition-all ${isListening
                       ? 'bg-red-50 text-red-500 border border-red-200'
                       : 'text-gray-400 hover:text-[#A33D18] hover:bg-[#FFF5EE]'
-                  } disabled:opacity-40`}
+                    } disabled:opacity-40`}
                 >
                   {isListening ? <MicOff size={13} /> : <Mic size={13} />}
                   {isListening ? 'Listening...' : 'Use voice'}
@@ -390,11 +388,10 @@ const ScenarioSession = () => {
                 <button
                   onClick={handleSubmit}
                   disabled={!userInput.trim() || !!feedback || isValidating}
-                  className={`flex items-center gap-1.5 px-4 py-1.5 rounded-lg text-sm font-bold transition-all ${
-                    userInput.trim() && !feedback && !isValidating
+                  className={`flex items-center gap-1.5 px-4 py-1.5 rounded-lg text-sm font-bold transition-all ${userInput.trim() && !feedback && !isValidating
                       ? 'bg-[#A33D18] hover:bg-[#8e3314] text-white'
                       : 'bg-gray-100 text-gray-300 cursor-not-allowed'
-                  }`}
+                    }`}
                 >
                   {isValidating
                     ? <><Loader2 size={13} className="animate-spin" /> Checking...</>
@@ -406,11 +403,10 @@ const ScenarioSession = () => {
 
             {/* feedback block */}
             {feedback && (
-              <div className={`rounded-2xl border p-4 ${
-                feedback.correct
+              <div className={`rounded-2xl border p-4 ${feedback.correct
                   ? 'bg-green-50 border-green-200'
                   : 'bg-red-50 border-red-200'
-              }`}>
+                }`}>
                 <div className="flex items-center gap-2 mb-2">
                   {feedback.correct
                     ? <CheckCircle2 size={16} className="text-green-500" />
