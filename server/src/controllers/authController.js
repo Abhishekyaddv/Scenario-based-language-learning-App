@@ -49,6 +49,7 @@ export const registerUser = async (req, res) => {
         name: newUser.name,
         email: newUser.email,
         isOnboarded: newUser.isOnboarded,
+        credits: newUser.credits,
       },
     });
 
@@ -97,6 +98,7 @@ export const loginUser = async (req, res) => {
         isOnboarded: user.isOnboarded,
         level: user.level,
         targetLanguage: user.targetLanguage,
+        credits: user.credits,
       }
     })
 

@@ -13,6 +13,10 @@ export const generateScenario = async (req, res) => {
       return res.status(404).json({ message: "User not found" });
     }
 
+    if (user.credits <= 0) {
+      return res.status(403).json({ message: "You have run out of free scenario credits." });
+    }
+
     const userLevel = user.level;
     const userInterests = user.interests;
     // Always use language from DB — never trust client-sent value
@@ -25,7 +29,10 @@ export const generateScenario = async (req, res) => {
       interests: userInterests,
     });
 
-    res.status(200).json({ script })
+    user.credits -= 1;
+    await user.save();
+
+    res.status(200).json({ script, credits: user.credits })
 
   } catch (error) {
     console.error("generateScenario error:", error);

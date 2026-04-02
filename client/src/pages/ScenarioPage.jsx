@@ -85,13 +85,15 @@ const ScenarioPage = () => {
   const user = JSON.parse(localStorage.getItem('user') || '{}');
   const language = user?.targetLanguage || 'Spanish';
   const examples = examplesByLanguage[language] || examplesByLanguage['Spanish'];
+  const creditsStr = user?.credits;
+  const credits = creditsStr !== undefined ? Number(creditsStr) : 0;
 
   const [situation, setSituation] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
   const [error, setError] = useState('');
 
   const charCount = situation.length;
-  const isReady = situation.trim().length >= 20 && !isGenerating;
+  const isReady = situation.trim().length >= 20 && !isGenerating && credits > 0;
 
   const handleGenerate = async () => {
     if (situation.trim().length < 20) {
@@ -102,6 +104,11 @@ const ScenarioPage = () => {
     setIsGenerating(true);
     try {
       const response = await generateScenario({ situation, language });
+      const newCredits = response.data.credits;
+      if (newCredits !== undefined) {
+         const updatedUser = { ...user, credits: newCredits };
+         localStorage.setItem('user', JSON.stringify(updatedUser));
+      }
       navigate('/scenario/session', {
         state: {
           script: response.data.script,
@@ -210,7 +217,7 @@ const ScenarioPage = () => {
             {/* Badge pill */}
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#FFF5EE] to-white border border-[#FCEAE1] px-4 py-1.5 rounded-full mb-7 shadow-sm">
               <Sparkles size={14} className="text-[#eb5e28]" fill="currentColor" />
-              <span className="text-[11px] font-extrabold text-[#eb5e28] uppercase tracking-widest">AI Practice Area</span>
+              <span className="text-[11px] font-extrabold text-[#eb5e28] uppercase tracking-widest">AI Practice Area • {credits} Credits Left</span>
             </div>
 
             {/* Large headline */}
@@ -236,6 +243,16 @@ const ScenarioPage = () => {
           </motion.div>
 
           {/* ── Example chips — flex-wrap multi-row ── */}
+          {credits === 0 && (
+            <motion.div variants={itemVariants} className="mb-8 text-center bg-red-50 border border-red-200 rounded-2xl p-5">
+              <h3 className="text-red-800 font-bold mb-2">Out of Free Credits</h3>
+              <p className="text-red-600 text-sm">
+                You have run out of free tier scenario credits. Since we are using a free tier API key, generation is limited. 
+                If you wish to use your own API key to generate unlimited scenarios, you can clone the repository from GitHub as it is open source.
+              </p>
+            </motion.div>
+          )}
+
           <motion.div variants={itemVariants} className="mb-8">
             <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3 text-center">Need inspiration?</p>
             <div className="flex flex-wrap justify-center gap-2">
@@ -248,7 +265,7 @@ const ScenarioPage = () => {
                     setSituation(example);
                     setError('');
                   }}
-                  disabled={isGenerating}
+                  disabled={isGenerating || credits === 0}
                   className="text-xs px-4 py-2 rounded-full border border-gray-200 bg-white text-gray-500 font-semibold hover:border-[#eb5e28]/40 hover:text-[#eb5e28] hover:bg-[#FFF5EE] transition-all disabled:opacity-40 disabled:cursor-not-allowed text-left"
                 >
                   {example.length > 48 ? example.slice(0, 48) + '…' : example}
@@ -285,7 +302,7 @@ const ScenarioPage = () => {
                   setSituation(e.target.value);
                   if (error) setError('');
                 }}
-                disabled={isGenerating}
+                disabled={isGenerating || credits === 0}
                 placeholder="e.g. I'm at a small café in Barcelona and want to order breakfast and ask the waiter for a local recommendation..."
                 rows={5}
                 maxLength={250}

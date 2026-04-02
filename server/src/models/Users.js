@@ -65,6 +65,11 @@ const UserSchema = new mongoose.Schema(
       type: Boolean,
       default: false,           // false until they finish the onboarding flow
     },
+
+    credits: {
+      type: Number,
+      default: 2,
+    },
   },
   {
     timestamps: true,           // auto adds createdAt and updatedAt
