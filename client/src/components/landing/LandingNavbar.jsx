@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import icon from "../../assets/icon.png";
+import { Menu, X } from "lucide-react";
 
 export default function LandingNavbar() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   const scrollTo = (id) => {
+    setIsMobileMenuOpen(false);
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
@@ -133,8 +137,8 @@ export default function LandingNavbar() {
           {/* Pill CTA — matches reference shape */}
           <Link
             to="/register"
+            className="hidden sm:inline-flex"
             style={{
-              display: "inline-flex",
               alignItems: "center",
               justifyContent: "center",
               padding: "10px 22px",
@@ -161,8 +165,105 @@ export default function LandingNavbar() {
           >
             Get Started
           </Link>
+
+          {/* Mobile Menu Toggle */}
+          <button
+            className="md:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none flex items-center justify-center"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            style={{ background: "transparent", border: "none" }}
+            aria-label="Toggle mobile menu"
+          >
+            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
       </nav>
+
+      {/* Full-screen blurred mobile menu overlay */}
+      {isMobileMenuOpen && (
+        <div 
+          className="fixed inset-0 flex flex-col items-center justify-center md:hidden"
+          style={{
+            zIndex: -1, // Sits exactly beneath the floating nav
+            background: "rgba(255, 252, 242, 0.95)",
+            backdropFilter: "blur(24px)",
+            WebkitBackdropFilter: "blur(24px)",
+            paddingTop: 80
+          }}
+        >
+          <div className="flex flex-col gap-8 text-center w-full px-6">
+            {navLinks.map(({ label, id }) =>
+              id ? (
+                <button
+                  key={label}
+                  onClick={() => scrollTo(id)}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
+                    fontSize: 24,
+                    fontWeight: 600,
+                    color: "var(--text)",
+                    fontFamily: "inherit",
+                    padding: "8px 0"
+                  }}
+                >
+                  {label}
+                </button>
+              ) : (
+                <span
+                  key={label}
+                  style={{
+                    fontSize: 24,
+                    fontWeight: 600,
+                    color: "var(--muted)",
+                    opacity: 0.5,
+                  }}
+                >
+                  {label}
+                </span>
+              )
+            )}
+            
+            <div className="w-12 h-[1px] bg-gray-300 mx-auto my-2" />
+            
+            <Link
+              to="/login"
+              onClick={() => setIsMobileMenuOpen(false)}
+              style={{
+                fontSize: 20,
+                fontWeight: 600,
+                color: "var(--text)",
+                textDecoration: "none",
+                padding: "8px 0"
+              }}
+            >
+              Sign In
+            </Link>
+            <Link
+              to="/register"
+              onClick={() => setIsMobileMenuOpen(false)}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "16px 32px",
+                borderRadius: 999,
+                background: "#eb5e28",
+                color: "white",
+                fontSize: 18,
+                fontWeight: 600,
+                textDecoration: "none",
+                boxShadow: "0 4px 14px rgba(235, 94, 40, 0.30)",
+                width: "100%",
+                maxWidth: 240,
+                margin: "0 auto"
+              }}
+            >
+              Get Started
+            </Link>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
