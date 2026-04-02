@@ -180,10 +180,18 @@ const ScenarioPage = () => {
             <span className="text-sm font-semibold">Back</span>
           </button>
 
-          {/* Language Badge */}
-          <div className="flex items-center gap-2 bg-[#FFF5EE] border border-[#FCEAE1] px-4 py-1.5 rounded-full">
-            <Globe size={15} className="text-[#eb5e28]" />
-            <span className="text-sm font-bold text-[#eb5e28]">{language}</span>
+          {/* Right Side: History & Language Badge */}
+          <div className="flex items-center gap-2">
+            <button 
+              onClick={() => navigate('/scenario/history')}
+              className="flex items-center justify-center gap-1.5 text-sm font-bold text-gray-600 bg-white border border-gray-200 hover:bg-gray-50 transition-colors px-3 py-1.5 rounded-full"
+            >
+              <Clock size={15} /> <span className="hidden sm:inline">History</span>
+            </button>
+            <div className="flex items-center gap-2 bg-[#FFF5EE] border border-[#FCEAE1] px-4 py-1.5 rounded-full">
+              <Globe size={15} className="text-[#eb5e28]" />
+              <span className="text-sm font-bold text-[#eb5e28]">{language}</span>
+            </div>
           </div>
         </nav>
       </div>

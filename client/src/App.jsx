@@ -10,6 +10,7 @@ import Journey from "./pages/Journey";
 import Lessons from "./pages/Lessons";
 import ScenarioPage from "./pages/ScenarioPage";
 import ScenarioSession from "./pages/ScenarioSession"
+import PastScenarios from "./pages/PastScenarios"
 import { PrivateRoute, OnboardedRoute } from "./components/PrivateRoute";
 
 function App() {
@@ -44,6 +45,9 @@ function App() {
       } />
       <Route path="/scenario/session" element={
         <OnboardedRoute><ScenarioSession /></OnboardedRoute>
+      } />
+      <Route path="/scenario/history" element={
+        <OnboardedRoute><PastScenarios /></OnboardedRoute>
       } />
 
     </Routes>

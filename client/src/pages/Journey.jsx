@@ -93,19 +93,27 @@ const Journey = () => {
             </h1>
           </div>
           
-          {/* Right Side: Level & Progress (Styled as the purple 'Free Trial' button) */}
-          <div className="flex items-center gap-3 bg-[#8B5CF6] hover:bg-[#7C3AED] transition-colors text-white px-5 py-2 rounded-full shadow-sm cursor-default">
-            <span className="text-sm font-medium whitespace-nowrap">Level {user.level || 1}</span>
-            
-            {/* Progress Bar styled with semi-transparent white */}
-            <div className="hidden sm:block h-1.5 w-16 md:w-20 bg-white/30 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-white transition-all duration-500 rounded-full"
-                style={{ width: `${progressPercent}%` }}
-              />
+          {/* Right Side: History Button & Progress */}
+          <div className="flex items-center gap-3">
+            <button 
+              onClick={() => navigate('/scenario/history')}
+              className="hidden sm:flex items-center justify-center gap-2 text-sm font-bold text-[#DE5B1A] bg-[#FFF5EE] border border-[#FCEAE1] hover:bg-[#FCEAE1] transition-colors px-4 py-2 rounded-full shadow-sm"
+            >
+              Past Scenarios
+            </button>
+            <div className="flex items-center gap-3 bg-[#8B5CF6] hover:bg-[#7C3AED] transition-colors text-white px-5 py-2 rounded-full shadow-sm cursor-default">
+              <span className="text-sm font-medium whitespace-nowrap">Level {user.level || 1}</span>
+              
+              {/* Progress Bar styled with semi-transparent white */}
+              <div className="hidden sm:block h-1.5 w-16 md:w-20 bg-white/30 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-white transition-all duration-500 rounded-full"
+                  style={{ width: `${progressPercent}%` }}
+                />
+              </div>
+              
+              <span className="text-sm font-bold">{progressPercent}%</span>
             </div>
-            
-            <span className="text-sm font-bold">{progressPercent}%</span>
           </div>
 
         </nav>

@@ -47,3 +47,7 @@ export const validateTurn = (data) => {
 export const saveScenarioSession = (data) => {
   return axiosInstance.post("/scenario/save", data);
 };
+
+export const fetchScenarioHistory = () => {
+  return axiosInstance.get("/scenario/history");
+};

@@ -35,7 +35,7 @@ EXAMPLE of correct output structure for Spanish (use this as a formatting guide)
 }
 
 Now generate a similar conversation for the situation above in ${language}.
-Return JSON only, no extra text. Maximum 5 turns total.`
+Return JSON only, no extra text. Maximum 8 turns total.`
 
   const result = await model.generateContent(prompt)
   const text = result.response.text()

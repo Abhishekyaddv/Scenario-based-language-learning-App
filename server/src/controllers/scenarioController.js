@@ -87,3 +87,14 @@ export const saveSession = async (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 }
+
+export const getPastScenarios = async (req, res) => {
+  try {
+    const userId = req.user.userId;
+    const scenarios = await ScenarioSession.find({ userId }).sort({ createdAt: -1 });
+    res.status(200).json(scenarios);
+  } catch (error) {
+    console.error("getPastScenarios error:", error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+}
