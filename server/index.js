@@ -21,8 +21,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
-  origin: "http://localhost:5173",                         // ← your React app URL
-  credentials: true                                        // ← allows cookies/auth headers
+  origin: ["http://localhost:5173", "http://192.168.1.38:5173"],
+  credentials: true
 }));
 
 // Ensure the DB connection is attempted before routes fire in serverless mode.
