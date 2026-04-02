@@ -27,7 +27,7 @@ To clone and run this application locally, you'll need Git and Node.js (which co
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/Scenario-based-learning-App.git
+git clone https://github.com/Abhishekyaddv/Scenario-based-language-learning-App/
 cd Scenario-based-learning-App
 ```
 
