@@ -3,9 +3,9 @@ import { scenarios } from "./LandingStyles";
 
 export default function ScenariosSection() {
   return (
-    <section id="scenarios" style={{ padding: "100px 24px 140px", position: "relative", background: "var(--surface)", borderTop: "1px solid var(--border)" }}>
+    <section id="scenarios" className="pt-16 pb-20 md:pt-[100px] md:pb-[140px] px-6" style={{ position: "relative", background: "var(--surface)", borderTop: "1px solid var(--border)" }}>
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full px-4 py-2 mb-6" style={{ fontSize: 13, color: "var(--primary)", fontWeight: 700, background: "var(--surface2)", border: "1px solid var(--border)" }}>
               🎭 AI Immersion Engine

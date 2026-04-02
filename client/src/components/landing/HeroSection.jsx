@@ -31,13 +31,13 @@ export default function HeroSection() {
   }, [typed]);
 
   return (
-    <section style={{ position: "relative", minHeight: "100vh", display: "flex", alignItems: "center", overflow: "hidden", paddingTop: 100 }}>
+    <section className="pt-24 md:pt-[100px] min-h-screen flex items-center relative overflow-hidden">
       <div className="mesh-bg" />
       <div className="grid-pattern" />
       <div className="orb" style={{ width: 600, height: 600, background: "radial-gradient(circle, rgba(235,94,40,0.12), transparent)", top: "10%", left: "-10%" }} />
       <div className="orb" style={{ width: 400, height: 400, background: "radial-gradient(circle, rgba(244,162,97,0.1), transparent)", bottom: "10%", right: "-5%" }} />
 
-      <div className="max-w-7xl mx-auto px-6 py-20 w-full">
+      <div className="max-w-7xl mx-auto px-6 py-12 md:py-20 w-full">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           
           {/* Left Content */}

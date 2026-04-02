@@ -4,10 +4,10 @@ import icon from "../../assets/icon.png";
 
 export default function CTASection() {
   return (
-    <section style={{ padding: "120px 24px", position: "relative", textAlign: "center", overflow: "hidden" }}>
+    <section className="py-16 md:py-[120px] px-6" style={{ position: "relative", textAlign: "center", overflow: "hidden" }}>
       <div className="orb" style={{ width: 500, height: 500, background: "radial-gradient(circle, rgba(235,94,40,0.15), transparent)", top: "50%", left: "50%", transform: "translate(-50%,-50%)" }} />
       <div className="max-w-2xl mx-auto" style={{ position: "relative", zIndex: 1 }}>
-        <div className="glass rounded-3xl p-12" style={{ border: "1px solid rgba(235,94,40,0.2)" }}>
+        <div className="glass rounded-3xl p-8 md:p-12" style={{ border: "1px solid rgba(235,94,40,0.2)" }}>
           {/* App icon instead of globe emoji */}
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 16 }}>
             <div style={{ width: 56, height: 56, borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(204,197,185,0.5)', background: '#fffcf2', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(235,94,40,0.12)' }}>
