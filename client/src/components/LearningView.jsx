@@ -1,9 +1,29 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Sparkles, CheckCircle2 } from 'lucide-react';
+import { BookOpen, Sparkles, CheckCircle2, Volume2 } from 'lucide-react';
 
-const LearningView = ({ learningMaterial, onStart }) => {
+const languageMap = {
+  'Spanish': 'es-ES',
+  'French': 'fr-FR',
+  'German': 'de-DE',
+  'Italian': 'it-IT',
+  'Japanese': 'ja-JP',
+  'Portuguese': 'pt-BR',
+  'Hindi': 'hi-IN',
+  'Mandarin': 'zh-CN',
+}
+
+const LearningView = ({ learningMaterial, onStart, isFirstPart = true, user = {} }) => {
   if (!learningMaterial) return null;
+
+  const handleTTS = (text) => {
+    const lang = languageMap[user?.targetLanguage] || 'es-ES';
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = lang;
+    utterance.rate = 0.85;
+    window.speechSynthesis.speak(utterance);
+  };
 
   return (
     <motion.div
@@ -30,9 +50,11 @@ const LearningView = ({ learningMaterial, onStart }) => {
             <h1 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-4">
               {learningMaterial.title}
             </h1>
-            <p className="text-white/90 text-lg md:text-xl font-medium max-w-2xl leading-relaxed">
-              {learningMaterial.intro}
-            </p>
+            {learningMaterial.intro && (
+              <p className="text-white/90 text-lg md:text-xl font-medium max-w-2xl leading-relaxed">
+                {learningMaterial.intro}
+              </p>
+            )}
           </div>
         </div>
 
@@ -58,10 +80,19 @@ const LearningView = ({ learningMaterial, onStart }) => {
                 <div className="mt-1 flex-shrink-0">
                   <CheckCircle2 size={24} className="text-[#eb5e28] stroke-[2.5px]" />
                 </div>
-                <div>
-                  <h3 className="text-lg font-bold text-[#252422] mb-1 leading-snug">
-                    {concept.term}
-                  </h3>
+                <div className="flex-1">
+                  <div className="flex items-center gap-3 mb-1">
+                    <h3 className="text-lg font-bold text-[#252422] leading-snug">
+                      {concept.term}
+                    </h3>
+                    <button 
+                      onClick={() => handleTTS(concept.term)}
+                      className="p-1.5 text-gray-400 hover:text-[#eb5e28] hover:bg-[#eb5e28]/10 rounded-full transition-colors flex-shrink-0 focus:outline-none"
+                      title="Listen"
+                    >
+                      <Volume2 size={18} />
+                    </button>
+                  </div>
                   <p className="text-gray-600 leading-relaxed text-[15px]">
                     {concept.explanation}
                   </p>
@@ -74,7 +105,7 @@ const LearningView = ({ learningMaterial, onStart }) => {
         {/* Footer actions */}
         <div className="px-8 md:px-12 py-8 bg-white border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="text-sm font-medium text-gray-500 text-center sm:text-left">
-            Read through all concepts? You are ready to practice.
+            {isFirstPart ? "Read through all concepts? You are ready to practice." : "Review this concept before your next exercise."}
           </div>
           <button
             onClick={onStart}
@@ -83,7 +114,7 @@ const LearningView = ({ learningMaterial, onStart }) => {
           >
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
             <span className="relative z-10 flex items-center justify-center gap-2 text-lg">
-              Start Exercises 
+              {isFirstPart ? "Start Exercises" : "Continue Practice"}
               <ArrowRightWrapper />
             </span>
           </button>

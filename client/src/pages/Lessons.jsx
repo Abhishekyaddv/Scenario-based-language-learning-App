@@ -19,7 +19,7 @@ const Lessons = () => {
   const [score, setScore] = useState(0)
   const [isFinished, setIsFinished] = useState(false)
   const [isNextEnabled, setIsNextEnabled] = useState(false)
-  const [showLearning, setShowLearning] = useState(true)
+  const [isLearningPhase, setIsLearningPhase] = useState(true)
   const user = JSON.parse(localStorage.getItem('user') || '{}')
   const navigate = useNavigate();
   
@@ -59,13 +59,14 @@ const Lessons = () => {
 }
 
 const handleNext = () => {
+  setIsNextEnabled(false)
   if (currentLessonIndex + 1 >= totalLessons) {
     setIsFinished(true)
   } else {
     setCurrentLessonIndex(prev => prev + 1)
+    setIsLearningPhase(true)
   }
 }
-
 
   const renderExercise = () => {
     if (!currentLesson) return null
@@ -89,8 +90,32 @@ const handleNext = () => {
     );
   }
 
+  const getConceptsForCurrentLesson = () => {
+    if (!lessonsData?.learningMaterial?.concepts) return [];
+    const concepts = lessonsData.learningMaterial.concepts;
+    const numConcepts = concepts.length;
+    const numLessons = totalLessons || 1;
+    
+    if (numConcepts === 0) return [];
+    
+    // Distribute concepts as evenly as possible
+    const baseCount = Math.floor(numConcepts / numLessons);
+    const remainder = numConcepts % numLessons;
+    
+    let startIndex = 0;
+    for (let i = 0; i < currentLessonIndex; i++) {
+        startIndex += baseCount + (i < remainder ? 1 : 0);
+    }
+    const count = baseCount + (currentLessonIndex < remainder ? 1 : 0);
+    
+    return concepts.slice(startIndex, startIndex + count);
+  };
+
   // Render the Learning View first if data exists
-  if (showLearning && lessonsData?.learningMaterial) {
+  const currentConcepts = getConceptsForCurrentLesson();
+  const shouldShowLearning = isLearningPhase && currentConcepts.length > 0;
+
+  if (shouldShowLearning) {
     return (
       <div className="min-h-screen bg-[#FCF8F5] font-sans text-[#1C1917]">
         <header className="bg-white border-b border-gray-100 z-50 shadow-sm">
@@ -113,8 +138,14 @@ const handleNext = () => {
 
         <div className="max-w-4xl mx-auto py-8 md:py-12">
           <LearningView 
-            learningMaterial={lessonsData.learningMaterial} 
-            onStart={() => setShowLearning(false)} 
+            learningMaterial={{
+                title: lessonsData.learningMaterial.title,
+                intro: currentLessonIndex === 0 ? lessonsData.learningMaterial.intro : '',
+                concepts: currentConcepts
+            }}
+            onStart={() => setIsLearningPhase(false)} 
+            isFirstPart={currentLessonIndex === 0}
+            user={user}
           />
         </div>
       </div>
