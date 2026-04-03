@@ -1,0 +1,138 @@
+{
+  "level": "advanced",
+  "language": "japanese",
+  "chapters": [
+    {
+      "id": "japanese_advanced_ch1",
+      "title": "Keigo — Formal Japanese",
+      "description": "Master sonkeigo (respectful) and kenjougo (humble) speech levels.",
+      "lessons": [
+        {
+          "id": "ja_a_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "What is the sonkeigo (respectful) form of 食べる (to eat)?",
+          "options": ["いただく", "召し上がる", "食べさせる", "食べられる"],
+          "correctAnswer": "召し上がる",
+          "explanation": "'Meshiagaru' is the respectful form of eating — used when describing what the other person/someone respected eats. 'Itadaku' is humble (what you eat)."
+        },
+        {
+          "id": "ja_a_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "社長はもうお帰り___なりました。(The president has already gone home.)",
+          "correctAnswer": "に",
+          "explanation": "'O + verb stem + ni naru' = respectful expression. 'Okaeri ni narimashita' = has gone home (respectful)."
+        },
+        {
+          "id": "ja_a_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate humbly: 'I will come to your office tomorrow'",
+          "correctAnswer": "明日お宅にうかがいます",
+          "hint": "'Ukagau' is the humble form of 'iku' (go) and 'kuru' (come). Used when you go/come toward a superior."
+        },
+        {
+          "id": "ja_a_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "What is the humble form of 'もらう' (to receive)?",
+          "options": ["くださる", "いただく", "さしあげる", "くれる"],
+          "correctAnswer": "いただく",
+          "explanation": "'Itadaku' = humble form of morau (receive). 'Kudasaru' = respectful form of kureru (someone gives to you)."
+        },
+        {
+          "id": "ja_a_ch1_l5",
+          "type": "fill_blank",
+          "prompt": "ご説明___してもよろしいでしょうか。(May I explain?)",
+          "correctAnswer": "を",
+          "explanation": "'Go-setsumei o shite mo yoroshii deshou ka' = May I explain? 'Yoroshii deshou ka' is very polite permission-asking."
+        }
+      ]
+    },
+    {
+      "id": "japanese_advanced_ch2",
+      "title": "Advanced Grammar Patterns",
+      "description": "Master complex N1/N2 level grammar patterns for fluent expression.",
+      "lessons": [
+        {
+          "id": "ja_a_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "What does 〜にもかかわらず mean?",
+          "options": ["Because of", "Despite / In spite of", "As a result of", "According to"],
+          "correctAnswer": "Despite / In spite of",
+          "explanation": "'Ni mo kakawarazu' = despite/in spite of. Formal written Japanese. '雨にもかかわらず' = despite the rain."
+        },
+        {
+          "id": "ja_a_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "努力した___、失敗してしまった。(Despite having made effort, I ended up failing.)",
+          "correctAnswer": "にもかかわらず",
+          "explanation": "'Doryoku shita ni mo kakawarazu, shippai shite shimatta.' High-level contrast expression."
+        },
+        {
+          "id": "ja_a_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate: 'No matter how hard I try, I can't do it'",
+          "correctAnswer": "どんなに頑張っても、できない",
+          "hint": "'Donna ni ~ te mo' = no matter how much. 'Ganbatte mo' = even if I try hard."
+        },
+        {
+          "id": "ja_a_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "What nuance does 〜わけにはいかない add?",
+          "options": ["Cannot for social/logical reasons", "Cannot physically do", "Should not do", "Will definitely not do"],
+          "correctAnswer": "Cannot for social/logical reasons",
+          "explanation": "'Wake ni wa ikanai' = cannot (due to social obligation or logical reason). '嘘をつくわけにはいかない' = I can't lie (it's not something I can do)."
+        },
+        {
+          "id": "ja_a_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "今さら___わけにはいかない。(I can't give up now — after coming this far.)",
+          "correctAnswer": "あきらめる",
+          "explanation": "'Akiraeru wake ni wa ikanai' = cannot give up (given the situation). 'Imasara' = at this point/after all this."
+        }
+      ]
+    },
+    {
+      "id": "japanese_advanced_ch3",
+      "title": "Japanese Idioms & Proverbs",
+      "description": "Understand native expressions and four-character idioms (yojijukugo).",
+      "lessons": [
+        {
+          "id": "ja_a_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "What does '七転び八起き (nana korobi ya oki)' mean?",
+          "options": ["Fall seven times, stand up eight (perseverance)", "Sleep seven times, wake eight times", "Try seven methods, succeed on eighth", "Seven failures, eight successes"],
+          "correctAnswer": "Fall seven times, stand up eight (perseverance)",
+          "explanation": "Famous proverb about perseverance and resilience. Fall seven times but always get up — equivalent of 'if at first you don't succeed'."
+        },
+        {
+          "id": "ja_a_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "一石___鳥 (isseki ___ chou) — Kill two birds with one stone",
+          "correctAnswer": "二",
+          "explanation": "'Isseki nichou' (一石二鳥) = one stone, two birds. A four-character idiom (yojijukugo) meaning to achieve two things at once."
+        },
+        {
+          "id": "ja_a_ch3_l3",
+          "type": "translate",
+          "prompt": "What does the yojijukugo '一期一会' (ichi-go ichi-e) mean?",
+          "correctAnswer": "once in a lifetime encounter",
+          "hint": "A philosophy from tea ceremony culture — treasure each meeting as it may never happen again."
+        },
+        {
+          "id": "ja_a_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'さすが' (sasuga) express?",
+          "options": ["Disappointment", "As expected / I'm impressed", "Surprise", "Agreement"],
+          "correctAnswer": "As expected / I'm impressed",
+          "explanation": "'Sasuga' = as expected (of someone impressive). 'Sasuga desu ne' = as I'd expect from you (genuine compliment)."
+        },
+        {
+          "id": "ja_a_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "石の___にも三年 — Perseverance leads to mastery (stone warmer proverb)",
+          "correctAnswer": "上",
+          "explanation": "'Ishi no ue ni mo sannen' (石の上にも三年) = even on a cold stone, three years (makes it warm). Means persistence pays off."
+        }
+      ]
+    }
+  ]
+}

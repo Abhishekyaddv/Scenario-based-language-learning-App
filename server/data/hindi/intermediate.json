@@ -1,0 +1,182 @@
+{
+  "level": "intermediate",
+  "language": "hindi",
+  "chapters": [
+    {
+      "id": "hindi_intermediate_ch1",
+      "title": "Past Tense",
+      "description": "Talk about completed past actions in Hindi.",
+      "lessons": [
+        {
+          "id": "hi_i_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "What is the past tense of 'khana' (to eat) for 'main' (masculine)?",
+          "options": ["Main khaata hoon", "Main khaaunga", "Maine khaaya", "Main khaata tha"],
+          "correctAnswer": "Maine khaaya",
+          "explanation": "For transitive verbs in past, the subject takes 'ne': 'Maine khaaya' = I ate. The verb agrees with the object, not subject."
+        },
+        {
+          "id": "hi_i_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "उसने किताब ___। (She read the book.)",
+          "correctAnswer": "पढ़ी",
+          "explanation": "'Usne kitaab padhi' = She read the book. 'Ne' marks the agent. Verb 'padhi' agrees with 'kitaab' (feminine)."
+        },
+        {
+          "id": "hi_i_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'We went to Delhi yesterday'",
+          "correctAnswer": "हम कल दिल्ली गए",
+          "hint": "Intransitive verbs (like jaana) don't take 'ne'. 'Hum gaye' = we went. Verb agrees with subject."
+        },
+        {
+          "id": "hi_i_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "When do you NOT use 'ne' in past tense?",
+          "options": ["With transitive verbs", "With intransitive verbs like jaana/aana", "Always use ne", "With plural subjects"],
+          "correctAnswer": "With intransitive verbs like jaana/aana",
+          "explanation": "Intransitive verbs (jaana, aana, hona, lagna) NEVER take 'ne'. 'Woh aayi' = she came (no ne)."
+        },
+        {
+          "id": "hi_i_ch1_l5",
+          "type": "fill_blank",
+          "prompt": "मैंने उसे ___ (मदद करना — to help)। (I helped him.)",
+          "correctAnswer": "मदद की",
+          "explanation": "'Maine uski madad ki' = I helped him. 'Madad karna' = to help. Verb 'ki' agrees with 'madad' (feminine)."
+        }
+      ]
+    },
+    {
+      "id": "hindi_intermediate_ch2",
+      "title": "Postpositions",
+      "description": "Master Hindi postpositions — the equivalents of English prepositions.",
+      "lessons": [
+        {
+          "id": "hi_i_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'के लिए (ke liye)' mean?",
+          "options": ["With", "For", "From", "Until"],
+          "correctAnswer": "For",
+          "explanation": "'Ke liye' = for. 'Mere liye' = for me. 'Unke liye' = for them. Unlike English, postpositions come AFTER the noun."
+        },
+        {
+          "id": "hi_i_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "वह दिल्ली ___ आया है। (He has come from Delhi.)",
+          "correctAnswer": "से",
+          "explanation": "'Se' = from/since/with. 'Delhi se' = from Delhi. Also used for comparisons: 'yeh usse bada hai' = this is bigger than that."
+        },
+        {
+          "id": "hi_i_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate: 'There is a book on the table'",
+          "correctAnswer": "मेज़ पर किताब है",
+          "hint": "'Par' (पर) = on/at. 'Mez par' = on the table. Postpositions follow the noun they relate to."
+        },
+        {
+          "id": "hi_i_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "What case does a noun take before most postpositions?",
+          "options": ["Direct case", "Oblique case", "Vocative case", "No change"],
+          "correctAnswer": "Oblique case",
+          "explanation": "Before postpositions, nouns change to oblique form. 'Ladka' (boy) → 'ladke ke saath' (with the boy). 'Ghar' → 'ghar mein' (in the house — no change for inanimate)."
+        },
+        {
+          "id": "hi_i_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "बच्चे स्कूल ___ हैं। (The children are at school.)",
+          "correctAnswer": "में",
+          "explanation": "'Mein' (में) = in/at (location). 'Skool mein' = at school. For specific location also: 'par'. 'Ghar mein' = at home."
+        }
+      ]
+    },
+    {
+      "id": "hindi_intermediate_ch3",
+      "title": "Future Tense & Intentions",
+      "description": "Express future plans, intentions, and predictions in Hindi.",
+      "lessons": [
+        {
+          "id": "hi_i_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "What is the future tense of 'jaana' for 'main' (masculine)?",
+          "options": ["Main gaya", "Main jaata hoon", "Main jaunga", "Main ja raha hoon"],
+          "correctAnswer": "Main jaunga",
+          "explanation": "Future tense: verb stem + unga/ungi/unge. 'Jaunga' = I will go (masculine). Feminine: 'jaungi'."
+        },
+        {
+          "id": "hi_i_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "वह कल भारत ___। (She will come to India tomorrow.)",
+          "correctAnswer": "आएगी",
+          "explanation": "'Aayegi' = she will come (feminine future). 'Kal' = tomorrow. 'Bharat aayegi' = will come to India."
+        },
+        {
+          "id": "hi_i_ch3_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I am going to study Hindi' (near future intention)",
+          "correctAnswer": "मैं हिंदी पढ़ने वाला हूँ",
+          "hint": "'Wala hoon' construction = about to do / going to do. 'Padhne wala hoon' = about to study."
+        },
+        {
+          "id": "hi_i_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "How do you express 'should' or 'ought to' in Hindi?",
+          "options": ["chahiye", "sakta hai", "wala hoon", "raha hoon"],
+          "correctAnswer": "chahiye",
+          "explanation": "'Chahiye' = should/need to (obligation/recommendation). 'Aapko yahaaN jaana chahiye' = You should go there."
+        },
+        {
+          "id": "hi_i_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "हमें ज़्यादा पानी ___ चाहिए। (We should drink more water.)",
+          "correctAnswer": "पीना",
+          "explanation": "'Peena chahiye' = should drink. 'Hamein ... peena chahiye' = we should drink. Infinitive + chahiye for obligation."
+        }
+      ]
+    },
+    {
+      "id": "hindi_intermediate_ch4",
+      "title": "Relative & Correlative Clauses",
+      "description": "Use jo-woh and other relative structures in complex sentences.",
+      "lessons": [
+        {
+          "id": "hi_i_ch4_l1",
+          "type": "vocabulary",
+          "prompt": "What is the Hindi relative-correlative pair meaning 'whoever-that person'?",
+          "options": ["Jo-woh", "Kya-yeh", "Jab-tab", "Jahan-wahan"],
+          "correctAnswer": "Jo-woh",
+          "explanation": "'Jo...woh' = who/whoever...that (person). Hindi uses correlative pairs: jo/jab/jahan → woh/tab/wahan."
+        },
+        {
+          "id": "hi_i_ch4_l2",
+          "type": "fill_blank",
+          "prompt": "___ आया, वह मेरा दोस्त था। (Whoever came, was my friend.)",
+          "correctAnswer": "जो",
+          "explanation": "'Jo aaya, woh mera dost tha' = Whoever came, that person was my friend. Jo introduces the relative clause."
+        },
+        {
+          "id": "hi_i_ch4_l3",
+          "type": "translate",
+          "prompt": "Translate: 'When he comes, I will tell him'",
+          "correctAnswer": "जब वह आएगा, तब मैं उसे बताऊँगा",
+          "hint": "'Jab' = when, 'tab' = then. 'Aayega' = will come. 'Bataaunga' = I will tell."
+        },
+        {
+          "id": "hi_i_ch4_l4",
+          "type": "vocabulary",
+          "prompt": "What correlative pair means 'where...there'?",
+          "options": ["Jo-woh", "Jab-tab", "Jahan-wahan", "Jitna-utna"],
+          "correctAnswer": "Jahan-wahan",
+          "explanation": "'Jahan...wahan' = where...there. 'Jahan chaaho wahan jao' = Go wherever you want."
+        },
+        {
+          "id": "hi_i_ch4_l5",
+          "type": "fill_blank",
+          "prompt": "___ खाओगे, उतना अच्छा लगेगा। (The more you eat, the better you'll feel.)",
+          "correctAnswer": "जितना",
+          "explanation": "'Jitna...utna' = the more...the more. 'Jitna padho, utna seekho' = The more you read, the more you learn."
+        }
+      ]
+    }
+  ]
+}

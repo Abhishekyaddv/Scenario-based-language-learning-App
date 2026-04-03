@@ -1,0 +1,182 @@
+{
+  "level": "intermediate",
+  "language": "japanese",
+  "chapters": [
+    {
+      "id": "japanese_intermediate_ch1",
+      "title": "て-form & Connecting Actions",
+      "description": "Use the te-form to connect verbs, make requests, and describe sequences.",
+      "lessons": [
+        {
+          "id": "ja_i_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "What is the て-form (te-form) of 食べる (taberu)?",
+          "options": ["食べた", "食べます", "食べて", "食べない"],
+          "correctAnswer": "食べて",
+          "explanation": "'Tabete' is the te-form of taberu. For ichidan (ru) verbs: remove ru, add te. 食べる→食べて."
+        },
+        {
+          "id": "ja_i_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "ちょっと待っ___ください。(Please wait a moment.)",
+          "correctAnswer": "て",
+          "explanation": "'Matte kudasai' = please wait. Te-form + kudasai = polite request. 待つ (matsu) → 待って (matte)."
+        },
+        {
+          "id": "ja_i_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I eat and then go to school'",
+          "correctAnswer": "食べて学校へ行きます",
+          "hint": "Te-form connects sequential actions: tabete (eating, then...) gakkō e ikimasu."
+        },
+        {
+          "id": "ja_i_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'て-form + います' express?",
+          "options": ["Completed action", "Future action", "Ongoing or habitual action", "Request"],
+          "correctAnswer": "Ongoing or habitual action",
+          "explanation": "Te-form + imasu = progressive or habitual. '食べています' = is eating / eats (habitually)."
+        },
+        {
+          "id": "ja_i_ch1_l5",
+          "type": "fill_blank",
+          "prompt": "日本語を勉強し___います。(I am studying Japanese.)",
+          "correctAnswer": "て",
+          "explanation": "'Benkyou shite imasu' = I am studying. Suru verb: benkyou suru → benkyou shite (te-form)."
+        }
+      ]
+    },
+    {
+      "id": "japanese_intermediate_ch2",
+      "title": "Potential & Desire Forms",
+      "description": "Express ability, possibility, and wants using potential and たい forms.",
+      "lessons": [
+        {
+          "id": "ja_i_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "What does '日本語が話せます' (Nihongo ga hanasemasu) mean?",
+          "options": ["I want to speak Japanese", "I can speak Japanese", "I speak Japanese daily", "I spoke Japanese"],
+          "correctAnswer": "I can speak Japanese",
+          "explanation": "Potential form expresses ability. 話す (hanasu) → 話せる (hanaseru) = can speak. が marks ability object."
+        },
+        {
+          "id": "ja_i_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "すしが食べ___です。(I want to eat sushi.)",
+          "correctAnswer": "たい",
+          "explanation": "'Tai' form = want to do. Remove masu from polite form, add tai: 食べます→食べたい. Conjugates like an i-adjective."
+        },
+        {
+          "id": "ja_i_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I cannot read kanji'",
+          "correctAnswer": "漢字が読めません",
+          "hint": "Potential form of 読む (yomu) = 読める (yomeru). Negative polite: 読めません."
+        },
+        {
+          "id": "ja_i_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "How do you say 'I wanted to go' (past desire)?",
+          "options": ["行きたいです", "行きたかったです", "行きたくないです", "行けます"],
+          "correctAnswer": "行きたかったです",
+          "explanation": "'Tai' is an i-adjective. Past = 'takatta': 行きたかった = wanted to go. 行きたい = want to go."
+        },
+        {
+          "id": "ja_i_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "日本に___たいです。(I want to go to Japan.)",
+          "correctAnswer": "行き",
+          "explanation": "'Ikitai desu' = I want to go. Remove 'masu' from 'ikimasu' (行きます) → 行き + たい."
+        }
+      ]
+    },
+    {
+      "id": "japanese_intermediate_ch3",
+      "title": "Giving & Receiving",
+      "description": "Master the complex Japanese system of giving and receiving verbs.",
+      "lessons": [
+        {
+          "id": "ja_i_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "When do you use あげる (ageru)?",
+          "options": ["When receiving something", "When giving to others", "When asking for something", "When buying something"],
+          "correctAnswer": "When giving to others",
+          "explanation": "'Ageru' = to give (from my side to others). 'Kureru' = to give (from others to me). 'Morau' = to receive."
+        },
+        {
+          "id": "ja_i_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "友達がプレゼントを___れました。(My friend gave me a present.)",
+          "correctAnswer": "く",
+          "explanation": "'Kuremashita' = gave (to me). Use 'kureru/kuremasu' when someone gives something to you (the speaker)."
+        },
+        {
+          "id": "ja_i_ch3_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I received a book from my teacher'",
+          "correctAnswer": "先生に本をもらいました",
+          "hint": "'Moraimashita' = received. 'Ni' marks the source. 先生に = from the teacher."
+        },
+        {
+          "id": "ja_i_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'te-form + あげる' express?",
+          "options": ["Doing something for yourself", "Doing a favor for someone else", "Receiving a favor", "Asking for a favor"],
+          "correctAnswer": "Doing a favor for someone else",
+          "explanation": "'Te-form + ageru' = do something for someone. '教えてあげる' = I'll teach (as a favor to them)."
+        },
+        {
+          "id": "ja_i_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "先生が日本語を教えて___ました。(The teacher taught me Japanese — as a favor to me.)",
+          "correctAnswer": "くれ",
+          "explanation": "'Oshiete kuremashita' = teacher taught me (doing me a favor). Te-form + kureru = someone does something for me."
+        }
+      ]
+    },
+    {
+      "id": "japanese_intermediate_ch4",
+      "title": "Conditionals — と, ば, たら, なら",
+      "description": "Express conditions and hypotheticals using four different forms.",
+      "lessons": [
+        {
+          "id": "ja_i_ch4_l1",
+          "type": "vocabulary",
+          "prompt": "Which conditional is used for natural/automatic consequences?",
+          "options": ["〜ば", "〜なら", "〜と", "〜たら"],
+          "correctAnswer": "〜と",
+          "explanation": "'To' = automatic/natural result. 'Kono michi o iku to, eki ga arimasu' = If you take this road, there's a station."
+        },
+        {
+          "id": "ja_i_ch4_l2",
+          "type": "fill_blank",
+          "prompt": "もっと勉強すれ___、合格できる。(If you study more, you can pass.)",
+          "correctAnswer": "ば",
+          "explanation": "'Ba' conditional: replace final u with eba (godan) or add reba (ichidan). Expresses general condition."
+        },
+        {
+          "id": "ja_i_ch4_l3",
+          "type": "translate",
+          "prompt": "Translate: 'If it rains, I won't go'",
+          "correctAnswer": "雨が降ったら行きません",
+          "hint": "'Tara' conditional: past form + ra. 降った (rained) + ら = if it rains. Focuses on that specific event."
+        },
+        {
+          "id": "ja_i_ch4_l4",
+          "type": "vocabulary",
+          "prompt": "When is 〜なら (nara) used?",
+          "options": ["Natural results", "Specific events", "Advice based on what you've heard", "Habitual actions"],
+          "correctAnswer": "Advice based on what you've heard",
+          "explanation": "'Nara' reacts to what was just said. 'Hiroshima ni iku nara, okonomiyaki o tabete' = If you're going to Hiroshima, eat okonomiyaki."
+        },
+        {
+          "id": "ja_i_ch4_l5",
+          "type": "fill_blank",
+          "prompt": "東京に行っ___、スカイツリーを見てください。(If you go to Tokyo, please see the Skytree.)",
+          "correctAnswer": "たら",
+          "explanation": "'Ittara' = if you go (upon going). Tara = past stem + ra. Good for specific situation advice."
+        }
+      ]
+    }
+  ]
+}

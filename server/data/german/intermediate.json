@@ -1,0 +1,226 @@
+{
+  "level": "intermediate",
+  "language": "german",
+  "chapters": [
+    {
+      "id": "german_intermediate_ch1",
+      "title": "Past Tense — Perfekt",
+      "description": "Talk about past events using the Perfekt tense.",
+      "lessons": [
+        {
+          "id": "de_i_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "What is the Perfekt of 'essen' (to eat) for 'ich'?",
+          "options": ["Ich aß", "Ich habe gegessen", "Ich esse", "Ich werde essen"],
+          "correctAnswer": "Ich habe gegessen",
+          "explanation": "Perfekt = haben/sein + past participle. 'Gegessen' is the past participle of 'essen'."
+        },
+        {
+          "id": "de_i_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "Er ___ nach Berlin gefahren. (He drove to Berlin.)",
+          "correctAnswer": "ist",
+          "explanation": "Movement verbs use 'sein' in Perfekt. 'Fahren' → 'ist gefahren'."
+        },
+        {
+          "id": "de_i_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I have already eaten'",
+          "correctAnswer": "Ich habe schon gegessen",
+          "hint": "'Schon' = already. 'Gegessen' = past participle of essen."
+        },
+        {
+          "id": "de_i_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "What is the past participle of 'schreiben' (to write)?",
+          "options": ["Schreibt", "Geschrieben", "Schrieb", "Schreiben"],
+          "correctAnswer": "Geschrieben",
+          "explanation": "Strong verbs change their vowel: schreiben → geschrieben. ge- + stem + -en."
+        },
+        {
+          "id": "de_i_ch1_l5",
+          "type": "fill_blank",
+          "prompt": "Wir haben das Buch ___. (We have read the book.)",
+          "correctAnswer": "gelesen",
+          "explanation": "'Lesen' → 'gelesen'. Strong verb with vowel change: e → e (but internal vowel changes: lesen → gelesen)."
+        }
+      ]
+    },
+    {
+      "id": "german_intermediate_ch2",
+      "title": "Modal Verbs",
+      "description": "Use können, müssen, wollen, dürfen, sollen and mögen correctly.",
+      "lessons": [
+        {
+          "id": "de_i_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'Ich muss arbeiten' mean?",
+          "options": ["I want to work", "I can work", "I must/have to work", "I should work"],
+          "correctAnswer": "I must/have to work",
+          "explanation": "'Müssen' = must/have to. It expresses necessity or obligation."
+        },
+        {
+          "id": "de_i_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "Er ___ sehr gut Deutsch sprechen. (He can speak German very well.)",
+          "correctAnswer": "kann",
+          "explanation": "'Können' = can/to be able to. Conjugation: ich kann, du kannst, er/sie/es kann."
+        },
+        {
+          "id": "de_i_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate: 'You may not smoke here'",
+          "correctAnswer": "Sie dürfen hier nicht rauchen",
+          "hint": "'Dürfen' = may/to be allowed. Negated = not allowed. 'Rauchen' = to smoke."
+        },
+        {
+          "id": "de_i_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "Which modal verb expresses a wish or desire?",
+          "options": ["Sollen", "Müssen", "Wollen", "Dürfen"],
+          "correctAnswer": "Wollen",
+          "explanation": "'Wollen' = to want (strong desire/intention). 'Möchten' is softer: would like."
+        },
+        {
+          "id": "de_i_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "Du ___ mehr Wasser trinken. (You should drink more water.)",
+          "correctAnswer": "sollst",
+          "explanation": "'Sollen' = should/supposed to (advice or instruction from someone else)."
+        }
+      ]
+    },
+    {
+      "id": "german_intermediate_ch3",
+      "title": "Adjective Endings",
+      "description": "Master the tricky adjective declension system in German.",
+      "lessons": [
+        {
+          "id": "de_i_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "Complete: 'Der ___ Mann' (the old man — nominative masculine)",
+          "options": ["Alte", "Alten", "Alter", "Altem"],
+          "correctAnswer": "Alte",
+          "explanation": "After definite article (der/die/das) in nominative: adjective + -e for masc/fem/neut."
+        },
+        {
+          "id": "de_i_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "Ich sehe den alt___ Mann. (I see the old man — accusative)",
+          "correctAnswer": "en",
+          "explanation": "After definite article in accusative masculine: adjective + -en. 'Den alten Mann'."
+        },
+        {
+          "id": "de_i_ch3_l3",
+          "type": "translate",
+          "prompt": "Translate: 'A cold winter' (nominative, neuter)",
+          "correctAnswer": "Ein kalter Winter",
+          "hint": "After 'ein' (indefinite article) in nominative neuter, adjective takes strong ending -er... wait, 'Winter' is masculine! Ein kalter Winter."
+        },
+        {
+          "id": "de_i_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "What ending does an adjective take after 'keine' in accusative feminine?",
+          "options": ["-e", "-en", "-em", "-er"],
+          "correctAnswer": "-e",
+          "explanation": "After kein/keine in accusative: feminine = -e. 'Keine gute Idee' = no good idea."
+        },
+        {
+          "id": "de_i_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "Mit dem neu___ Auto fährt er gern. (He likes driving the new car.)",
+          "correctAnswer": "en",
+          "explanation": "'Mit' takes dative. After 'dem' in dative, all genders: adjective + -en."
+        }
+      ]
+    },
+    {
+      "id": "german_intermediate_ch4",
+      "title": "Separable & Inseparable Verbs",
+      "description": "Understand how prefix verbs work in German sentences.",
+      "lessons": [
+        {
+          "id": "de_i_ch4_l1",
+          "type": "vocabulary",
+          "prompt": "Where does the prefix go in 'aufmachen' (to open) in a main clause?",
+          "options": ["Stays attached", "Goes to end of sentence", "Goes after subject", "Disappears"],
+          "correctAnswer": "Goes to end of sentence",
+          "explanation": "Separable verbs split: 'Ich mache die Tür auf.' (I open the door.) Prefix goes to end."
+        },
+        {
+          "id": "de_i_ch4_l2",
+          "type": "fill_blank",
+          "prompt": "Ich rufe dich morgen ___. (I'll call you back tomorrow.)",
+          "correctAnswer": "an",
+          "explanation": "'Anrufen' = to call (on phone). Separable: 'Ich rufe... an'. 'An' goes to sentence end."
+        },
+        {
+          "id": "de_i_ch4_l3",
+          "type": "translate",
+          "prompt": "Translate: 'The shop opens at nine'",
+          "correctAnswer": "Das Geschäft macht um neun auf",
+          "hint": "'Aufmachen' = to open. Separable verb: 'macht...auf'. 'Um neun' = at nine."
+        },
+        {
+          "id": "de_i_ch4_l4",
+          "type": "vocabulary",
+          "prompt": "Which prefix makes a verb INSEPARABLE?",
+          "options": ["Auf-", "An-", "Ver-", "Ab-"],
+          "correctAnswer": "Ver-",
+          "explanation": "Inseparable prefixes (never split): be-, ge-, er-, ver-, zer-, ent-, emp-, miss-."
+        },
+        {
+          "id": "de_i_ch4_l5",
+          "type": "fill_blank",
+          "prompt": "Er ___ das Buch nicht. (He doesn't understand the book.)",
+          "correctAnswer": "versteht",
+          "explanation": "'Verstehen' = to understand. Inseparable verb (ver-): stays together. Er versteht."
+        }
+      ]
+    },
+    {
+      "id": "german_intermediate_ch5",
+      "title": "Subordinate Clauses",
+      "description": "Build complex sentences using conjunctions and verb-final word order.",
+      "lessons": [
+        {
+          "id": "de_i_ch5_l1",
+          "type": "vocabulary",
+          "prompt": "What happens to the verb in a 'weil' (because) clause?",
+          "options": ["Stays in second position", "Goes to the beginning", "Goes to the end", "Disappears"],
+          "correctAnswer": "Goes to the end",
+          "explanation": "Subordinating conjunctions push the verb to the END of the clause. 'Ich bleibe zuhause, weil ich krank bin.'"
+        },
+        {
+          "id": "de_i_ch5_l2",
+          "type": "fill_blank",
+          "prompt": "Ich weiß, dass er morgen ___ kommt. (I know that he is coming tomorrow.)",
+          "correctAnswer": "nicht",
+          "explanation": "In 'dass' clauses, verb goes last. Word order: dass + subject + adverbs + verb. 'Dass er morgen nicht kommt'."
+        },
+        {
+          "id": "de_i_ch5_l3",
+          "type": "translate",
+          "prompt": "Translate: 'She studies because she wants to become a doctor'",
+          "correctAnswer": "Sie studiert weil sie Ärztin werden will",
+          "hint": "After 'weil', the modal 'will' goes to the very end."
+        },
+        {
+          "id": "de_i_ch5_l4",
+          "type": "vocabulary",
+          "prompt": "Which conjunction means 'although'?",
+          "options": ["Weil", "Wenn", "Obwohl", "Damit"],
+          "correctAnswer": "Obwohl",
+          "explanation": "'Obwohl' = although/even though. Also pushes verb to end: 'Obwohl es regnet, gehe ich spazieren.'"
+        },
+        {
+          "id": "de_i_ch5_l5",
+          "type": "fill_blank",
+          "prompt": "Er fragt, ___ der Zug pünktlich ist. (He asks whether the train is on time.)",
+          "correctAnswer": "ob",
+          "explanation": "'Ob' = whether/if (in indirect questions). Verb goes to end: 'ob der Zug pünktlich ist'."
+        }
+      ]
+    }
+  ]
+}

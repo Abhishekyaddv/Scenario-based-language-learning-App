@@ -1,0 +1,226 @@
+{
+  "level": "beginner",
+  "language": "german",
+  "chapters": [
+    {
+      "id": "german_beginner_ch1",
+      "title": "Greetings & Introductions",
+      "description": "Learn basic German greetings and how to introduce yourself.",
+      "lessons": [
+        {
+          "id": "de_b_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'Guten Morgen' mean?",
+          "options": ["Good evening", "Good night", "Good morning", "Good afternoon"],
+          "correctAnswer": "Good morning",
+          "explanation": "'Guten Morgen' = Good morning. 'Guten Tag' = Good day/afternoon. 'Guten Abend' = Good evening."
+        },
+        {
+          "id": "de_b_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "Ich ___ Thomas. (My name is Thomas.)",
+          "correctAnswer": "heiße",
+          "explanation": "'Ich heiße' = My name is / I am called. From the verb 'heißen'."
+        },
+        {
+          "id": "de_b_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'How are you?' (informal)",
+          "correctAnswer": "Wie geht es dir",
+          "hint": "'Wie' = how, 'geht es' = goes it, 'dir' = to you (informal dative)."
+        },
+        {
+          "id": "de_b_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "Which phrase means 'Nice to meet you'?",
+          "options": ["Bitte", "Danke", "Freut mich", "Entschuldigung"],
+          "correctAnswer": "Freut mich",
+          "explanation": "'Freut mich' = Pleased to meet you. Literally 'it pleases me'."
+        },
+        {
+          "id": "de_b_ch1_l5",
+          "type": "fill_blank",
+          "prompt": "Ich komme ___ Indien. (I come from India.)",
+          "correctAnswer": "aus",
+          "explanation": "'Aus' = from (for cities and countries). 'Ich komme aus...' = I come from..."
+        }
+      ]
+    },
+    {
+      "id": "german_beginner_ch2",
+      "title": "German Articles & Genders",
+      "description": "Master der, die, das and understand German noun genders.",
+      "lessons": [
+        {
+          "id": "de_b_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "What is the correct article for 'Mann' (man)?",
+          "options": ["Die", "Das", "Der", "Ein"],
+          "correctAnswer": "Der",
+          "explanation": "'Der Mann' = the man. Masculine nouns use 'der'. There's no perfect rule — memorize with each noun."
+        },
+        {
+          "id": "de_b_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "___ Kind spielt. (The child is playing.)",
+          "correctAnswer": "Das",
+          "explanation": "'Kind' (child) is neuter → 'das'. 'Das Kind' = the child."
+        },
+        {
+          "id": "de_b_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate: 'The woman is beautiful'",
+          "correctAnswer": "Die Frau ist schön",
+          "hint": "'Frau' (woman) is feminine → 'die'. 'Schön' = beautiful."
+        },
+        {
+          "id": "de_b_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "Which is the correct indefinite article for a feminine noun?",
+          "options": ["Ein", "Eine", "Einem", "Einer"],
+          "correctAnswer": "Eine",
+          "explanation": "Indefinite articles: ein (masc/neut) → eine (fem). 'Eine Frau' = a woman."
+        },
+        {
+          "id": "de_b_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "Ich habe ___ Hund. (I have a dog.)",
+          "correctAnswer": "einen",
+          "explanation": "'Hund' is masculine. In accusative case (direct object), 'ein' → 'einen' for masculine nouns."
+        }
+      ]
+    },
+    {
+      "id": "german_beginner_ch3",
+      "title": "Numbers & Shopping",
+      "description": "Count and use numbers while shopping in German.",
+      "lessons": [
+        {
+          "id": "de_b_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'zwölf' mean?",
+          "options": ["Ten", "Eleven", "Twelve", "Thirteen"],
+          "correctAnswer": "Twelve",
+          "explanation": "1-12: eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf."
+        },
+        {
+          "id": "de_b_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "Das kostet ___ Euro. (That costs five euros.)",
+          "correctAnswer": "fünf",
+          "explanation": "'Fünf' = five. In German, 'kostet' (costs) is used for prices."
+        },
+        {
+          "id": "de_b_ch3_l3",
+          "type": "translate",
+          "prompt": "Translate: 'How much does this cost?'",
+          "correctAnswer": "Wie viel kostet das",
+          "hint": "'Wie viel' = how much, 'kostet' = costs, 'das' = that/this."
+        },
+        {
+          "id": "de_b_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "What is 'dreißig' in English?",
+          "options": ["Twenty", "Twenty-three", "Thirty", "Forty"],
+          "correctAnswer": "Thirty",
+          "explanation": "Tens in German: zwanzig (20), dreißig (30), vierzig (40), fünfzig (50), sechzig (60)."
+        },
+        {
+          "id": "de_b_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "Ich möchte ___ Äpfel kaufen. (I would like to buy three apples.)",
+          "correctAnswer": "drei",
+          "explanation": "'Drei' = three. 'Ich möchte' = I would like. 'Kaufen' = to buy."
+        }
+      ]
+    },
+    {
+      "id": "german_beginner_ch4",
+      "title": "Food & Ordering",
+      "description": "Order meals and drinks at a German restaurant or café.",
+      "lessons": [
+        {
+          "id": "de_b_ch4_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'Ich hätte gerne' mean?",
+          "options": ["I don't want", "I would like", "I have already", "I need to go"],
+          "correctAnswer": "I would like",
+          "explanation": "'Ich hätte gerne' = I would like. Very polite way to order food. Hätte = would have (Konjunktiv II)."
+        },
+        {
+          "id": "de_b_ch4_l2",
+          "type": "fill_blank",
+          "prompt": "Ich trinke gerne ___. (I like to drink coffee.)",
+          "correctAnswer": "Kaffee",
+          "explanation": "'Kaffee' = coffee. 'Gerne' expresses liking. 'Ich trinke gerne' = I like to drink."
+        },
+        {
+          "id": "de_b_ch4_l3",
+          "type": "translate",
+          "prompt": "Translate: 'The bill please'",
+          "correctAnswer": "Die Rechnung bitte",
+          "hint": "'Rechnung' = bill/check. 'Bitte' = please. Very important restaurant phrase."
+        },
+        {
+          "id": "de_b_ch4_l4",
+          "type": "vocabulary",
+          "prompt": "What is 'Frühstück'?",
+          "options": ["Lunch", "Dinner", "Breakfast", "Snack"],
+          "correctAnswer": "Breakfast",
+          "explanation": "'Frühstück' = breakfast (literally 'early piece'). 'Mittagessen' = lunch, 'Abendessen' = dinner."
+        },
+        {
+          "id": "de_b_ch4_l5",
+          "type": "fill_blank",
+          "prompt": "Haben Sie einen Tisch für ___ Personen? (Do you have a table for two?)",
+          "correctAnswer": "zwei",
+          "explanation": "'Zwei Personen' = two people/persons. 'Haben Sie' = do you have (formal)."
+        }
+      ]
+    },
+    {
+      "id": "german_beginner_ch5",
+      "title": "Directions & Transport",
+      "description": "Ask for and give directions, and navigate public transport.",
+      "lessons": [
+        {
+          "id": "de_b_ch5_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'geradeaus' mean?",
+          "options": ["Turn left", "Turn right", "Straight ahead", "Go back"],
+          "correctAnswer": "Straight ahead",
+          "explanation": "'Geradeaus' = straight ahead. 'Links' = left, 'rechts' = right, 'zurück' = back."
+        },
+        {
+          "id": "de_b_ch5_l2",
+          "type": "fill_blank",
+          "prompt": "Wo ist die nächste ___-Station? (Where is the nearest U-Bahn station?)",
+          "correctAnswer": "U-Bahn",
+          "explanation": "'U-Bahn' = underground/metro. 'S-Bahn' = suburban train. 'Bushaltestelle' = bus stop."
+        },
+        {
+          "id": "de_b_ch5_l3",
+          "type": "translate",
+          "prompt": "Translate: 'Excuse me, where is the train station?'",
+          "correctAnswer": "Entschuldigung, wo ist der Bahnhof",
+          "hint": "'Entschuldigung' = excuse me. 'Bahnhof' is masculine → 'der'."
+        },
+        {
+          "id": "de_b_ch5_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'Einbahnstraße' mean?",
+          "options": ["Highway", "Pedestrian zone", "One-way street", "Dead end"],
+          "correctAnswer": "One-way street",
+          "explanation": "'Einbahnstraße' = one-way street. Literally 'one-way-road'."
+        },
+        {
+          "id": "de_b_ch5_l5",
+          "type": "fill_blank",
+          "prompt": "Der Zug fährt in ___ Minuten ab. (The train departs in ten minutes.)",
+          "correctAnswer": "zehn",
+          "explanation": "'Zehn' = ten. 'Abfahren' = to depart. 'In zehn Minuten' = in ten minutes."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "level": "beginner",
+  "language": "japanese",
+  "chapters": [
+    {
+      "id": "japanese_beginner_ch1",
+      "title": "Greetings & Basic Phrases",
+      "description": "Learn essential Japanese greetings and polite expressions.",
+      "lessons": [
+        {
+          "id": "ja_b_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'おはようございます (Ohayou gozaimasu)' mean?",
+          "options": ["Good evening", "Goodnight", "Good morning (formal)", "Hello (anytime)"],
+          "correctAnswer": "Good morning (formal)",
+          "explanation": "'Ohayou gozaimasu' is the formal good morning. Casual: 'Ohayou'. Use formal with strangers and superiors."
+        },
+        {
+          "id": "ja_b_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "はじめ___。(Nice to meet you.)",
+          "correctAnswer": "まして",
+          "explanation": "'Hajimemashite' = nice to meet you. Said when meeting someone for the first time. Followed by 'yoroshiku onegaishimasu'."
+        },
+        {
+          "id": "ja_b_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'Thank you very much'",
+          "correctAnswer": "ありがとうございます",
+          "hint": "'Arigatou gozaimasu' is the formal thank you. Casual: 'arigatou'."
+        },
+        {
+          "id": "ja_b_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "When do you say 'いただきます (Itadakimasu)'?",
+          "options": ["When leaving a place", "Before eating", "When meeting someone", "When apologizing"],
+          "correctAnswer": "Before eating",
+          "explanation": "'Itadakimasu' is said before eating — expressing gratitude for the food. 'Gochisousama deshita' after eating."
+        },
+        {
+          "id": "ja_b_ch1_l5",
+          "type": "fill_blank",
+          "prompt": "すみ___。(Excuse me / I'm sorry.)",
+          "correctAnswer": "ません",
+          "explanation": "'Sumimasen' = excuse me / I'm sorry (mild). Also used to get someone's attention. 'Gomen nasai' = deeper apology."
+        }
+      ]
+    },
+    {
+      "id": "japanese_beginner_ch2",
+      "title": "Hiragana Foundations",
+      "description": "Learn to read and write basic hiragana characters.",
+      "lessons": [
+        {
+          "id": "ja_b_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "What sound does 'あ' make?",
+          "options": ["I", "U", "A", "E"],
+          "correctAnswer": "A",
+          "explanation": "The five vowels in Japanese: あ(a), い(i), う(u), え(e), お(o). These are the foundation of hiragana."
+        },
+        {
+          "id": "ja_b_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "The hiragana for 'KA' is ___.",
+          "correctAnswer": "か",
+          "explanation": "か = ka. The K-row: か(ka), き(ki), く(ku), け(ke), こ(ko)."
+        },
+        {
+          "id": "ja_b_ch2_l3",
+          "type": "translate",
+          "prompt": "What word do these hiragana spell? さ・く・ら",
+          "correctAnswer": "sakura",
+          "hint": "さ=sa, く=ku, ら=ra. What beautiful Japanese word does this spell?"
+        },
+        {
+          "id": "ja_b_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'な・ま・え' (namae) mean?",
+          "options": ["Age", "Name", "Country", "Job"],
+          "correctAnswer": "Name",
+          "explanation": "'Namae' (名前) = name. 'Watashi no namae wa...' = My name is..."
+        },
+        {
+          "id": "ja_b_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "にほん = Ni___n (Japan)",
+          "correctAnswer": "ho",
+          "explanation": "'Nihon' (にほん) = Japan. ほ = ho. Japan's name means 'origin of the sun'."
+        }
+      ]
+    },
+    {
+      "id": "japanese_beginner_ch3",
+      "title": "Numbers & Counting",
+      "description": "Count in Japanese and use numbers in everyday situations.",
+      "lessons": [
+        {
+          "id": "ja_b_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "What is 'ご (go)' in English?",
+          "options": ["Three", "Four", "Five", "Six"],
+          "correctAnswer": "Five",
+          "explanation": "Numbers 1-10: いち(1), に(2), さん(3), し/よん(4), ご(5), ろく(6), しち/なな(7), はち(8), く/きゅう(9), じゅう(10)."
+        },
+        {
+          "id": "ja_b_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "私は___歳です。(I am twenty years old.) ___=にじゅう",
+          "correctAnswer": "二十",
+          "explanation": "'Nijuu' (二十) = 20. 'Ni' (2) + 'juu' (10) = 20. Japanese uses this additive system for numbers."
+        },
+        {
+          "id": "ja_b_ch3_l3",
+          "type": "translate",
+          "prompt": "How do you say 'three people' using the counter for people?",
+          "correctAnswer": "さんにん",
+          "hint": "'Nin' (にん) is the counter for people. San (3) + nin = sannin."
+        },
+        {
+          "id": "ja_b_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "What counter is used for flat objects like paper and tickets?",
+          "options": ["本 (hon)", "枚 (mai)", "匹 (hiki)", "杯 (hai)"],
+          "correctAnswer": "枚 (mai)",
+          "explanation": "'Mai' is for flat/thin objects: paper, tickets, stamps, plates. '一枚' (ichimai) = one sheet."
+        },
+        {
+          "id": "ja_b_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "コーヒーを___ください。(Please give me one coffee.) ___=いっぱい",
+          "correctAnswer": "一杯",
+          "explanation": "'Ippai' (一杯) = one cup/glass. 'Hai' (杯) is the counter for drinks. 'Ichi' + 'hai' = 'ippai' (sound change)."
+        }
+      ]
+    },
+    {
+      "id": "japanese_beginner_ch4",
+      "title": "Basic Sentence Patterns",
+      "description": "Build simple Japanese sentences using は, が, を, and です.",
+      "lessons": [
+        {
+          "id": "ja_b_ch4_l1",
+          "type": "vocabulary",
+          "prompt": "What is the function of 'は (wa)' in a Japanese sentence?",
+          "options": ["Object marker", "Topic marker", "Subject marker", "Verb ending"],
+          "correctAnswer": "Topic marker",
+          "explanation": "'Wa' (は) marks the topic of the sentence. 'Watashi wa Tarō desu' = As for me, I am Taro."
+        },
+        {
+          "id": "ja_b_ch4_l2",
+          "type": "fill_blank",
+          "prompt": "これ___ 本です。(This is a book.)",
+          "correctAnswer": "は",
+          "explanation": "'Kore wa hon desu' = This (topic) is a book. 'Kore' = this, 'hon' = book, 'desu' = is/am/are."
+        },
+        {
+          "id": "ja_b_ch4_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I eat sushi'",
+          "correctAnswer": "私はすしを食べます",
+          "hint": "'Wo' (を) marks the direct object. 'Tabemasu' = eat (polite form)."
+        },
+        {
+          "id": "ja_b_ch4_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'じゃありません' (ja arimasen) mean after a noun?",
+          "options": ["Is/am/are", "Is not/am not", "Was/were", "Will be"],
+          "correctAnswer": "Is not/am not",
+          "explanation": "'Desu' = is. 'Ja arimasen' (or 'de wa arimasen') = is not. 'Gakusei ja arimasen' = is not a student."
+        },
+        {
+          "id": "ja_b_ch4_l5",
+          "type": "fill_blank",
+          "prompt": "どこ___ トイレですか。(Where is the toilet?)",
+          "correctAnswer": "に",
+          "explanation": "'Doko ni ~ ga arimasu ka' or 'doko desu ka' for locations. 'Toire wa doko desu ka' = Where is the toilet?"
+        }
+      ]
+    },
+    {
+      "id": "japanese_beginner_ch5",
+      "title": "Shopping & Prices",
+      "description": "Shop in Japan, ask prices, and make transactions confidently.",
+      "lessons": [
+        {
+          "id": "ja_b_ch5_l1",
+          "type": "vocabulary",
+          "prompt": "How do you ask 'How much is this?' in Japanese?",
+          "options": ["これはなんですか", "これはいくらですか", "これはどこですか", "これはだれですか"],
+          "correctAnswer": "これはいくらですか",
+          "explanation": "'Ikura desu ka' = How much is it? 'Kore wa ikura desu ka' = How much is this?"
+        },
+        {
+          "id": "ja_b_ch5_l2",
+          "type": "fill_blank",
+          "prompt": "___をください。(Please give me this.)",
+          "correctAnswer": "これ",
+          "explanation": "'Kore o kudasai' = Please give me this. 'Kudasai' = please give (me). Essential shopping phrase."
+        },
+        {
+          "id": "ja_b_ch5_l3",
+          "type": "translate",
+          "prompt": "Translate: 'Do you have a smaller size?'",
+          "correctAnswer": "もっと小さいサイズはありますか",
+          "hint": "'Motto' = more. 'Chiisai' = small. 'Saizu' = size. 'Arimasu ka' = do you have?"
+        },
+        {
+          "id": "ja_b_ch5_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'レジ袋はいりますか' (reji bukuro wa irimasu ka) mean?",
+          "options": ["Can I pay by card?", "Do you want a receipt?", "Do you need a plastic bag?", "Do you have a discount?"],
+          "correctAnswer": "Do you need a plastic bag?",
+          "explanation": "'Reji bukuro' = register bag/plastic bag. 'Irimasu ka' = do you need? You'll hear this at every Japanese shop."
+        },
+        {
+          "id": "ja_b_ch5_l5",
+          "type": "fill_blank",
+          "prompt": "カードで___できますか。(Can I pay by card?)",
+          "correctAnswer": "支払い",
+          "explanation": "'Kaado de shiharai dekimasu ka' = Can I pay by card? 'Shiharai' = payment. 'De' = by means of."
+        }
+      ]
+    }
+  ]
+}

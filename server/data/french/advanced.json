@@ -1,0 +1,182 @@
+{
+  "level": "advanced",
+  "language": "french",
+  "chapters": [
+    {
+      "id": "french_advanced_ch1",
+      "title": "The Subjunctive Mood",
+      "description": "Master the subjonctif to express doubt, emotion, and necessity.",
+      "lessons": [
+        {
+          "id": "fr_a_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "Which expression triggers the subjunctive?",
+          "options": ["Je sais que", "Il est certain que", "Il faut que", "Je crois que"],
+          "correctAnswer": "Il faut que",
+          "explanation": "'Il faut que' (it is necessary that) always takes subjunctive. Expressions of certainty use indicative."
+        },
+        {
+          "id": "fr_a_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "Je veux qu'il ___ la vérité. (I want him to tell the truth.)",
+          "correctAnswer": "dise",
+          "explanation": "'Vouloir que' triggers subjunctive. Subjunctive of 'dire' for il = dise."
+        },
+        {
+          "id": "fr_a_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'Although she is tired, she continues working'",
+          "correctAnswer": "Bien qu'elle soit fatiguée, elle continue à travailler",
+          "hint": "'Bien que' (although) always takes subjunctive. 'Soit' = subjunctive of être."
+        },
+        {
+          "id": "fr_a_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "What is the subjunctive of 'avoir' for 'nous'?",
+          "options": ["Nous avons", "Nous ayons", "Nous aurons", "Nous eûmes"],
+          "correctAnswer": "Nous ayons",
+          "explanation": "Irregular subjunctive of avoir: que j'aie, tu aies, il ait, nous ayons, vous ayez, ils aient."
+        },
+        {
+          "id": "fr_a_ch1_l5",
+          "type": "fill_blank",
+          "prompt": "Il est important que vous ___ à l'heure. (It's important that you arrive on time.)",
+          "correctAnswer": "arriviez",
+          "explanation": "'Il est important que' takes subjunctive. Subjunctive of arriver for vous = arriviez."
+        }
+      ]
+    },
+    {
+      "id": "french_advanced_ch2",
+      "title": "Idiomatic Expressions",
+      "description": "Master everyday French idioms that natives use constantly.",
+      "lessons": [
+        {
+          "id": "fr_a_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'avoir le cafard' mean?",
+          "options": ["To have a cockroach", "To feel down/depressed", "To be hungry", "To be busy"],
+          "correctAnswer": "To feel down/depressed",
+          "explanation": "Literally 'to have the cockroach' — a common idiom meaning to feel blue or depressed."
+        },
+        {
+          "id": "fr_a_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "Il pleut des ___. (It's raining cats and dogs.)",
+          "correctAnswer": "cordes",
+          "explanation": "'Il pleut des cordes' literally means 'it's raining ropes' — the equivalent of 'raining cats and dogs'."
+        },
+        {
+          "id": "fr_a_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate the idiom: 'To cost an arm and a leg'",
+          "correctAnswer": "Coûter les yeux de la tête",
+          "hint": "French version literally means 'to cost the eyes from the head'."
+        },
+        {
+          "id": "fr_a_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'casser les pieds à quelqu'un' mean?",
+          "options": ["To help someone", "To annoy someone", "To walk with someone", "To impress someone"],
+          "correctAnswer": "To annoy someone",
+          "explanation": "Literally 'to break someone's feet' — means to be really annoying."
+        },
+        {
+          "id": "fr_a_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "Ne vends pas la peau de l'ours avant de l'___. (Don't count your chickens before they hatch.)",
+          "correctAnswer": "avoir tué",
+          "explanation": "Literally: don't sell the bear's skin before killing it. Equivalent of 'don't count your chickens'."
+        }
+      ]
+    },
+    {
+      "id": "french_advanced_ch3",
+      "title": "Formal Writing & Nuance",
+      "description": "Write formal letters, emails, and nuanced arguments in French.",
+      "lessons": [
+        {
+          "id": "fr_a_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "Which is the correct formal letter closing?",
+          "options": ["Bisous", "À bientôt", "Veuillez agréer mes salutations distinguées", "Cordialement"],
+          "correctAnswer": "Veuillez agréer mes salutations distinguées",
+          "explanation": "This highly formal closing is used in official correspondence. 'Cordialement' is semi-formal."
+        },
+        {
+          "id": "fr_a_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "Suite à notre entretien, je me ___ de vous confirmer... (Following our interview, I am writing to confirm...)",
+          "correctAnswer": "permets",
+          "explanation": "'Je me permets de' = I take the liberty of / I am writing to. A very formal construction."
+        },
+        {
+          "id": "fr_a_ch3_l3",
+          "type": "translate",
+          "prompt": "Translate formally: 'I would like to draw your attention to'",
+          "correctAnswer": "Je souhaiterais attirer votre attention sur",
+          "hint": "'Souhaiterais' is the conditional of 'souhaiter'. More formal than 'je veux'."
+        },
+        {
+          "id": "fr_a_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'nonobstant' mean?",
+          "options": ["Therefore", "Nevertheless/notwithstanding", "Furthermore", "In conclusion"],
+          "correctAnswer": "Nevertheless/notwithstanding",
+          "explanation": "'Nonobstant' is a formal/legal term meaning notwithstanding or nevertheless. Common in formal writing."
+        },
+        {
+          "id": "fr_a_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "Dans l'attente de votre ___, je vous adresse mes cordiales salutations. (Awaiting your reply...)",
+          "correctAnswer": "réponse",
+          "explanation": "'Dans l'attente de votre réponse' = awaiting your reply. Standard formal email closing phrase."
+        }
+      ]
+    },
+    {
+      "id": "french_advanced_ch4",
+      "title": "Conditional & Hypotheticals",
+      "description": "Discuss hypothetical situations and unrealised conditions.",
+      "lessons": [
+        {
+          "id": "fr_a_ch4_l1",
+          "type": "vocabulary",
+          "prompt": "Complete: Si j'avais de l'argent, je ___ un château.",
+          "options": ["achèterai", "achèterais", "ai acheté", "achetais"],
+          "correctAnswer": "achèterais",
+          "explanation": "Si + imparfait → conditionnel présent. This is the hypothetical/unreal condition pattern."
+        },
+        {
+          "id": "fr_a_ch4_l2",
+          "type": "fill_blank",
+          "prompt": "Si elle avait étudié, elle ___ réussi. (If she had studied, she would have passed.)",
+          "correctAnswer": "aurait",
+          "explanation": "Si + plus-que-parfait → conditionnel passé. 'Aurait réussi' = would have passed."
+        },
+        {
+          "id": "fr_a_ch4_l3",
+          "type": "translate",
+          "prompt": "Translate: 'If I were president, I would change this law'",
+          "correctAnswer": "Si j'étais président, je changerais cette loi",
+          "hint": "Imparfait after 'si', then conditionnel présent in the main clause."
+        },
+        {
+          "id": "fr_a_ch4_l4",
+          "type": "vocabulary",
+          "prompt": "What tense follows 'si' in a real/likely condition?",
+          "options": ["Conditionnel", "Subjonctif", "Présent", "Imparfait"],
+          "correctAnswer": "Présent",
+          "explanation": "Si + présent → futur simple. Ex: 'S'il pleut, je prendrai un taxi.' (If it rains, I will take a taxi.)"
+        },
+        {
+          "id": "fr_a_ch4_l5",
+          "type": "fill_blank",
+          "prompt": "Au cas ___ il viendrait, prévenez-moi. (In case he comes, let me know.)",
+          "correctAnswer": "où",
+          "explanation": "'Au cas où' = in case. It always takes the conditionnel in the following clause."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "level": "intermediate",
+  "language": "french",
+  "chapters": [
+    {
+      "id": "french_intermediate_ch1",
+      "title": "Past Experiences",
+      "description": "Use the passé composé to talk about things you have done.",
+      "lessons": [
+        {
+          "id": "fr_i_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "What is the passé composé of 'manger' (to eat) for 'je'?",
+          "options": ["Je mangeais", "J'ai mangé", "Je mangerai", "Je mange"],
+          "correctAnswer": "J'ai mangé",
+          "explanation": "Passé composé = avoir/être + past participle. 'Manger' uses 'avoir': j'ai mangé."
+        },
+        {
+          "id": "fr_i_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "Hier, elle ___ allée au cinéma. (Yesterday, she went to the cinema.)",
+          "correctAnswer": "est",
+          "explanation": "Movement verbs like 'aller' use 'être' in passé composé, not 'avoir'."
+        },
+        {
+          "id": "fr_i_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'We ate at a restaurant last night'",
+          "correctAnswer": "Nous avons mangé au restaurant hier soir",
+          "hint": "Use passé composé: 'avons mangé'. 'Hier soir' = last night."
+        },
+        {
+          "id": "fr_i_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "Which verb uses 'être' in passé composé?",
+          "options": ["Manger", "Parler", "Partir", "Finir"],
+          "correctAnswer": "Partir",
+          "explanation": "DR MRS VANDERTRAMP verbs use être: Devenir, Revenir, Monter, Rester, Sortir, Venir, Aller, Naître, Descendre, Entrer, Rentrer, Tomber, Retourner, Arriver, Mourir, Partir."
+        },
+        {
+          "id": "fr_i_ch1_l5",
+          "type": "fill_blank",
+          "prompt": "Ils ___ visité Paris l'année dernière. (They visited Paris last year.)",
+          "correctAnswer": "ont",
+          "explanation": "'Visiter' uses avoir. 'Ont visité' = they visited."
+        }
+      ]
+    },
+    {
+      "id": "french_intermediate_ch2",
+      "title": "Future Plans",
+      "description": "Use the futur simple and futur proche to talk about future events.",
+      "lessons": [
+        {
+          "id": "fr_i_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "How do you say 'I am going to travel' using futur proche?",
+          "options": ["Je voyagerai", "Je vais voyager", "J'ai voyagé", "Je voyageais"],
+          "correctAnswer": "Je vais voyager",
+          "explanation": "Futur proche = aller (conjugated) + infinitive. Simple and very common."
+        },
+        {
+          "id": "fr_i_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "Demain, je ___ à Paris. (Tomorrow, I will go to Paris.)",
+          "correctAnswer": "vais aller",
+          "explanation": "'Je vais aller' = I am going to go (futur proche). Or 'j'irai' in futur simple."
+        },
+        {
+          "id": "fr_i_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate: 'She will study medicine'",
+          "correctAnswer": "Elle étudiera la médecine",
+          "hint": "Futur simple: add endings -ai, -as, -a, -ons, -ez, -ont to the infinitive."
+        },
+        {
+          "id": "fr_i_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "What is the futur simple of 'avoir' for 'nous'?",
+          "options": ["Nous avons", "Nous aurons", "Nous avions", "Nous ayons"],
+          "correctAnswer": "Nous aurons",
+          "explanation": "Irregular future stem of avoir = aur-. Add -ons: nous aurons."
+        },
+        {
+          "id": "fr_i_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "Quand il ___ grand, il sera médecin. (When he grows up, he will be a doctor.)",
+          "correctAnswer": "sera",
+          "explanation": "After 'quand' referring to the future, French uses futur simple (not present like English)."
+        }
+      ]
+    },
+    {
+      "id": "french_intermediate_ch3",
+      "title": "Expressing Opinions",
+      "description": "Share your views and agree or disagree politely in French.",
+      "lessons": [
+        {
+          "id": "fr_i_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "Which phrase means 'I think that'?",
+          "options": ["Je veux que", "Je sais que", "Je pense que", "Je dois que"],
+          "correctAnswer": "Je pense que",
+          "explanation": "'Je pense que' = I think that. Also: 'je crois que' (I believe that), 'je trouve que' (I find that)."
+        },
+        {
+          "id": "fr_i_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "À mon ___, c'est une bonne idée. (In my opinion, it's a good idea.)",
+          "correctAnswer": "avis",
+          "explanation": "'À mon avis' = in my opinion. A very useful phrase for expressing views."
+        },
+        {
+          "id": "fr_i_ch3_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I agree with you'",
+          "correctAnswer": "Je suis d'accord avec toi",
+          "hint": "'D'accord' means agreed/OK. 'Avec toi' = with you (informal)."
+        },
+        {
+          "id": "fr_i_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "How do you say 'I disagree' in French?",
+          "options": ["Je suis d'accord", "Je ne suis pas d'accord", "Je comprends", "Je ne sais pas"],
+          "correctAnswer": "Je ne suis pas d'accord",
+          "explanation": "To negate 'être d'accord', wrap with ne...pas: 'je ne suis pas d'accord'."
+        },
+        {
+          "id": "fr_i_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "Selon ___, le film était excellent. (According to him, the film was excellent.)",
+          "correctAnswer": "lui",
+          "explanation": "'Selon lui' = according to him. Selon moi/toi/lui/elle/nous/vous/eux/elles."
+        }
+      ]
+    },
+    {
+      "id": "french_intermediate_ch4",
+      "title": "Travel & Directions",
+      "description": "Navigate cities, ask for directions, and book travel in French.",
+      "lessons": [
+        {
+          "id": "fr_i_ch4_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'tournez à gauche' mean?",
+          "options": ["Go straight", "Turn right", "Turn left", "Stop here"],
+          "correctAnswer": "Turn left",
+          "explanation": "'Gauche' = left, 'droite' = right. 'Tournez' = turn (formal imperative)."
+        },
+        {
+          "id": "fr_i_ch4_l2",
+          "type": "fill_blank",
+          "prompt": "Le musée est en face de la ___. (The museum is opposite the station.)",
+          "correctAnswer": "gare",
+          "explanation": "'Gare' = train station. 'En face de' = opposite/in front of."
+        },
+        {
+          "id": "fr_i_ch4_l3",
+          "type": "translate",
+          "prompt": "Translate: 'Where is the nearest metro station?'",
+          "correctAnswer": "Où est la station de métro la plus proche",
+          "hint": "'La plus proche' = the nearest. 'Où est' = where is."
+        },
+        {
+          "id": "fr_i_ch4_l4",
+          "type": "vocabulary",
+          "prompt": "Which word means 'roundabout'?",
+          "options": ["Carrefour", "Rond-point", "Passage piéton", "Feu rouge"],
+          "correctAnswer": "Rond-point",
+          "explanation": "'Rond-point' = roundabout, 'carrefour' = crossroads, 'feu rouge' = traffic light."
+        },
+        {
+          "id": "fr_i_ch4_l5",
+          "type": "fill_blank",
+          "prompt": "Prenez la ___ rue à droite. (Take the second street on the right.)",
+          "correctAnswer": "deuxième",
+          "explanation": "Ordinal numbers: première (1st), deuxième (2nd), troisième (3rd)."
+        }
+      ]
+    },
+    {
+      "id": "french_intermediate_ch5",
+      "title": "Work & Daily Routines",
+      "description": "Describe your job and daily schedule using reflexive verbs.",
+      "lessons": [
+        {
+          "id": "fr_i_ch5_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'Je me réveille' mean?",
+          "options": ["I go to sleep", "I wake up", "I get dressed", "I eat breakfast"],
+          "correctAnswer": "I wake up",
+          "explanation": "'Se réveiller' = to wake up. It's a reflexive verb: je me réveille."
+        },
+        {
+          "id": "fr_i_ch5_l2",
+          "type": "fill_blank",
+          "prompt": "Elle ___ habille avant de partir. (She gets dressed before leaving.)",
+          "correctAnswer": "s'",
+          "explanation": "Reflexive pronoun for elle = se, which becomes s' before a vowel."
+        },
+        {
+          "id": "fr_i_ch5_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I work from home on Fridays'",
+          "correctAnswer": "Je travaille à la maison le vendredi",
+          "hint": "'Travailler' = to work. 'À la maison' = at home. 'Le vendredi' = on Fridays."
+        },
+        {
+          "id": "fr_i_ch5_l4",
+          "type": "vocabulary",
+          "prompt": "Which phrase means 'I go to bed'?",
+          "options": ["Je me lève", "Je me couche", "Je m'endors", "Je me brosse"],
+          "correctAnswer": "Je me couche",
+          "explanation": "'Se coucher' = to go to bed/lie down. 'S'endormir' = to fall asleep."
+        },
+        {
+          "id": "fr_i_ch5_l5",
+          "type": "fill_blank",
+          "prompt": "Nous nous ___ les dents matin et soir. (We brush our teeth morning and evening.)",
+          "correctAnswer": "brossons",
+          "explanation": "'Se brosser les dents' = to brush one's teeth. 'Nous nous brossons' for nous."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "level": "beginner",
+  "language": "french",
+  "chapters": [
+    {
+      "id": "french_beginner_ch1",
+      "title": "Greetings & Introductions",
+      "description": "Learn how to say hello, goodbye, and introduce yourself in French.",
+      "lessons": [
+        {
+          "id": "fr_b_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'Bonjour' mean?",
+          "options": ["Goodbye", "Hello", "Please", "Thank you"],
+          "correctAnswer": "Hello",
+          "explanation": "'Bonjour' is the standard greeting used during the day in French."
+        },
+        {
+          "id": "fr_b_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "Je ___ Marie. (My name is Marie.)",
+          "correctAnswer": "m'appelle",
+          "explanation": "'Je m'appelle' means 'My name is' — literally 'I call myself'."
+        },
+        {
+          "id": "fr_b_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'How are you?' (informal)",
+          "correctAnswer": "Comment tu vas",
+          "hint": "Use 'comment' (how) + 'tu vas' (you go/are)."
+        },
+        {
+          "id": "fr_b_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "Which word means 'Goodbye'?",
+          "options": ["Bonjour", "Merci", "Au revoir", "S'il vous plaît"],
+          "correctAnswer": "Au revoir",
+          "explanation": "'Au revoir' literally means 'until we see again'."
+        },
+        {
+          "id": "fr_b_ch1_l5",
+          "type": "translate",
+          "prompt": "Translate: 'Nice to meet you'",
+          "correctAnswer": "Enchanté",
+          "hint": "'Enchanté' is the standard phrase when meeting someone for the first time."
+        }
+      ]
+    },
+    {
+      "id": "french_beginner_ch2",
+      "title": "Numbers & Counting",
+      "description": "Count from 1 to 20 and use numbers in everyday situations.",
+      "lessons": [
+        {
+          "id": "fr_b_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "What is 'cinq' in English?",
+          "options": ["Three", "Four", "Five", "Six"],
+          "correctAnswer": "Five",
+          "explanation": "'Cinq' = 5. Remember: un, deux, trois, quatre, cinq."
+        },
+        {
+          "id": "fr_b_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "J'ai ___ ans. (I am ten years old.)",
+          "correctAnswer": "dix",
+          "explanation": "'Dix' means ten. 'J'ai dix ans' = I am ten years old."
+        },
+        {
+          "id": "fr_b_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I have two brothers'",
+          "correctAnswer": "J'ai deux frères",
+          "hint": "Use 'j'ai' (I have) + 'deux' (two) + 'frères' (brothers)."
+        },
+        {
+          "id": "fr_b_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'vingt' mean?",
+          "options": ["Twelve", "Fifteen", "Twenty", "Thirty"],
+          "correctAnswer": "Twenty",
+          "explanation": "'Vingt' = 20. After twenty: vingt et un (21), vingt-deux (22)."
+        },
+        {
+          "id": "fr_b_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "Il y a ___ élèves dans la classe. (There are twelve students in the class.)",
+          "correctAnswer": "douze",
+          "explanation": "'Douze' = 12. 'Il y a' means 'there are'."
+        }
+      ]
+    },
+    {
+      "id": "french_beginner_ch3",
+      "title": "Colors & Descriptions",
+      "description": "Learn colors and how to describe objects in French.",
+      "lessons": [
+        {
+          "id": "fr_b_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'rouge' mean?",
+          "options": ["Blue", "Red", "Green", "Yellow"],
+          "correctAnswer": "Red",
+          "explanation": "'Rouge' means red. Adjectives in French agree with the noun's gender."
+        },
+        {
+          "id": "fr_b_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "Le ciel est ___. (The sky is blue.)",
+          "correctAnswer": "bleu",
+          "explanation": "'Bleu' means blue. Since 'ciel' (sky) is masculine, we use 'bleu' not 'bleue'."
+        },
+        {
+          "id": "fr_b_ch3_l3",
+          "type": "translate",
+          "prompt": "Translate: 'The white house'",
+          "correctAnswer": "La maison blanche",
+          "hint": "'Maison' is feminine, so 'blanc' becomes 'blanche'."
+        },
+        {
+          "id": "fr_b_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "Which color is 'jaune'?",
+          "options": ["Orange", "Purple", "Yellow", "Pink"],
+          "correctAnswer": "Yellow",
+          "explanation": "'Jaune' = yellow. It stays the same for both masculine and feminine nouns."
+        },
+        {
+          "id": "fr_b_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "J'aime la couleur ___. (I like the color green.)",
+          "correctAnswer": "verte",
+          "explanation": "'Vert' = green (masculine), 'verte' = green (feminine). 'Couleur' is feminine."
+        }
+      ]
+    },
+    {
+      "id": "french_beginner_ch4",
+      "title": "Family Members",
+      "description": "Learn the names of family members and describe your family.",
+      "lessons": [
+        {
+          "id": "fr_b_ch4_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'mère' mean?",
+          "options": ["Father", "Sister", "Mother", "Brother"],
+          "correctAnswer": "Mother",
+          "explanation": "'Mère' = mother, 'père' = father. La mère, le père."
+        },
+        {
+          "id": "fr_b_ch4_l2",
+          "type": "fill_blank",
+          "prompt": "Mon ___ s'appelle Paul. (My brother's name is Paul.)",
+          "correctAnswer": "frère",
+          "explanation": "'Frère' = brother, 'sœur' = sister."
+        },
+        {
+          "id": "fr_b_ch4_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I have a big family'",
+          "correctAnswer": "J'ai une grande famille",
+          "hint": "'Grande' means big/large. 'Famille' is feminine."
+        },
+        {
+          "id": "fr_b_ch4_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'grands-parents' mean?",
+          "options": ["Parents", "Grandparents", "Great-grandparents", "Cousins"],
+          "correctAnswer": "Grandparents",
+          "explanation": "'Grand-père' = grandfather, 'grand-mère' = grandmother, 'grands-parents' = grandparents."
+        },
+        {
+          "id": "fr_b_ch4_l5",
+          "type": "fill_blank",
+          "prompt": "Ma ___ a quarante ans. (My aunt is forty years old.)",
+          "correctAnswer": "tante",
+          "explanation": "'Tante' = aunt, 'oncle' = uncle."
+        }
+      ]
+    },
+    {
+      "id": "french_beginner_ch5",
+      "title": "Food & Drinks",
+      "description": "Order food and drinks and talk about what you like to eat.",
+      "lessons": [
+        {
+          "id": "fr_b_ch5_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'eau' mean?",
+          "options": ["Milk", "Juice", "Water", "Coffee"],
+          "correctAnswer": "Water",
+          "explanation": "'Eau' = water. 'Un verre d'eau' = a glass of water."
+        },
+        {
+          "id": "fr_b_ch5_l2",
+          "type": "fill_blank",
+          "prompt": "Je voudrais du ___. (I would like some bread.)",
+          "correctAnswer": "pain",
+          "explanation": "'Pain' = bread. 'Je voudrais' = I would like (polite way to order)."
+        },
+        {
+          "id": "fr_b_ch5_l3",
+          "type": "translate",
+          "prompt": "Translate: 'I like cheese'",
+          "correctAnswer": "J'aime le fromage",
+          "hint": "Use 'j'aime' (I like) + 'le fromage' (cheese, with definite article)."
+        },
+        {
+          "id": "fr_b_ch5_l4",
+          "type": "vocabulary",
+          "prompt": "Which word means 'breakfast'?",
+          "options": ["Déjeuner", "Dîner", "Petit-déjeuner", "Goûter"],
+          "correctAnswer": "Petit-déjeuner",
+          "explanation": "'Petit-déjeuner' = breakfast, 'déjeuner' = lunch, 'dîner' = dinner."
+        },
+        {
+          "id": "fr_b_ch5_l5",
+          "type": "fill_blank",
+          "prompt": "L'addition, s'il vous ___! (The bill, please!)",
+          "correctAnswer": "plaît",
+          "explanation": "'S'il vous plaît' = please (formal). Essential phrase at a restaurant."
+        }
+      ]
+    },
+    {
+      "id": "french_beginner_ch6",
+      "title": "Days, Months & Time",
+      "description": "Talk about days of the week, months, and tell the time in French.",
+      "lessons": [
+        {
+          "id": "fr_b_ch6_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'lundi' mean?",
+          "options": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+          "correctAnswer": "Monday",
+          "explanation": "Days in French: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche."
+        },
+        {
+          "id": "fr_b_ch6_l2",
+          "type": "fill_blank",
+          "prompt": "Aujourd'hui, c'est le ___ janvier. (Today is the first of January.)",
+          "correctAnswer": "premier",
+          "explanation": "For the first of the month, use 'premier'. For other days, use the number: le deux, le trois..."
+        },
+        {
+          "id": "fr_b_ch6_l3",
+          "type": "translate",
+          "prompt": "Translate: 'What time is it?'",
+          "correctAnswer": "Quelle heure est-il",
+          "hint": "'Quelle heure' = what time, 'est-il' = is it."
+        },
+        {
+          "id": "fr_b_ch6_l4",
+          "type": "vocabulary",
+          "prompt": "Which month is 'août'?",
+          "options": ["June", "July", "August", "September"],
+          "correctAnswer": "August",
+          "explanation": "Months: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre."
+        },
+        {
+          "id": "fr_b_ch6_l5",
+          "type": "fill_blank",
+          "prompt": "Il est ___ heures. (It is three o'clock.)",
+          "correctAnswer": "trois",
+          "explanation": "'Il est trois heures' = It is 3 o'clock. For noon: 'il est midi', for midnight: 'il est minuit'."
+        }
+      ]
+    }
+  ]
+}

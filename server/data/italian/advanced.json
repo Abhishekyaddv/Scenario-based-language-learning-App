@@ -1,0 +1,138 @@
+{
+  "level": "advanced",
+  "language": "italian",
+  "chapters": [
+    {
+      "id": "italian_advanced_ch1",
+      "title": "The Subjunctive — Congiuntivo",
+      "description": "Master the congiuntivo to express doubt, emotion, and opinion.",
+      "lessons": [
+        {
+          "id": "it_a_ch1_l1",
+          "type": "vocabulary",
+          "prompt": "Which expression triggers the congiuntivo?",
+          "options": ["So che", "È ovvio che", "Penso che", "È certo che"],
+          "correctAnswer": "Penso che",
+          "explanation": "Verbs of opinion/doubt trigger congiuntivo: pensare, credere, sperare, dubitare. Certainty uses indicativo."
+        },
+        {
+          "id": "it_a_ch1_l2",
+          "type": "fill_blank",
+          "prompt": "Voglio che tu ___ la verità. (I want you to tell the truth.)",
+          "correctAnswer": "dica",
+          "explanation": "'Volere che' triggers congiuntivo. Congiuntivo of 'dire' for tu = dica."
+        },
+        {
+          "id": "it_a_ch1_l3",
+          "type": "translate",
+          "prompt": "Translate: 'Although he is tired, he keeps working'",
+          "correctAnswer": "Sebbene sia stanco continua a lavorare",
+          "hint": "'Sebbene' (although) always takes congiuntivo. 'Sia' = congiuntivo of essere."
+        },
+        {
+          "id": "it_a_ch1_l4",
+          "type": "vocabulary",
+          "prompt": "What is the congiuntivo presente of 'avere' for 'che lui'?",
+          "options": ["Che lui ha", "Che lui aveva", "Che lui abbia", "Che lui avrà"],
+          "correctAnswer": "Che lui abbia",
+          "explanation": "Congiuntivo of avere: che io/tu/lui/lei abbia, noi abbiamo, voi abbiate, loro abbiano."
+        },
+        {
+          "id": "it_a_ch1_l5",
+          "type": "fill_blank",
+          "prompt": "Benché ___ ricco, vive semplicemente. (Although he is rich, he lives simply.)",
+          "correctAnswer": "sia",
+          "explanation": "'Benché' (although) → congiuntivo. 'Sia' = congiuntivo of essere (3rd person singular)."
+        }
+      ]
+    },
+    {
+      "id": "italian_advanced_ch2",
+      "title": "Italian Idioms",
+      "description": "Sound like a native Italian with common idiomatic expressions.",
+      "lessons": [
+        {
+          "id": "it_a_ch2_l1",
+          "type": "vocabulary",
+          "prompt": "What does 'In bocca al lupo' mean?",
+          "options": ["You're in danger", "Good luck", "Be careful", "Eat well"],
+          "correctAnswer": "Good luck",
+          "explanation": "Literally 'into the wolf's mouth' — the standard way to wish good luck. Reply: 'Crepi!' (May it die!)."
+        },
+        {
+          "id": "it_a_ch2_l2",
+          "type": "fill_blank",
+          "prompt": "Non mi rompere le ___! (Don't break my chops / Stop annoying me!)",
+          "correctAnswer": "scatole",
+          "explanation": "Literally 'don't break my boxes' — a polite version of a common vulgar phrase meaning 'stop annoying me'."
+        },
+        {
+          "id": "it_a_ch2_l3",
+          "type": "translate",
+          "prompt": "Translate the Italian idiom for 'to cost an arm and a leg'",
+          "correctAnswer": "Costare un occhio della testa",
+          "hint": "Literally 'to cost an eye from the head'."
+        },
+        {
+          "id": "it_a_ch2_l4",
+          "type": "vocabulary",
+          "prompt": "What does 'avere le mani in pasta' mean?",
+          "options": ["To be a baker", "To be involved in something", "To be messy", "To cook well"],
+          "correctAnswer": "To be involved in something",
+          "explanation": "Literally 'to have your hands in the dough' — to be deeply involved in a matter (often business or politics)."
+        },
+        {
+          "id": "it_a_ch2_l5",
+          "type": "fill_blank",
+          "prompt": "Ogni ___ a modo suo. (To each their own.)",
+          "correctAnswer": "testa",
+          "explanation": "'Ogni testa a modo suo' = each head in its own way. Equivalent of 'to each their own'."
+        }
+      ]
+    },
+    {
+      "id": "italian_advanced_ch3",
+      "title": "Condizionale & Hypotheticals",
+      "description": "Express conditions, wishes, and polite requests using the conditional.",
+      "lessons": [
+        {
+          "id": "it_a_ch3_l1",
+          "type": "vocabulary",
+          "prompt": "Which sentence is a real condition?",
+          "options": ["Se fossi ricco, comprerei una villa", "Se hai fame, mangia", "Se avessi tempo, studierei", "Se potessi, andrei"],
+          "correctAnswer": "Se hai fame, mangia",
+          "explanation": "Real condition: se + presente → presente/imperativo. Unreal: se + congiuntivo imperfetto → condizionale."
+        },
+        {
+          "id": "it_a_ch3_l2",
+          "type": "fill_blank",
+          "prompt": "Se studiassi di più, ___ agli esami. (If you studied more, you would pass the exams.)",
+          "correctAnswer": "passeresti",
+          "explanation": "Unreal present condition: se + congiuntivo imperfetto → condizionale presente."
+        },
+        {
+          "id": "it_a_ch3_l3",
+          "type": "translate",
+          "prompt": "Translate: 'Could you pass me the salt please?' (polite)",
+          "correctAnswer": "Potrebbe passarmi il sale per favore",
+          "hint": "'Potrebbe' = condizionale of potere (3rd person). More polite than 'può'."
+        },
+        {
+          "id": "it_a_ch3_l4",
+          "type": "vocabulary",
+          "prompt": "What is the condizionale presente of 'volere' for 'io'?",
+          "options": ["Voglio", "Volevo", "Vorrò", "Vorrei"],
+          "correctAnswer": "Vorrei",
+          "explanation": "'Vorrei' = I would like. One of the most useful Italian phrases. Irregular conditional stem: vorr-."
+        },
+        {
+          "id": "it_a_ch3_l5",
+          "type": "fill_blank",
+          "prompt": "Se avessi saputo, non ___ venuto. (If I had known, I would not have come.)",
+          "correctAnswer": "sarei",
+          "explanation": "Past hypothetical: se + congiuntivo trapassato → condizionale passato. 'Non sarei venuto' = would not have come."
+        }
+      ]
+    }
+  ]
+}
