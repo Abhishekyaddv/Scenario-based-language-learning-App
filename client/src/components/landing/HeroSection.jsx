@@ -62,7 +62,7 @@ export default function HeroSection() {
             </div>
 
             {/* Social Proof */}
-            <div className="inline-flex items-center gap-6 p-4 rounded-2xl" style={{ background: "rgba(255,252,242,0.5)", backdropFilter: "blur(8px)", border: "1px solid rgba(204,197,185,0.4)" }}>
+            {/* <div className="inline-flex items-center gap-6 p-4 rounded-2xl" style={{ background: "rgba(255,252,242,0.5)", backdropFilter: "blur(8px)", border: "1px solid rgba(204,197,185,0.4)" }}>
               <div className="flex" style={{ marginRight: 8 }}>
                 {["A","M","P","S","K"].map((l, i) => (
                   <div key={l} style={{
@@ -79,7 +79,7 @@ export default function HeroSection() {
                 <div style={{ fontSize: 14, fontWeight: 700, color: "var(--text)" }}>12,000+ learners</div>
                 <div style={{ fontSize: 13, color: "var(--muted)", fontWeight: 500 }}>already fluent-bound</div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right — Chat UI */}

@@ -18,15 +18,52 @@ export default function FeaturesSection() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((f, i) => (
-            <div key={i} className="glass-hover rounded-3xl p-8" style={{ animationDelay: `${i * 0.1}s`, boxShadow: "0 4px 20px rgba(37,36,34,0.03)", background: "var(--surface)", border: "1px solid var(--border)" }}>
-              <div style={{ fontSize: 32, marginBottom: 20, background: "var(--surface2)", width: 64, height: 64, display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 20 }}>{f.icon}</div>
-              <div className="inline-block rounded-full px-3 py-1.5 mb-5" style={{ fontSize: 12, color: "var(--primary)", fontWeight: 700, background: "rgba(235,94,40,0.08)" }}>{f.tag}</div>
-              <h3 className="font-display" style={{ fontSize: 22, fontWeight: 700, marginBottom: 12, color: "var(--text)" }}>{f.title}</h3>
-              <p style={{ fontSize: 15, color: "var(--muted)", lineHeight: 1.6, fontWeight: 500 }}>{f.desc}</p>
+        {features.map((f, i) => (
+          <div 
+            key={i} 
+            className="glass-hover rounded-3xl p-8" 
+            style={{ 
+              animationDelay: `${i * 0.1}s`, 
+              boxShadow: "0 4px 20px rgba(37,36,34,0.03)", 
+              background: "var(--surface)", 
+              border: "1px solid var(--border)" 
+            }}
+          >
+            {/* Header Row: Title & Tag on the left, Icon on the right */}
+            <div className="flex justify-between items-start mb-5 gap-4">
+              
+              {/* Left Side: Tag and Title */}
+              <div className="flex flex-col items-start gap-3">
+                <div 
+                  className="inline-block rounded-full px-2 py-1.5" 
+                  style={{ fontSize: 12, color: "var(--primary)", fontWeight: 700, background: "rgba(235,94,40,0.08)" }}
+                >
+                  {f.tag}
+                </div>
+                <h3 
+                  className="font-display" 
+                  style={{ fontSize: 22, fontWeight: 700, margin: 0, color: "var(--text)" }}
+                >
+                  {f.title}
+                </h3>
+              </div>
+
+              {/* Right Side: Icon */}
+              <div 
+                style={{ fontSize: 30, background: "var(--surface2)", width: 55, height: 55, display: "flex", alignItems: "start", justifyContent: "center", borderRadius: 20, flexShrink: 0 }}
+              >
+                {f.icon}
+              </div>
+
             </div>
-          ))}
-        </div>
+
+            {/* Bottom Row: Description */}
+            <p style={{ fontSize: 15, color: "var(--muted)", lineHeight: 1.6, fontWeight: 500, margin: 0 }}>
+              {f.desc}
+            </p>
+          </div>
+        ))}
+      </div>
       </div>
     </section>
   );
