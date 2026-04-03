@@ -18,12 +18,12 @@ export const getMe = () => {
 };
 
 // ── Lessons ──
-export const fetchChapters = (level) => {
-  return axiosInstance.get(`/lessons/${level}`);
+export const fetchChapters = (language, level) => {
+  return axiosInstance.get(`/lessons/${language}/${level}`);
 };
 
-export const fetchLessonsByChapter = (level, chapterId) => {
-  return axiosInstance.get(`/lessons/${level}/${chapterId}`);
+export const fetchLessonsByChapter = (language, level, chapterId) => {
+  return axiosInstance.get(`/lessons/${language}/${level}/${chapterId}`);
 };
 
 // ── Progress ──

@@ -33,7 +33,8 @@ const Lessons = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const response = await fetchLessonsByChapter(user.level, chapterId)
+        const targetLanguage = user.targetLanguage || 'Spanish';
+        const response = await fetchLessonsByChapter(targetLanguage, user.level, chapterId)
         console.log('Chapter data:', response.data)
         setLessonsData(response.data.chapter)  // ← get the lessons array
       } catch (error) {

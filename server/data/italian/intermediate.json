@@ -11,7 +11,12 @@
           "id": "it_i_ch1_l1",
           "type": "vocabulary",
           "prompt": "What is the passato prossimo of 'mangiare' for 'io'?",
-          "options": ["Io mangiavo", "Io mangio", "Io ho mangiato", "Io mangiai"],
+          "options": [
+            "Io mangiavo",
+            "Io mangio",
+            "Io ho mangiato",
+            "Io mangiai"
+          ],
           "correctAnswer": "Io ho mangiato",
           "explanation": "Passato prossimo = avere/essere + past participle. 'Mangiare' uses avere: ho mangiato."
         },
@@ -33,7 +38,12 @@
           "id": "it_i_ch1_l4",
           "type": "vocabulary",
           "prompt": "What is the past participle of 'leggere' (to read)?",
-          "options": ["Legguto", "Letto", "Leggito", "Leggendo"],
+          "options": [
+            "Legguto",
+            "Letto",
+            "Leggito",
+            "Leggendo"
+          ],
           "correctAnswer": "Letto",
           "explanation": "Irregular past participles: leggere→letto, scrivere→scritto, fare→fatto, dire→detto, vedere→visto."
         },
@@ -44,7 +54,33 @@
           "correctAnswer": "visto",
           "explanation": "'Vedere' → visto. 'Non ho visto niente' = I haven't/didn't see anything. Double negative is standard in Italian."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Passato Prossimo",
+        "intro": "Talk about completed past actions using Italy's most common past tense.",
+        "concepts": [
+          {
+            "term": "Io ho mangiato",
+            "explanation": "Passato prossimo = avere/essere + past participle. 'Mangiare' uses avere: ho mangiato."
+          },
+          {
+            "term": "è",
+            "explanation": "Movement verbs use essere. 'Andare' → è andata. Note: past participle agrees with subject gender."
+          },
+          {
+            "term": "Siamo arrivati tardi ieri",
+            "explanation": "'Arrivare' uses essere. Noi → siamo. Past participle: arrivati (masculine plural)."
+          },
+          {
+            "term": "Letto",
+            "explanation": "Irregular past participles: leggere→letto, scrivere→scritto, fare→fatto, dire→detto, vedere→visto."
+          },
+          {
+            "term": "visto",
+            "explanation": "'Vedere' → visto. 'Non ho visto niente' = I haven't/didn't see anything. Double negative is standard in Italian."
+          }
+        ]
+      }
     },
     {
       "id": "italian_intermediate_ch2",
@@ -55,7 +91,12 @@
           "id": "it_i_ch2_l1",
           "type": "vocabulary",
           "prompt": "When do you use the imperfetto vs passato prossimo?",
-          "options": ["Both are the same", "Imperfetto for completed actions", "Imperfetto for habits/ongoing states", "Imperfetto for future plans"],
+          "options": [
+            "Both are the same",
+            "Imperfetto for completed actions",
+            "Imperfetto for habits/ongoing states",
+            "Imperfetto for future plans"
+          ],
           "correctAnswer": "Imperfetto for habits/ongoing states",
           "explanation": "Imperfetto = ongoing/habitual past (used to, was doing). Passato prossimo = completed action."
         },
@@ -77,7 +118,12 @@
           "id": "it_i_ch2_l4",
           "type": "vocabulary",
           "prompt": "What is the imperfetto of 'essere' for 'io'?",
-          "options": ["Ero", "Era", "Siamo", "Fui"],
+          "options": [
+            "Ero",
+            "Era",
+            "Siamo",
+            "Fui"
+          ],
           "correctAnswer": "Ero",
           "explanation": "Essere imperfetto (irregular): ero, eri, era, eravamo, eravate, erano."
         },
@@ -88,7 +134,33 @@
           "correctAnswer": "andavano",
           "explanation": "Recurring summer habit → imperfetto. 'Andare' imperfetto loro = andavano."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Imperfetto",
+        "intro": "Use the imperfect tense to describe past habits and ongoing situations.",
+        "concepts": [
+          {
+            "term": "Imperfetto for habits/ongoing states",
+            "explanation": "Imperfetto = ongoing/habitual past (used to, was doing). Passato prossimo = completed action."
+          },
+          {
+            "term": "mangiavo",
+            "explanation": "Habitual past action → imperfetto. 'Mangiavo' = I used to eat / I was eating."
+          },
+          {
+            "term": "Mentre lei leggeva il telefono squillò",
+            "explanation": "Background action (reading) = imperfetto. Sudden event (rang) = passato prossimo/remoto."
+          },
+          {
+            "term": "Ero",
+            "explanation": "Essere imperfetto (irregular): ero, eri, era, eravamo, eravate, erano."
+          },
+          {
+            "term": "andavano",
+            "explanation": "Recurring summer habit → imperfetto. 'Andare' imperfetto loro = andavano."
+          }
+        ]
+      }
     },
     {
       "id": "italian_intermediate_ch3",
@@ -99,7 +171,12 @@
           "id": "it_i_ch3_l1",
           "type": "vocabulary",
           "prompt": "What does 'Lo vedo' mean?",
-          "options": ["I see her", "I see them", "I see him/it", "He sees me"],
+          "options": [
+            "I see her",
+            "I see them",
+            "I see him/it",
+            "He sees me"
+          ],
           "correctAnswer": "I see him/it",
           "explanation": "'Lo' = direct object pronoun for masculine singular. 'Lo vedo' = I see him/it."
         },
@@ -121,7 +198,12 @@
           "id": "it_i_ch3_l4",
           "type": "vocabulary",
           "prompt": "Where do object pronouns go with infinitives?",
-          "options": ["Before the infinitive", "After and attached to infinitive", "At sentence start", "After the subject"],
+          "options": [
+            "Before the infinitive",
+            "After and attached to infinitive",
+            "At sentence start",
+            "After the subject"
+          ],
           "correctAnswer": "After and attached to infinitive",
           "explanation": "With infinitives, drop final -e and attach: 'Voglio vederlo' = I want to see him."
         },
@@ -132,7 +214,33 @@
           "correctAnswer": "dice",
           "explanation": "'Mi dice' = he tells me. 'Mi' = indirect object (to me). 'Dice' = he/she tells (dire)."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Direct & Indirect Object Pronouns",
+        "intro": "Use lo, la, li, le, mi, ti, gli, le correctly in Italian sentences.",
+        "concepts": [
+          {
+            "term": "I see him/it",
+            "explanation": "'Lo' = direct object pronoun for masculine singular. 'Lo vedo' = I see him/it."
+          },
+          {
+            "term": "Le",
+            "explanation": "'Le' = indirect object pronoun for her (feminine singular). 'Le scrivo' = I write to her."
+          },
+          {
+            "term": "Li chiamo ogni giorno",
+            "explanation": "'Li' = direct object pronoun for masculine plural. Goes before the verb."
+          },
+          {
+            "term": "After and attached to infinitive",
+            "explanation": "With infinitives, drop final -e and attach: 'Voglio vederlo' = I want to see him."
+          },
+          {
+            "term": "dice",
+            "explanation": "'Mi dice' = he tells me. 'Mi' = indirect object (to me). 'Dice' = he/she tells (dire)."
+          }
+        ]
+      }
     },
     {
       "id": "italian_intermediate_ch4",
@@ -143,7 +251,12 @@
           "id": "it_i_ch4_l1",
           "type": "vocabulary",
           "prompt": "What is the future tense of 'parlare' for 'io'?",
-          "options": ["Parlo", "Parlavo", "Parlerò", "Parlerei"],
+          "options": [
+            "Parlo",
+            "Parlavo",
+            "Parlerò",
+            "Parlerei"
+          ],
           "correctAnswer": "Parlerò",
           "explanation": "Future tense for -ARE: change -are to -erò, -erai, -erà, -eremo, -erete, -eranno."
         },
@@ -165,7 +278,12 @@
           "id": "it_i_ch4_l4",
           "type": "vocabulary",
           "prompt": "What is the irregular future of 'essere'?",
-          "options": ["Esserò", "Sarò", "Serò", "Siarò"],
+          "options": [
+            "Esserò",
+            "Sarò",
+            "Serò",
+            "Siarò"
+          ],
           "correctAnswer": "Sarò",
           "explanation": "Essere future (irregular): sarò, sarai, sarà, saremo, sarete, saranno."
         },
@@ -176,7 +294,33 @@
           "correctAnswer": "arriverò",
           "explanation": "In Italian, after 'quando' referring to future, use future tense (not present like English)."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Future Tense",
+        "intro": "Talk about future plans and make predictions in Italian.",
+        "concepts": [
+          {
+            "term": "Parlerò",
+            "explanation": "Future tense for -ARE: change -are to -erò, -erai, -erà, -eremo, -erete, -eranno."
+          },
+          {
+            "term": "andremo",
+            "explanation": "'Andare' has irregular future stem: andr-. Noi form: andremo."
+          },
+          {
+            "term": "Domani probabilmente pioverà",
+            "explanation": "Italian uses the future tense to express probability. 'Pioverà' = it will rain."
+          },
+          {
+            "term": "Sarò",
+            "explanation": "Essere future (irregular): sarò, sarai, sarà, saremo, sarete, saranno."
+          },
+          {
+            "term": "arriverò",
+            "explanation": "In Italian, after 'quando' referring to future, use future tense (not present like English)."
+          }
+        ]
+      }
     }
   ]
 }

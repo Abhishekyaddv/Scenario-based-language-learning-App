@@ -11,7 +11,12 @@
           "id": "hi_a_ch1_l1",
           "type": "vocabulary",
           "prompt": "What does the Hindi subjunctive form express?",
-          "options": ["Completed action", "Ongoing action", "Possibility, wish, or polite command", "Habitual action"],
+          "options": [
+            "Completed action",
+            "Ongoing action",
+            "Possibility, wish, or polite command",
+            "Habitual action"
+          ],
           "correctAnswer": "Possibility, wish, or polite command",
           "explanation": "Subjunctive (sambhavana) expresses possibility, desire, or softened commands. 'Woh aaye' = Let him come / May he come / He might come."
         },
@@ -33,7 +38,12 @@
           "id": "hi_a_ch1_l4",
           "type": "vocabulary",
           "prompt": "What particle often accompanies subjunctive to mean 'so that'?",
-          "options": ["क्योंकि", "ताकि", "अगर", "जब"],
+          "options": [
+            "क्योंकि",
+            "ताकि",
+            "अगर",
+            "जब"
+          ],
           "correctAnswer": "ताकि",
           "explanation": "'Taaki' = so that (triggers subjunctive in the purpose clause). 'Main uthha taaki woh baith sake' = I got up so that she could sit."
         },
@@ -44,7 +54,33 @@
           "correctAnswer": "होता",
           "explanation": "'Kaash' = if only / I wish. Always followed by subjunctive/counterfactual. 'Hota' = were (counterfactual)."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Subjunctive & Polite Requests",
+        "intro": "Use the subjunctive mood for wishes, doubts, and polite requests.",
+        "concepts": [
+          {
+            "term": "Possibility, wish, or polite command",
+            "explanation": "Subjunctive (sambhavana) expresses possibility, desire, or softened commands. 'Woh aaye' = Let him come / May he come / He might come."
+          },
+          {
+            "term": "आए",
+            "explanation": "'Shayad' (perhaps) triggers subjunctive. 'Aaye' = subjunctive of aana. Not 'aayegi' (definite future)."
+          },
+          {
+            "term": "कृपया बैठिए",
+            "explanation": "'Baithiye' is the formal imperative (aap form). 'Baitho' = informal, 'baithe' = subjunctive/soft request."
+          },
+          {
+            "term": "ताकि",
+            "explanation": "'Taaki' = so that (triggers subjunctive in the purpose clause). 'Main uthha taaki woh baith sake' = I got up so that she could sit."
+          },
+          {
+            "term": "होता",
+            "explanation": "'Kaash' = if only / I wish. Always followed by subjunctive/counterfactual. 'Hota' = were (counterfactual)."
+          }
+        ]
+      }
     },
     {
       "id": "hindi_advanced_ch2",
@@ -55,7 +91,12 @@
           "id": "hi_a_ch2_l1",
           "type": "vocabulary",
           "prompt": "What does 'आँखें चार होना (aankhein chaar hona)' mean?",
-          "options": ["To be angry", "To fall in love / to meet eyes", "To be jealous", "To be surprised"],
+          "options": [
+            "To be angry",
+            "To fall in love / to meet eyes",
+            "To be jealous",
+            "To be surprised"
+          ],
           "correctAnswer": "To fall in love / to meet eyes",
           "explanation": "Literally 'for eyes to become four' — to make eye contact, often implying falling in love or mutual recognition."
         },
@@ -77,7 +118,12 @@
           "id": "hi_a_ch2_l4",
           "type": "vocabulary",
           "prompt": "What does 'हाथ पाँव मारना (haath paanv maarna)' mean?",
-          "options": ["To fight", "To try hard / struggle", "To swim", "To be violent"],
+          "options": [
+            "To fight",
+            "To try hard / struggle",
+            "To swim",
+            "To be violent"
+          ],
           "correctAnswer": "To try hard / struggle",
           "explanation": "Literally 'to strike hands and feet' — to make efforts, to struggle, to try hard to achieve something."
         },
@@ -88,7 +134,33 @@
           "correctAnswer": "होत",
           "explanation": "Famous proverb: 'Ab pachtaye hot kya jab chidiya chug gayi khet' = No use crying over spilt milk. Lit: What's the point of regret when birds already ate the field."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Hindi Idioms & Proverbs",
+        "intro": "Master common Hindi idioms and proverbs used by native speakers.",
+        "concepts": [
+          {
+            "term": "To fall in love / to meet eyes",
+            "explanation": "Literally 'for eyes to become four' — to make eye contact, often implying falling in love or mutual recognition."
+          },
+          {
+            "term": "टेढ़ा",
+            "explanation": "'Naach na jaane aangan tedha' = Can't dance (but says) the courtyard is crooked. Equivalent of 'a bad workman blames his tools'."
+          },
+          {
+            "term": "to get to the truth / separate milk from water",
+            "explanation": "Literally 'make milk milk and water water' — to separate truth from falsehood, to give a just verdict."
+          },
+          {
+            "term": "To try hard / struggle",
+            "explanation": "Literally 'to strike hands and feet' — to make efforts, to struggle, to try hard to achieve something."
+          },
+          {
+            "term": "होत",
+            "explanation": "Famous proverb: 'Ab pachtaye hot kya jab chidiya chug gayi khet' = No use crying over spilt milk. Lit: What's the point of regret when birds already ate the field."
+          }
+        ]
+      }
     },
     {
       "id": "hindi_advanced_ch3",
@@ -99,7 +171,12 @@
           "id": "hi_a_ch3_l1",
           "type": "vocabulary",
           "prompt": "What is the formal Hindi word for 'please' in official letters?",
-          "options": ["Please", "Meherbani", "Kripaya", "Bhai"],
+          "options": [
+            "Please",
+            "Meherbani",
+            "Kripaya",
+            "Bhai"
+          ],
           "correctAnswer": "Kripaya",
           "explanation": "'Kripaya' (कृपया) = please (formal). Used in official communication, letters, and signs. More formal than 'please' borrowed from English."
         },
@@ -121,7 +198,12 @@
           "id": "hi_a_ch3_l4",
           "type": "vocabulary",
           "prompt": "Which formal term is used for 'government' in official Hindi?",
-          "options": ["Sarkaar", "Sarkar", "Shasaan", "Hukoomat"],
+          "options": [
+            "Sarkaar",
+            "Sarkar",
+            "Shasaan",
+            "Hukoomat"
+          ],
           "correctAnswer": "Shasaan",
           "explanation": "'Shasaan' (शासन) = governance/administration (most formal). 'Sarkar' (सरकार) is common formal. Used in official documents and news."
         },
@@ -132,7 +214,33 @@
           "correctAnswer": "विषय",
           "explanation": "'Vishay' (विषय) = subject/matter. 'Sandarbh mein' = with reference to. 'Anurodh hai' = it is requested. Classic formal Hindi structure."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Formal Hindi & Register",
+        "intro": "Write and speak in formal Hindi for professional and official contexts.",
+        "concepts": [
+          {
+            "term": "Kripaya",
+            "explanation": "'Kripaya' (कृपया) = please (formal). Used in official communication, letters, and signs. More formal than 'please' borrowed from English."
+          },
+          {
+            "term": "महत्वपूर्ण",
+            "explanation": "Formal letter opening. 'Aapka patr prapt hua' = Your letter has been received. Official Hindi letters use Sanskritized vocabulary."
+          },
+          {
+            "term": "मैं इस विषय पर आपका ध्यान आकर्षित करना चाहता हूँ",
+            "explanation": "'Dhyan aakarshit karna' = to attract attention. 'Vishay' = matter/subject. Formal request structure."
+          },
+          {
+            "term": "Shasaan",
+            "explanation": "'Shasaan' (शासन) = governance/administration (most formal). 'Sarkar' (सरकार) is common formal. Used in official documents and news."
+          },
+          {
+            "term": "विषय",
+            "explanation": "'Vishay' (विषय) = subject/matter. 'Sandarbh mein' = with reference to. 'Anurodh hai' = it is requested. Classic formal Hindi structure."
+          }
+        ]
+      }
     },
     {
       "id": "hindi_advanced_ch4",
@@ -143,7 +251,12 @@
           "id": "hi_a_ch4_l1",
           "type": "vocabulary",
           "prompt": "What nuance does 'khaana kha lena' add vs just 'khaana khaana'?",
-          "options": ["No difference", "Completeness / doing something for oneself", "Ongoing action", "Habitual action"],
+          "options": [
+            "No difference",
+            "Completeness / doing something for oneself",
+            "Ongoing action",
+            "Habitual action"
+          ],
           "correctAnswer": "Completeness / doing something for oneself",
           "explanation": "'Le lena' = complete the action (for own benefit/finality). 'Kha liya' = ate up (done). 'Le' adds a sense of completion."
         },
@@ -165,7 +278,12 @@
           "id": "hi_a_ch4_l4",
           "type": "vocabulary",
           "prompt": "What does 'jaana' add as a compound verb after another verb?",
-          "options": ["Benefit to self", "Completeness without return / permanence", "Sudden action", "Effort"],
+          "options": [
+            "Benefit to self",
+            "Completeness without return / permanence",
+            "Sudden action",
+            "Effort"
+          ],
           "correctAnswer": "Completeness without return / permanence",
           "explanation": "'Jaana' as compound = action is complete and irreversible. 'Mar gaya' = died (gone). 'Kho gaya' = lost (gone forever)."
         },
@@ -176,7 +294,33 @@
           "correctAnswer": "ली",
           "explanation": "'Le lena' = complete for self. 'Padh li' = read it (completely, for myself). Past feminine because 'kitaab' is feminine."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Compound Verbs & Nuance",
+        "intro": "Master compound verb constructions that give Hindi its expressive nuance.",
+        "concepts": [
+          {
+            "term": "Completeness / doing something for oneself",
+            "explanation": "'Le lena' = complete the action (for own benefit/finality). 'Kha liya' = ate up (done). 'Le' adds a sense of completion."
+          },
+          {
+            "term": "पड़ी",
+            "explanation": "'Padna' as compound verb = sudden/involuntary action. 'Ro padi' = burst into tears. 'Has para' = burst out laughing."
+          },
+          {
+            "term": "अपना होमवर्क कर डालो",
+            "explanation": "'Dalna' as compound = do thoroughly/get it done (with some force). 'Kar daalo' = finish it off."
+          },
+          {
+            "term": "Completeness without return / permanence",
+            "explanation": "'Jaana' as compound = action is complete and irreversible. 'Mar gaya' = died (gone). 'Kho gaya' = lost (gone forever)."
+          },
+          {
+            "term": "ली",
+            "explanation": "'Le lena' = complete for self. 'Padh li' = read it (completely, for myself). Past feminine because 'kitaab' is feminine."
+          }
+        ]
+      }
     }
   ]
 }

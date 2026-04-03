@@ -11,7 +11,12 @@
           "id": "fr_a_ch1_l1",
           "type": "vocabulary",
           "prompt": "Which expression triggers the subjunctive?",
-          "options": ["Je sais que", "Il est certain que", "Il faut que", "Je crois que"],
+          "options": [
+            "Je sais que",
+            "Il est certain que",
+            "Il faut que",
+            "Je crois que"
+          ],
           "correctAnswer": "Il faut que",
           "explanation": "'Il faut que' (it is necessary that) always takes subjunctive. Expressions of certainty use indicative."
         },
@@ -33,7 +38,12 @@
           "id": "fr_a_ch1_l4",
           "type": "vocabulary",
           "prompt": "What is the subjunctive of 'avoir' for 'nous'?",
-          "options": ["Nous avons", "Nous ayons", "Nous aurons", "Nous eûmes"],
+          "options": [
+            "Nous avons",
+            "Nous ayons",
+            "Nous aurons",
+            "Nous eûmes"
+          ],
           "correctAnswer": "Nous ayons",
           "explanation": "Irregular subjunctive of avoir: que j'aie, tu aies, il ait, nous ayons, vous ayez, ils aient."
         },
@@ -44,7 +54,33 @@
           "correctAnswer": "arriviez",
           "explanation": "'Il est important que' takes subjunctive. Subjunctive of arriver for vous = arriviez."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "The Subjunctive Mood",
+        "intro": "Master the subjonctif to express doubt, emotion, and necessity.",
+        "concepts": [
+          {
+            "term": "Il faut que",
+            "explanation": "'Il faut que' (it is necessary that) always takes subjunctive. Expressions of certainty use indicative."
+          },
+          {
+            "term": "dise",
+            "explanation": "'Vouloir que' triggers subjunctive. Subjunctive of 'dire' for il = dise."
+          },
+          {
+            "term": "Bien qu'elle soit fatiguée, elle continue à travailler",
+            "explanation": "'Bien que' (although) always takes subjunctive. 'Soit' = subjunctive of être."
+          },
+          {
+            "term": "Nous ayons",
+            "explanation": "Irregular subjunctive of avoir: que j'aie, tu aies, il ait, nous ayons, vous ayez, ils aient."
+          },
+          {
+            "term": "arriviez",
+            "explanation": "'Il est important que' takes subjunctive. Subjunctive of arriver for vous = arriviez."
+          }
+        ]
+      }
     },
     {
       "id": "french_advanced_ch2",
@@ -55,7 +91,12 @@
           "id": "fr_a_ch2_l1",
           "type": "vocabulary",
           "prompt": "What does 'avoir le cafard' mean?",
-          "options": ["To have a cockroach", "To feel down/depressed", "To be hungry", "To be busy"],
+          "options": [
+            "To have a cockroach",
+            "To feel down/depressed",
+            "To be hungry",
+            "To be busy"
+          ],
           "correctAnswer": "To feel down/depressed",
           "explanation": "Literally 'to have the cockroach' — a common idiom meaning to feel blue or depressed."
         },
@@ -77,7 +118,12 @@
           "id": "fr_a_ch2_l4",
           "type": "vocabulary",
           "prompt": "What does 'casser les pieds à quelqu'un' mean?",
-          "options": ["To help someone", "To annoy someone", "To walk with someone", "To impress someone"],
+          "options": [
+            "To help someone",
+            "To annoy someone",
+            "To walk with someone",
+            "To impress someone"
+          ],
           "correctAnswer": "To annoy someone",
           "explanation": "Literally 'to break someone's feet' — means to be really annoying."
         },
@@ -88,7 +134,33 @@
           "correctAnswer": "avoir tué",
           "explanation": "Literally: don't sell the bear's skin before killing it. Equivalent of 'don't count your chickens'."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Idiomatic Expressions",
+        "intro": "Master everyday French idioms that natives use constantly.",
+        "concepts": [
+          {
+            "term": "To feel down/depressed",
+            "explanation": "Literally 'to have the cockroach' — a common idiom meaning to feel blue or depressed."
+          },
+          {
+            "term": "cordes",
+            "explanation": "'Il pleut des cordes' literally means 'it's raining ropes' — the equivalent of 'raining cats and dogs'."
+          },
+          {
+            "term": "Coûter les yeux de la tête",
+            "explanation": "French version literally means 'to cost the eyes from the head'."
+          },
+          {
+            "term": "To annoy someone",
+            "explanation": "Literally 'to break someone's feet' — means to be really annoying."
+          },
+          {
+            "term": "avoir tué",
+            "explanation": "Literally: don't sell the bear's skin before killing it. Equivalent of 'don't count your chickens'."
+          }
+        ]
+      }
     },
     {
       "id": "french_advanced_ch3",
@@ -99,7 +171,12 @@
           "id": "fr_a_ch3_l1",
           "type": "vocabulary",
           "prompt": "Which is the correct formal letter closing?",
-          "options": ["Bisous", "À bientôt", "Veuillez agréer mes salutations distinguées", "Cordialement"],
+          "options": [
+            "Bisous",
+            "À bientôt",
+            "Veuillez agréer mes salutations distinguées",
+            "Cordialement"
+          ],
           "correctAnswer": "Veuillez agréer mes salutations distinguées",
           "explanation": "This highly formal closing is used in official correspondence. 'Cordialement' is semi-formal."
         },
@@ -121,7 +198,12 @@
           "id": "fr_a_ch3_l4",
           "type": "vocabulary",
           "prompt": "What does 'nonobstant' mean?",
-          "options": ["Therefore", "Nevertheless/notwithstanding", "Furthermore", "In conclusion"],
+          "options": [
+            "Therefore",
+            "Nevertheless/notwithstanding",
+            "Furthermore",
+            "In conclusion"
+          ],
           "correctAnswer": "Nevertheless/notwithstanding",
           "explanation": "'Nonobstant' is a formal/legal term meaning notwithstanding or nevertheless. Common in formal writing."
         },
@@ -132,7 +214,33 @@
           "correctAnswer": "réponse",
           "explanation": "'Dans l'attente de votre réponse' = awaiting your reply. Standard formal email closing phrase."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Formal Writing & Nuance",
+        "intro": "Write formal letters, emails, and nuanced arguments in French.",
+        "concepts": [
+          {
+            "term": "Veuillez agréer mes salutations distinguées",
+            "explanation": "This highly formal closing is used in official correspondence. 'Cordialement' is semi-formal."
+          },
+          {
+            "term": "permets",
+            "explanation": "'Je me permets de' = I take the liberty of / I am writing to. A very formal construction."
+          },
+          {
+            "term": "Je souhaiterais attirer votre attention sur",
+            "explanation": "'Souhaiterais' is the conditional of 'souhaiter'. More formal than 'je veux'."
+          },
+          {
+            "term": "Nevertheless/notwithstanding",
+            "explanation": "'Nonobstant' is a formal/legal term meaning notwithstanding or nevertheless. Common in formal writing."
+          },
+          {
+            "term": "réponse",
+            "explanation": "'Dans l'attente de votre réponse' = awaiting your reply. Standard formal email closing phrase."
+          }
+        ]
+      }
     },
     {
       "id": "french_advanced_ch4",
@@ -143,7 +251,12 @@
           "id": "fr_a_ch4_l1",
           "type": "vocabulary",
           "prompt": "Complete: Si j'avais de l'argent, je ___ un château.",
-          "options": ["achèterai", "achèterais", "ai acheté", "achetais"],
+          "options": [
+            "achèterai",
+            "achèterais",
+            "ai acheté",
+            "achetais"
+          ],
           "correctAnswer": "achèterais",
           "explanation": "Si + imparfait → conditionnel présent. This is the hypothetical/unreal condition pattern."
         },
@@ -165,7 +278,12 @@
           "id": "fr_a_ch4_l4",
           "type": "vocabulary",
           "prompt": "What tense follows 'si' in a real/likely condition?",
-          "options": ["Conditionnel", "Subjonctif", "Présent", "Imparfait"],
+          "options": [
+            "Conditionnel",
+            "Subjonctif",
+            "Présent",
+            "Imparfait"
+          ],
           "correctAnswer": "Présent",
           "explanation": "Si + présent → futur simple. Ex: 'S'il pleut, je prendrai un taxi.' (If it rains, I will take a taxi.)"
         },
@@ -176,7 +294,33 @@
           "correctAnswer": "où",
           "explanation": "'Au cas où' = in case. It always takes the conditionnel in the following clause."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Conditional & Hypotheticals",
+        "intro": "Discuss hypothetical situations and unrealised conditions.",
+        "concepts": [
+          {
+            "term": "achèterais",
+            "explanation": "Si + imparfait → conditionnel présent. This is the hypothetical/unreal condition pattern."
+          },
+          {
+            "term": "aurait",
+            "explanation": "Si + plus-que-parfait → conditionnel passé. 'Aurait réussi' = would have passed."
+          },
+          {
+            "term": "Si j'étais président, je changerais cette loi",
+            "explanation": "Imparfait after 'si', then conditionnel présent in the main clause."
+          },
+          {
+            "term": "Présent",
+            "explanation": "Si + présent → futur simple. Ex: 'S'il pleut, je prendrai un taxi.' (If it rains, I will take a taxi.)"
+          },
+          {
+            "term": "où",
+            "explanation": "'Au cas où' = in case. It always takes the conditionnel in the following clause."
+          }
+        ]
+      }
     }
   ]
 }

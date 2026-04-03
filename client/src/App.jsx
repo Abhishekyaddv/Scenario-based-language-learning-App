@@ -12,6 +12,7 @@ import ScenarioPage from "./pages/ScenarioPage";
 import ScenarioSession from "./pages/ScenarioSession"
 import PastScenarios from "./pages/PastScenarios"
 import { PrivateRoute, OnboardedRoute } from "./components/PrivateRoute";
+import LanguageSelection from "./pages/LanguageSelection";
 
 function App() {
 
@@ -31,6 +32,11 @@ function App() {
       {/* ── Auth required (onboarding not required) ── */}
       <Route path="/onboarding" element={
         <PrivateRoute><Onboarding /></PrivateRoute>
+      } />
+
+      {/* ── Auth + language selection ── */}
+      <Route path="/language-selection" element={
+        <OnboardedRoute><LanguageSelection /></OnboardedRoute>
       } />
 
       {/* ── Auth + onboarding required ── */}

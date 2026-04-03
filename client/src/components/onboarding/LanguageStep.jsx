@@ -1,9 +1,13 @@
 import React from 'react';
 
 const LanguageStep = ({ activeId, setActiveId, onboardingData, setOnboardingData, onNext }) => {
-  // Now explicitly restricted to just Spanish
   const languages = [
-    { id: 2, name: 'Spanish', flag: '🇪🇸' },
+    { id: 1, name: 'Spanish', flag: '🇪🇸' },
+    { id: 2, name: 'French', flag: '🇫🇷' },
+    { id: 3, name: 'Italian', flag: '🇮🇹' },
+    { id: 4, name: 'German', flag: '🇩🇪' },
+    { id: 5, name: 'Japanese', flag: '🇯🇵' },
+    { id: 6, name: 'Hindi', flag: '🇮🇳' },
   ];
 
   return (

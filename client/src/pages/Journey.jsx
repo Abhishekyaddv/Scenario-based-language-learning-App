@@ -19,8 +19,9 @@ const Journey = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
+        const targetLanguage = user.targetLanguage || 'Spanish';
         const [chaptersRes, progressRes] = await Promise.all([
-          fetchChapters(user.level),
+          fetchChapters(targetLanguage, user.level),
           fetchProgress(),
         ]);
 

@@ -11,7 +11,12 @@
           "id": "de_a_ch1_l1",
           "type": "vocabulary",
           "prompt": "What does 'Ich würde gerne reisen' mean?",
-          "options": ["I traveled yesterday", "I would like to travel", "I must travel", "I traveled often"],
+          "options": [
+            "I traveled yesterday",
+            "I would like to travel",
+            "I must travel",
+            "I traveled often"
+          ],
           "correctAnswer": "I would like to travel",
           "explanation": "'Würde + infinitive' is the most common Konjunktiv II form. 'Gerne' adds the sense of 'would like to'."
         },
@@ -33,7 +38,12 @@
           "id": "de_a_ch1_l4",
           "type": "vocabulary",
           "prompt": "What is Konjunktiv II of 'haben' for 'er'?",
-          "options": ["Er hat", "Er hatte", "Er hätte", "Er haben"],
+          "options": [
+            "Er hat",
+            "Er hatte",
+            "Er hätte",
+            "Er haben"
+          ],
           "correctAnswer": "Er hätte",
           "explanation": "Key Konjunktiv II forms: wäre (sein), hätte (haben), würde (werden), könnte (können), müsste (müssen)."
         },
@@ -44,7 +54,33 @@
           "correctAnswer": "hätte",
           "explanation": "Past Konjunktiv II = hätte/wäre + past participle. 'Hätte nicht gesagt' = would not have said."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Konjunktiv II — Hypotheticals",
+        "intro": "Express wishes, hypotheticals, and polite requests using Konjunktiv II.",
+        "concepts": [
+          {
+            "term": "I would like to travel",
+            "explanation": "'Würde + infinitive' is the most common Konjunktiv II form. 'Gerne' adds the sense of 'would like to'."
+          },
+          {
+            "term": "wäre",
+            "explanation": "'Wäre' = Konjunktiv II of 'sein'. Wenn + Konjunktiv II → würde + infinitive."
+          },
+          {
+            "term": "Könnten Sie mir bitte helfen",
+            "explanation": "'Könnten' = Konjunktiv II of können. More polite than 'Können Sie'."
+          },
+          {
+            "term": "Er hätte",
+            "explanation": "Key Konjunktiv II forms: wäre (sein), hätte (haben), würde (werden), könnte (können), müsste (müssen)."
+          },
+          {
+            "term": "hätte",
+            "explanation": "Past Konjunktiv II = hätte/wäre + past participle. 'Hätte nicht gesagt' = would not have said."
+          }
+        ]
+      }
     },
     {
       "id": "german_advanced_ch2",
@@ -55,7 +91,12 @@
           "id": "de_a_ch2_l1",
           "type": "vocabulary",
           "prompt": "How do you form the Vorgangspassiv (action passive) in German?",
-          "options": ["sein + past participle", "werden + past participle", "haben + past participle", "lassen + infinitive"],
+          "options": [
+            "sein + past participle",
+            "werden + past participle",
+            "haben + past participle",
+            "lassen + infinitive"
+          ],
           "correctAnswer": "werden + past participle",
           "explanation": "Vorgangspassiv = werden + past participle. 'Das Buch wird gelesen.' = The book is being read."
         },
@@ -77,7 +118,12 @@
           "id": "de_a_ch2_l4",
           "type": "vocabulary",
           "prompt": "What preposition introduces the agent in a passive sentence?",
-          "options": ["Mit", "Von", "Durch", "Für"],
+          "options": [
+            "Mit",
+            "Von",
+            "Durch",
+            "Für"
+          ],
           "correctAnswer": "Von",
           "explanation": "'Von' + dative introduces the agent: 'Das Buch wurde von Goethe geschrieben.' 'Durch' = through/by means of."
         },
@@ -88,7 +134,33 @@
           "correctAnswer": "darf",
           "explanation": "Modal + Passiv infinitive: 'darf nicht geraucht werden'. Modal stays conjugated, passive = werden + participle."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Passive Voice",
+        "intro": "Use Passiv constructions to describe processes and formal situations.",
+        "concepts": [
+          {
+            "term": "werden + past participle",
+            "explanation": "Vorgangspassiv = werden + past participle. 'Das Buch wird gelesen.' = The book is being read."
+          },
+          {
+            "term": "wurde",
+            "explanation": "Passive past = wurde + past participle. 'Wurde gebaut' = was built."
+          },
+          {
+            "term": "Hier wird Deutsch gesprochen",
+            "explanation": "Passive present: wird + past participle. 'Gesprochen' = past participle of sprechen."
+          },
+          {
+            "term": "Von",
+            "explanation": "'Von' + dative introduces the agent: 'Das Buch wurde von Goethe geschrieben.' 'Durch' = through/by means of."
+          },
+          {
+            "term": "darf",
+            "explanation": "Modal + Passiv infinitive: 'darf nicht geraucht werden'. Modal stays conjugated, passive = werden + participle."
+          }
+        ]
+      }
     },
     {
       "id": "german_advanced_ch3",
@@ -99,7 +171,12 @@
           "id": "de_a_ch3_l1",
           "type": "vocabulary",
           "prompt": "What does 'jemandem auf den Keks gehen' mean?",
-          "options": ["To bake someone cookies", "To annoy someone", "To help someone", "To agree with someone"],
+          "options": [
+            "To bake someone cookies",
+            "To annoy someone",
+            "To help someone",
+            "To agree with someone"
+          ],
           "correctAnswer": "To annoy someone",
           "explanation": "Literally 'to go on someone's cookie' — means to get on someone's nerves."
         },
@@ -121,7 +198,12 @@
           "id": "de_a_ch3_l4",
           "type": "vocabulary",
           "prompt": "What does 'auf dem Holzweg sein' mean?",
-          "options": ["To be in the forest", "To be on the wrong track", "To be lost", "To be on a journey"],
+          "options": [
+            "To be in the forest",
+            "To be on the wrong track",
+            "To be lost",
+            "To be on a journey"
+          ],
           "correctAnswer": "To be on the wrong track",
           "explanation": "Literally 'to be on the log road' — means to be mistaken or on the wrong path."
         },
@@ -132,7 +214,33 @@
           "correctAnswer": "den Rücken runter",
           "explanation": "'Den Rücken runtergehen' = literally goes down the back — used for both positive (thrilling) and negative (creepy) chills."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "German Idioms & Register",
+        "intro": "Sound like a native with idiomatic German expressions.",
+        "concepts": [
+          {
+            "term": "To annoy someone",
+            "explanation": "Literally 'to go on someone's cookie' — means to get on someone's nerves."
+          },
+          {
+            "term": "Daumen",
+            "explanation": "'Die Daumen drücken' = to cross fingers for someone. Literally 'to press the thumbs'."
+          },
+          {
+            "term": "Das ist nicht mein Bier",
+            "explanation": "A colloquial German phrase meaning it's not my concern/not my business."
+          },
+          {
+            "term": "To be on the wrong track",
+            "explanation": "Literally 'to be on the log road' — means to be mistaken or on the wrong path."
+          },
+          {
+            "term": "den Rücken runter",
+            "explanation": "'Den Rücken runtergehen' = literally goes down the back — used for both positive (thrilling) and negative (creepy) chills."
+          }
+        ]
+      }
     },
     {
       "id": "german_advanced_ch4",
@@ -143,7 +251,12 @@
           "id": "de_a_ch4_l1",
           "type": "vocabulary",
           "prompt": "What does an extended participial phrase replace in formal German?",
-          "options": ["A main verb", "A relative clause", "An object", "An adverb"],
+          "options": [
+            "A main verb",
+            "A relative clause",
+            "An object",
+            "An adverb"
+          ],
           "correctAnswer": "A relative clause",
           "explanation": "Extended participial phrases compress relative clauses: 'der gestern angekommene Zug' = 'der Zug, der gestern angekommen ist'."
         },
@@ -165,7 +278,12 @@
           "id": "de_a_ch4_l4",
           "type": "vocabulary",
           "prompt": "What form does a present participle take in German?",
-          "options": ["Infinitive + -nd", "Infinitive + -d", "Past participle", "Infinitive + -end"],
+          "options": [
+            "Infinitive + -nd",
+            "Infinitive + -d",
+            "Past participle",
+            "Infinitive + -end"
+          ],
           "correctAnswer": "Infinitive + -d",
           "explanation": "Present participle = infinitive + d: laufen → laufend, arbeiten → arbeitend, schreiben → schreibend."
         },
@@ -176,7 +294,33 @@
           "correctAnswer": "präsentierten",
           "explanation": "Past participial phrase with adjective ending. 'Die präsentierten Daten' = the presented data."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Extended Participial Phrases",
+        "intro": "Use extended participial modifiers — a hallmark of formal German writing.",
+        "concepts": [
+          {
+            "term": "A relative clause",
+            "explanation": "Extended participial phrases compress relative clauses: 'der gestern angekommene Zug' = 'der Zug, der gestern angekommen ist'."
+          },
+          {
+            "term": "geschriebene",
+            "explanation": "Participial phrase: 'der von ihm geschriebene Brief'. The past participle gets adjective ending."
+          },
+          {
+            "term": "Das derzeit laufende Experiment",
+            "explanation": "'Laufend' = running (present participle). Gets adjective ending: laufende."
+          },
+          {
+            "term": "Infinitive + -d",
+            "explanation": "Present participle = infinitive + d: laufen → laufend, arbeiten → arbeitend, schreiben → schreibend."
+          },
+          {
+            "term": "präsentierten",
+            "explanation": "Past participial phrase with adjective ending. 'Die präsentierten Daten' = the presented data."
+          }
+        ]
+      }
     }
   ]
 }

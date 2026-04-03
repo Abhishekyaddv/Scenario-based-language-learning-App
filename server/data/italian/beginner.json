@@ -11,7 +11,12 @@
           "id": "it_b_ch1_l1",
           "type": "vocabulary",
           "prompt": "What does 'Ciao' mean?",
-          "options": ["Good morning", "Goodbye only", "Hello/Goodbye (informal)", "Good evening"],
+          "options": [
+            "Good morning",
+            "Goodbye only",
+            "Hello/Goodbye (informal)",
+            "Good evening"
+          ],
           "correctAnswer": "Hello/Goodbye (informal)",
           "explanation": "'Ciao' is used both as hello and goodbye informally. For formal: 'Buongiorno' (hello), 'ArrivederLa' (goodbye)."
         },
@@ -33,7 +38,12 @@
           "id": "it_b_ch1_l4",
           "type": "vocabulary",
           "prompt": "Which phrase means 'Pleased to meet you'?",
-          "options": ["Grazie", "Prego", "Piacere", "Scusi"],
+          "options": [
+            "Grazie",
+            "Prego",
+            "Piacere",
+            "Scusi"
+          ],
           "correctAnswer": "Piacere",
           "explanation": "'Piacere' = pleasure/nice to meet you. Can also say 'piacere di conoscerti' (nice to meet you, informal)."
         },
@@ -44,7 +54,33 @@
           "correctAnswer": "dell'",
           "explanation": "'Sono dell'India' = I am from India. 'Di + l' = dell'. Or simply: 'Vengo dall'India' (I come from India)."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Greetings & Introductions",
+        "intro": "Learn essential Italian greetings and how to introduce yourself.",
+        "concepts": [
+          {
+            "term": "Hello/Goodbye (informal)",
+            "explanation": "'Ciao' is used both as hello and goodbye informally. For formal: 'Buongiorno' (hello), 'ArrivederLa' (goodbye)."
+          },
+          {
+            "term": "chiamo",
+            "explanation": "'Mi chiamo' = my name is. Literally 'I call myself'. From 'chiamarsi' (reflexive verb)."
+          },
+          {
+            "term": "Di dove sei",
+            "explanation": "'Di dove' = from where. 'Sei' = are (informal tu form of essere)."
+          },
+          {
+            "term": "Piacere",
+            "explanation": "'Piacere' = pleasure/nice to meet you. Can also say 'piacere di conoscerti' (nice to meet you, informal)."
+          },
+          {
+            "term": "dell'",
+            "explanation": "'Sono dell'India' = I am from India. 'Di + l' = dell'. Or simply: 'Vengo dall'India' (I come from India)."
+          }
+        ]
+      }
     },
     {
       "id": "italian_beginner_ch2",
@@ -55,7 +91,12 @@
           "id": "it_b_ch2_l1",
           "type": "vocabulary",
           "prompt": "Which definite article is used for masculine singular nouns starting with a consonant?",
-          "options": ["La", "Lo", "L'", "Il"],
+          "options": [
+            "La",
+            "Lo",
+            "L'",
+            "Il"
+          ],
           "correctAnswer": "Il",
           "explanation": "'Il' = masculine singular (consonant). 'Lo' = masc. sing. (s+consonant, z, ps, gn). 'La' = feminine. 'L'' = before vowels."
         },
@@ -77,7 +118,12 @@
           "id": "it_b_ch2_l4",
           "type": "vocabulary",
           "prompt": "How do most feminine nouns end in Italian?",
-          "options": ["-o", "-a", "-e", "-i"],
+          "options": [
+            "-o",
+            "-a",
+            "-e",
+            "-i"
+          ],
           "correctAnswer": "-a",
           "explanation": "Most feminine nouns end in -a (la ragazza, la casa) and masculine in -o (il ragazzo, il libro). Exceptions exist."
         },
@@ -88,7 +134,33 @@
           "correctAnswer": "libro",
           "explanation": "'Libro' = book (masculine, -o ending). 'Ho' = I have (avere). Un libro rosso."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Italian Articles & Nouns",
+        "intro": "Master Italian definite and indefinite articles and noun genders.",
+        "concepts": [
+          {
+            "term": "Il",
+            "explanation": "'Il' = masculine singular (consonant). 'Lo' = masc. sing. (s+consonant, z, ps, gn). 'La' = feminine. 'L'' = before vowels."
+          },
+          {
+            "term": "L'",
+            "explanation": "'Amica' starts with a vowel → use 'l'' (not 'la'). L'amica = the (female) friend."
+          },
+          {
+            "term": "Una mela rossa",
+            "explanation": "'Mela' (apple) is feminine → 'una'. Adjectives agree: 'rossa' (f) not 'rosso' (m)."
+          },
+          {
+            "term": "-a",
+            "explanation": "Most feminine nouns end in -a (la ragazza, la casa) and masculine in -o (il ragazzo, il libro). Exceptions exist."
+          },
+          {
+            "term": "libro",
+            "explanation": "'Libro' = book (masculine, -o ending). 'Ho' = I have (avere). Un libro rosso."
+          }
+        ]
+      }
     },
     {
       "id": "italian_beginner_ch3",
@@ -99,7 +171,12 @@
           "id": "it_b_ch3_l1",
           "type": "vocabulary",
           "prompt": "What is 'il conto' in a restaurant context?",
-          "options": ["The menu", "The waiter", "The bill", "The reservation"],
+          "options": [
+            "The menu",
+            "The waiter",
+            "The bill",
+            "The reservation"
+          ],
           "correctAnswer": "The bill",
           "explanation": "'Il conto, per favore' = the bill, please. Essential phrase for dining out in Italy."
         },
@@ -121,7 +198,12 @@
           "id": "it_b_ch3_l4",
           "type": "vocabulary",
           "prompt": "What is 'il primo piatto'?",
-          "options": ["The appetizer", "The first course (pasta/risotto)", "The main course", "The dessert"],
+          "options": [
+            "The appetizer",
+            "The first course (pasta/risotto)",
+            "The main course",
+            "The dessert"
+          ],
           "correctAnswer": "The first course (pasta/risotto)",
           "explanation": "Italian meals: antipasto → primo (pasta/risotto) → secondo (meat/fish) → dolce (dessert)."
         },
@@ -132,7 +214,33 @@
           "correctAnswer": "allergico",
           "explanation": "'Essere allergico a' = to be allergic to. Use 'allergica' if feminine."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Food & Italian Cuisine",
+        "intro": "Order food, talk about Italian dishes, and navigate a ristorante.",
+        "concepts": [
+          {
+            "term": "The bill",
+            "explanation": "'Il conto, per favore' = the bill, please. Essential phrase for dining out in Italy."
+          },
+          {
+            "term": "un",
+            "explanation": "'Vorrei' = I would like (polite). 'Un caffè' = a coffee. In Italy, 'caffè' usually means espresso."
+          },
+          {
+            "term": "Cosa consiglia",
+            "explanation": "'Cosa' = what. 'Consigliare' = to recommend. 'Consiglia' = you recommend (formal Lei)."
+          },
+          {
+            "term": "The first course (pasta/risotto)",
+            "explanation": "Italian meals: antipasto → primo (pasta/risotto) → secondo (meat/fish) → dolce (dessert)."
+          },
+          {
+            "term": "allergico",
+            "explanation": "'Essere allergico a' = to be allergic to. Use 'allergica' if feminine."
+          }
+        ]
+      }
     },
     {
       "id": "italian_beginner_ch4",
@@ -143,7 +251,12 @@
           "id": "it_b_ch4_l1",
           "type": "vocabulary",
           "prompt": "What is the 'io' form of 'parlare' (to speak)?",
-          "options": ["Parli", "Parla", "Parlo", "Parlano"],
+          "options": [
+            "Parli",
+            "Parla",
+            "Parlo",
+            "Parlano"
+          ],
           "correctAnswer": "Parlo",
           "explanation": "-ARE verbs present tense: io -o, tu -i, lui/lei -a, noi -iamo, voi -ate, loro -ano."
         },
@@ -165,7 +278,12 @@
           "id": "it_b_ch4_l4",
           "type": "vocabulary",
           "prompt": "Which is the correct 'tu' form of 'avere' (to have)?",
-          "options": ["Ho", "Ha", "Hai", "Hanno"],
+          "options": [
+            "Ho",
+            "Ha",
+            "Hai",
+            "Hanno"
+          ],
           "correctAnswer": "Hai",
           "explanation": "Avere (irregular): io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno."
         },
@@ -176,7 +294,33 @@
           "correctAnswer": "è",
           "explanation": "Essere (to be): io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono. 'È' = she/he is."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Present Tense Verbs",
+        "intro": "Conjugate regular Italian verbs in the present tense.",
+        "concepts": [
+          {
+            "term": "Parlo",
+            "explanation": "-ARE verbs present tense: io -o, tu -i, lui/lei -a, noi -iamo, voi -ate, loro -ano."
+          },
+          {
+            "term": "viviamo",
+            "explanation": "'Vivere' is -ERE verb. Noi form = -iamo: viviamo. Io vivo, tu vivi, lui vive, noi viviamo."
+          },
+          {
+            "term": "Loro finiscono il lavoro alle sei",
+            "explanation": "'Finire' is irregular -IRE verb (isc type): finisco, finisci, finisce, finiamo, finite, finiscono."
+          },
+          {
+            "term": "Hai",
+            "explanation": "Avere (irregular): io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno."
+          },
+          {
+            "term": "è",
+            "explanation": "Essere (to be): io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono. 'È' = she/he is."
+          }
+        ]
+      }
     },
     {
       "id": "italian_beginner_ch5",
@@ -187,7 +331,12 @@
           "id": "it_b_ch5_l1",
           "type": "vocabulary",
           "prompt": "What does 'Dov'è la stazione?' mean?",
-          "options": ["Where is the hotel?", "Where is the station?", "How far is the station?", "When does the train leave?"],
+          "options": [
+            "Where is the hotel?",
+            "Where is the station?",
+            "How far is the station?",
+            "When does the train leave?"
+          ],
           "correctAnswer": "Where is the station?",
           "explanation": "'Dov'è' = where is (dove + è). 'La stazione' = the station. Essential travel phrase."
         },
@@ -209,7 +358,12 @@
           "id": "it_b_ch5_l4",
           "type": "vocabulary",
           "prompt": "What is 'un biglietto di andata e ritorno'?",
-          "options": ["A one-way ticket", "A return ticket", "A season ticket", "A platform ticket"],
+          "options": [
+            "A one-way ticket",
+            "A return ticket",
+            "A season ticket",
+            "A platform ticket"
+          ],
           "correctAnswer": "A return ticket",
           "explanation": "'Andata' = going, 'ritorno' = return. 'Solo andata' = one way. 'Andata e ritorno' = return."
         },
@@ -220,7 +374,33 @@
           "correctAnswer": "parte",
           "explanation": "'Partire' = to leave/depart. 'Parte' = he/she/it leaves. 'A che ora' = at what time."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Getting Around Italy",
+        "intro": "Navigate Italian cities, ask for directions, and use public transport.",
+        "concepts": [
+          {
+            "term": "Where is the station?",
+            "explanation": "'Dov'è' = where is (dove + è). 'La stazione' = the station. Essential travel phrase."
+          },
+          {
+            "term": "dritto",
+            "explanation": "'Dritto' = straight. 'Vada' = imperative of andare (formal). 'Sempre dritto' = always straight."
+          },
+          {
+            "term": "Giri a destra al semaforo",
+            "explanation": "'Girare' = to turn. 'A destra' = to the right. 'Al semaforo' = at the traffic light."
+          },
+          {
+            "term": "A return ticket",
+            "explanation": "'Andata' = going, 'ritorno' = return. 'Solo andata' = one way. 'Andata e ritorno' = return."
+          },
+          {
+            "term": "parte",
+            "explanation": "'Partire' = to leave/depart. 'Parte' = he/she/it leaves. 'A che ora' = at what time."
+          }
+        ]
+      }
     }
   ]
 }

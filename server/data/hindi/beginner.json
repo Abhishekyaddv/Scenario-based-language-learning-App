@@ -11,7 +11,12 @@
           "id": "hi_b_ch1_l1",
           "type": "vocabulary",
           "prompt": "What does 'नमस्ते (Namaste)' mean?",
-          "options": ["Goodbye", "Thank you", "Hello / Greetings", "Please"],
+          "options": [
+            "Goodbye",
+            "Thank you",
+            "Hello / Greetings",
+            "Please"
+          ],
           "correctAnswer": "Hello / Greetings",
           "explanation": "'Namaste' is the universal Hindi greeting. It literally means 'I bow to the divine in you'. Used for both hello and goodbye."
         },
@@ -33,7 +38,12 @@
           "id": "hi_b_ch1_l4",
           "type": "vocabulary",
           "prompt": "What is the correct response to 'Aap kaise hain?'",
-          "options": ["Namaste", "Main theek hoon, dhanyavaad", "Alvida", "Kripaya"],
+          "options": [
+            "Namaste",
+            "Main theek hoon, dhanyavaad",
+            "Alvida",
+            "Kripaya"
+          ],
           "correctAnswer": "Main theek hoon, dhanyavaad",
           "explanation": "'Main theek hoon, dhanyavaad' = I am fine, thank you. 'Theek' = fine/okay, 'dhanyavaad' = thank you."
         },
@@ -44,7 +54,33 @@
           "correctAnswer": "हूँ",
           "explanation": "'Hoon' is the first-person singular form of 'hona' (to be). 'Main Bharat se hoon' = I am from India."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Greetings & Introductions",
+        "intro": "Learn essential Hindi greetings and how to introduce yourself.",
+        "concepts": [
+          {
+            "term": "Hello / Greetings",
+            "explanation": "'Namaste' is the universal Hindi greeting. It literally means 'I bow to the divine in you'. Used for both hello and goodbye."
+          },
+          {
+            "term": "राहुल",
+            "explanation": "'Mera naam [name] hai' = My name is [name]. 'Mera' = my, 'naam' = name, 'hai' = is."
+          },
+          {
+            "term": "आप कैसे हैं",
+            "explanation": "'Aap' = you (formal/respectful). 'Kaise' = how. 'Hain' = are (plural/respectful form)."
+          },
+          {
+            "term": "Main theek hoon, dhanyavaad",
+            "explanation": "'Main theek hoon, dhanyavaad' = I am fine, thank you. 'Theek' = fine/okay, 'dhanyavaad' = thank you."
+          },
+          {
+            "term": "हूँ",
+            "explanation": "'Hoon' is the first-person singular form of 'hona' (to be). 'Main Bharat se hoon' = I am from India."
+          }
+        ]
+      }
     },
     {
       "id": "hindi_beginner_ch2",
@@ -55,7 +91,12 @@
           "id": "hi_b_ch2_l1",
           "type": "vocabulary",
           "prompt": "Which vowel sound does 'अ' represent?",
-          "options": ["aa", "a (short)", "i", "u"],
+          "options": [
+            "aa",
+            "a (short)",
+            "i",
+            "u"
+          ],
           "correctAnswer": "a (short)",
           "explanation": "'अ' = short 'a' sound (like 'u' in 'but'). 'आ' = long 'aa'. Hindi has 11 vowels in Devanagari."
         },
@@ -77,7 +118,12 @@
           "id": "hi_b_ch2_l4",
           "type": "vocabulary",
           "prompt": "What is the Devanagari for 'bharat' (India)?",
-          "options": ["बहरत", "भारत", "भरत", "बारत"],
+          "options": [
+            "बहरत",
+            "भारत",
+            "भरत",
+            "बारत"
+          ],
           "correctAnswer": "भारत",
           "explanation": "भारत = Bharat (India). भ = bha, ा = aa, र = ra, त = ta. The official Hindi name for India."
         },
@@ -88,7 +134,33 @@
           "correctAnswer": "water",
           "explanation": "'Paani' (पानी) = water. One of the most essential vocabulary words. प=pa, ा=aa, न=na, ी=ii."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Hindi Script — Devanagari Basics",
+        "intro": "Learn to recognize and read the Devanagari script used for Hindi.",
+        "concepts": [
+          {
+            "term": "a (short)",
+            "explanation": "'अ' = short 'a' sound (like 'u' in 'but'). 'आ' = long 'aa'. Hindi has 11 vowels in Devanagari."
+          },
+          {
+            "term": "का",
+            "explanation": "Devanagari uses vowel marks (matras) attached to consonants. क (ka) + ा (aa matra) = का (kaa)."
+          },
+          {
+            "term": "namaste",
+            "explanation": "न=na, म=ma, स=sa (with halant making it 's'), त=ta, े=e matra. What familiar word is this?"
+          },
+          {
+            "term": "भारत",
+            "explanation": "भारत = Bharat (India). भ = bha, ा = aa, र = ra, त = ta. The official Hindi name for India."
+          },
+          {
+            "term": "water",
+            "explanation": "'Paani' (पानी) = water. One of the most essential vocabulary words. प=pa, ा=aa, न=na, ी=ii."
+          }
+        ]
+      }
     },
     {
       "id": "hindi_beginner_ch3",
@@ -99,7 +171,12 @@
           "id": "hi_b_ch3_l1",
           "type": "vocabulary",
           "prompt": "What is 'पाँच (paanch)' in English?",
-          "options": ["Three", "Four", "Five", "Six"],
+          "options": [
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+          ],
           "correctAnswer": "Five",
           "explanation": "Hindi numbers 1-10: एक(1), दो(2), तीन(3), चार(4), पाँच(5), छह(6), सात(7), आठ(8), नौ(9), दस(10)."
         },
@@ -121,7 +198,12 @@
           "id": "hi_b_ch3_l4",
           "type": "vocabulary",
           "prompt": "What is 'बीस (bees)'?",
-          "options": ["Fifteen", "Eighteen", "Twenty", "Twenty-five"],
+          "options": [
+            "Fifteen",
+            "Eighteen",
+            "Twenty",
+            "Twenty-five"
+          ],
           "correctAnswer": "Twenty",
           "explanation": "Tens in Hindi: दस(10), बीस(20), तीस(30), चालीस(40), पचास(50), साठ(60), सत्तर(70), अस्सी(80), नब्बे(90), सौ(100)."
         },
@@ -132,7 +214,33 @@
           "correctAnswer": "सौ",
           "explanation": "'Sau' (सौ) = hundred. 'Mere paas ... rupaye hain' = I have ... rupees. 'Mere paas' = I have (lit: near me)."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Numbers & Basic Math",
+        "intro": "Count in Hindi and use numbers in everyday situations.",
+        "concepts": [
+          {
+            "term": "Five",
+            "explanation": "Hindi numbers 1-10: एक(1), दो(2), तीन(3), चार(4), पाँच(5), छह(6), सात(7), आठ(8), नौ(9), दस(10)."
+          },
+          {
+            "term": "दो",
+            "explanation": "'Do' (दो) = two. 'Mujhe ... chahiye' = I need/want. Essential shopping phrase."
+          },
+          {
+            "term": "इसकी कीमत कितनी है",
+            "explanation": "'Iski keemat' = its price. 'Kitni hai' = how much is. Also: 'Yeh kitne ka hai?' (How much is this?)"
+          },
+          {
+            "term": "Twenty",
+            "explanation": "Tens in Hindi: दस(10), बीस(20), तीस(30), चालीस(40), पचास(50), साठ(60), सत्तर(70), अस्सी(80), नब्बे(90), सौ(100)."
+          },
+          {
+            "term": "सौ",
+            "explanation": "'Sau' (सौ) = hundred. 'Mere paas ... rupaye hain' = I have ... rupees. 'Mere paas' = I have (lit: near me)."
+          }
+        ]
+      }
     },
     {
       "id": "hindi_beginner_ch4",
@@ -143,7 +251,12 @@
           "id": "hi_b_ch4_l1",
           "type": "vocabulary",
           "prompt": "What is the basic word order in Hindi?",
-          "options": ["Subject-Verb-Object", "Verb-Subject-Object", "Subject-Object-Verb", "Object-Verb-Subject"],
+          "options": [
+            "Subject-Verb-Object",
+            "Verb-Subject-Object",
+            "Subject-Object-Verb",
+            "Object-Verb-Subject"
+          ],
           "correctAnswer": "Subject-Object-Verb",
           "explanation": "Hindi is SOV: 'Main chai peeta hoon' = I tea drink (I drink tea). The verb comes at the end."
         },
@@ -165,7 +278,12 @@
           "id": "hi_b_ch4_l4",
           "type": "vocabulary",
           "prompt": "What is the negative particle in Hindi?",
-          "options": ["नहीं (nahin)", "हाँ (haan)", "भी (bhi)", "कभी (kabhi)"],
+          "options": [
+            "नहीं (nahin)",
+            "हाँ (haan)",
+            "भी (bhi)",
+            "कभी (kabhi)"
+          ],
           "correctAnswer": "नहीं (nahin)",
           "explanation": "'Nahin' = no/not. Place before the verb: 'Main nahin jaata' = I don't go. 'Nahin' can also stand alone as 'no'."
         },
@@ -176,7 +294,33 @@
           "correctAnswer": "पीते हैं",
           "explanation": "'Kya' at sentence start makes a yes/no question. 'Peete hain' = drink (masculine plural/formal). 'Kya aap chai peete hain?' = Do you drink tea?"
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Basic Sentence Structure",
+        "intro": "Build Hindi sentences using subject-object-verb word order.",
+        "concepts": [
+          {
+            "term": "Subject-Object-Verb",
+            "explanation": "Hindi is SOV: 'Main chai peeta hoon' = I tea drink (I drink tea). The verb comes at the end."
+          },
+          {
+            "term": "बोलता हूँ",
+            "explanation": "'Bolta hoon' = I speak (masculine). Feminine: 'bolti hoon'. Hindi verbs agree with gender."
+          },
+          {
+            "term": "वह सब्जी खाती है",
+            "explanation": "'Voh' = she/he. 'Sabzi' = vegetables. 'Khaati hai' = eats (feminine form). 'Hai' = is/are."
+          },
+          {
+            "term": "नहीं (nahin)",
+            "explanation": "'Nahin' = no/not. Place before the verb: 'Main nahin jaata' = I don't go. 'Nahin' can also stand alone as 'no'."
+          },
+          {
+            "term": "पीते हैं",
+            "explanation": "'Kya' at sentence start makes a yes/no question. 'Peete hain' = drink (masculine plural/formal). 'Kya aap chai peete hain?' = Do you drink tea?"
+          }
+        ]
+      }
     },
     {
       "id": "hindi_beginner_ch5",
@@ -187,7 +331,12 @@
           "id": "hi_b_ch5_l1",
           "type": "vocabulary",
           "prompt": "What does 'मुझे भूख लगी है (mujhe bhookh lagi hai)' mean?",
-          "options": ["I am thirsty", "I am hungry", "I am tired", "I am happy"],
+          "options": [
+            "I am thirsty",
+            "I am hungry",
+            "I am tired",
+            "I am happy"
+          ],
           "correctAnswer": "I am hungry",
           "explanation": "'Bhookh lagna' = to feel hunger. 'Mujhe pyaas lagi hai' = I am thirsty. Hunger and thirst are expressed differently in Hindi."
         },
@@ -209,7 +358,12 @@
           "id": "hi_b_ch5_l4",
           "type": "vocabulary",
           "prompt": "What does 'कृपया' (kripaya) mean?",
-          "options": ["Thank you", "Excuse me", "Please", "Sorry"],
+          "options": [
+            "Thank you",
+            "Excuse me",
+            "Please",
+            "Sorry"
+          ],
           "correctAnswer": "Please",
           "explanation": "'Kripaya' = please (formal). Less formal: just add the polite tone. 'Dhanyavaad' = thank you. 'Maafi' = sorry."
         },
@@ -220,7 +374,33 @@
           "correctAnswer": "चाहिए",
           "explanation": "'Chahiye' = need/want (essential word). 'Mujhe X chahiye' = I need/want X. Very useful in daily life."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Food & Daily Life",
+        "intro": "Talk about food, meals, and everyday activities in Hindi.",
+        "concepts": [
+          {
+            "term": "I am hungry",
+            "explanation": "'Bhookh lagna' = to feel hunger. 'Mujhe pyaas lagi hai' = I am thirsty. Hunger and thirst are expressed differently in Hindi."
+          },
+          {
+            "term": "नाश्ता",
+            "explanation": "'Naashta' = breakfast. 'Dopahar ka khaana' = lunch. 'Raat ka khaana' = dinner."
+          },
+          {
+            "term": "यह खाना बहुत स्वादिष्ट है",
+            "explanation": "'Yeh khaana' = this food. 'Bahut' = very. 'Swaadisht' = delicious/tasty."
+          },
+          {
+            "term": "Please",
+            "explanation": "'Kripaya' = please (formal). Less formal: just add the polite tone. 'Dhanyavaad' = thank you. 'Maafi' = sorry."
+          },
+          {
+            "term": "चाहिए",
+            "explanation": "'Chahiye' = need/want (essential word). 'Mujhe X chahiye' = I need/want X. Very useful in daily life."
+          }
+        ]
+      }
     }
   ]
 }

@@ -6,7 +6,8 @@ import { fileURLToPath } from 'url'
 const router = express.Router()
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
-router.get('/:level', async (req, res) => {
+router.get('/:language/:level', async (req, res) => {
+  const language = req.params.language.toLowerCase()
   const level = req.params.level.toLowerCase()
 
   const validLevels = ['beginner', 'intermediate', 'advanced']
@@ -15,7 +16,7 @@ router.get('/:level', async (req, res) => {
   }
 
   try {
-    const filePath = join(__dirname, '../../data', `${level}.json`)
+    const filePath = join(__dirname, '../../data', language, `${level}.json`)
     const fileContent = await readFile(filePath, 'utf-8')
     const data = JSON.parse(fileContent)
 
@@ -27,12 +28,13 @@ router.get('/:level', async (req, res) => {
 })
 
 // new route — gets one specific chapter by its ID
-router.get('/:level/:chapterId', async (req, res) => {
+router.get('/:language/:level/:chapterId', async (req, res) => {
+  const language = req.params.language.toLowerCase()
   const level = req.params.level.toLowerCase()
   const { chapterId } = req.params
 
   try {
-    const filePath = join(__dirname, '../../data', `${level}.json`)
+    const filePath = join(__dirname, '../../data', language, `${level}.json`)
     const fileContent = await readFile(filePath, 'utf-8')
     const data = JSON.parse(fileContent)
     // console.log(data);

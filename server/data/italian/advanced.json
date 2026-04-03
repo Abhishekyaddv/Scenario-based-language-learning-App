@@ -11,7 +11,12 @@
           "id": "it_a_ch1_l1",
           "type": "vocabulary",
           "prompt": "Which expression triggers the congiuntivo?",
-          "options": ["So che", "È ovvio che", "Penso che", "È certo che"],
+          "options": [
+            "So che",
+            "È ovvio che",
+            "Penso che",
+            "È certo che"
+          ],
           "correctAnswer": "Penso che",
           "explanation": "Verbs of opinion/doubt trigger congiuntivo: pensare, credere, sperare, dubitare. Certainty uses indicativo."
         },
@@ -33,7 +38,12 @@
           "id": "it_a_ch1_l4",
           "type": "vocabulary",
           "prompt": "What is the congiuntivo presente of 'avere' for 'che lui'?",
-          "options": ["Che lui ha", "Che lui aveva", "Che lui abbia", "Che lui avrà"],
+          "options": [
+            "Che lui ha",
+            "Che lui aveva",
+            "Che lui abbia",
+            "Che lui avrà"
+          ],
           "correctAnswer": "Che lui abbia",
           "explanation": "Congiuntivo of avere: che io/tu/lui/lei abbia, noi abbiamo, voi abbiate, loro abbiano."
         },
@@ -44,7 +54,33 @@
           "correctAnswer": "sia",
           "explanation": "'Benché' (although) → congiuntivo. 'Sia' = congiuntivo of essere (3rd person singular)."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "The Subjunctive — Congiuntivo",
+        "intro": "Master the congiuntivo to express doubt, emotion, and opinion.",
+        "concepts": [
+          {
+            "term": "Penso che",
+            "explanation": "Verbs of opinion/doubt trigger congiuntivo: pensare, credere, sperare, dubitare. Certainty uses indicativo."
+          },
+          {
+            "term": "dica",
+            "explanation": "'Volere che' triggers congiuntivo. Congiuntivo of 'dire' for tu = dica."
+          },
+          {
+            "term": "Sebbene sia stanco continua a lavorare",
+            "explanation": "'Sebbene' (although) always takes congiuntivo. 'Sia' = congiuntivo of essere."
+          },
+          {
+            "term": "Che lui abbia",
+            "explanation": "Congiuntivo of avere: che io/tu/lui/lei abbia, noi abbiamo, voi abbiate, loro abbiano."
+          },
+          {
+            "term": "sia",
+            "explanation": "'Benché' (although) → congiuntivo. 'Sia' = congiuntivo of essere (3rd person singular)."
+          }
+        ]
+      }
     },
     {
       "id": "italian_advanced_ch2",
@@ -55,7 +91,12 @@
           "id": "it_a_ch2_l1",
           "type": "vocabulary",
           "prompt": "What does 'In bocca al lupo' mean?",
-          "options": ["You're in danger", "Good luck", "Be careful", "Eat well"],
+          "options": [
+            "You're in danger",
+            "Good luck",
+            "Be careful",
+            "Eat well"
+          ],
           "correctAnswer": "Good luck",
           "explanation": "Literally 'into the wolf's mouth' — the standard way to wish good luck. Reply: 'Crepi!' (May it die!)."
         },
@@ -77,7 +118,12 @@
           "id": "it_a_ch2_l4",
           "type": "vocabulary",
           "prompt": "What does 'avere le mani in pasta' mean?",
-          "options": ["To be a baker", "To be involved in something", "To be messy", "To cook well"],
+          "options": [
+            "To be a baker",
+            "To be involved in something",
+            "To be messy",
+            "To cook well"
+          ],
           "correctAnswer": "To be involved in something",
           "explanation": "Literally 'to have your hands in the dough' — to be deeply involved in a matter (often business or politics)."
         },
@@ -88,7 +134,33 @@
           "correctAnswer": "testa",
           "explanation": "'Ogni testa a modo suo' = each head in its own way. Equivalent of 'to each their own'."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Italian Idioms",
+        "intro": "Sound like a native Italian with common idiomatic expressions.",
+        "concepts": [
+          {
+            "term": "Good luck",
+            "explanation": "Literally 'into the wolf's mouth' — the standard way to wish good luck. Reply: 'Crepi!' (May it die!)."
+          },
+          {
+            "term": "scatole",
+            "explanation": "Literally 'don't break my boxes' — a polite version of a common vulgar phrase meaning 'stop annoying me'."
+          },
+          {
+            "term": "Costare un occhio della testa",
+            "explanation": "Literally 'to cost an eye from the head'."
+          },
+          {
+            "term": "To be involved in something",
+            "explanation": "Literally 'to have your hands in the dough' — to be deeply involved in a matter (often business or politics)."
+          },
+          {
+            "term": "testa",
+            "explanation": "'Ogni testa a modo suo' = each head in its own way. Equivalent of 'to each their own'."
+          }
+        ]
+      }
     },
     {
       "id": "italian_advanced_ch3",
@@ -99,7 +171,12 @@
           "id": "it_a_ch3_l1",
           "type": "vocabulary",
           "prompt": "Which sentence is a real condition?",
-          "options": ["Se fossi ricco, comprerei una villa", "Se hai fame, mangia", "Se avessi tempo, studierei", "Se potessi, andrei"],
+          "options": [
+            "Se fossi ricco, comprerei una villa",
+            "Se hai fame, mangia",
+            "Se avessi tempo, studierei",
+            "Se potessi, andrei"
+          ],
           "correctAnswer": "Se hai fame, mangia",
           "explanation": "Real condition: se + presente → presente/imperativo. Unreal: se + congiuntivo imperfetto → condizionale."
         },
@@ -121,7 +198,12 @@
           "id": "it_a_ch3_l4",
           "type": "vocabulary",
           "prompt": "What is the condizionale presente of 'volere' for 'io'?",
-          "options": ["Voglio", "Volevo", "Vorrò", "Vorrei"],
+          "options": [
+            "Voglio",
+            "Volevo",
+            "Vorrò",
+            "Vorrei"
+          ],
           "correctAnswer": "Vorrei",
           "explanation": "'Vorrei' = I would like. One of the most useful Italian phrases. Irregular conditional stem: vorr-."
         },
@@ -132,7 +214,33 @@
           "correctAnswer": "sarei",
           "explanation": "Past hypothetical: se + congiuntivo trapassato → condizionale passato. 'Non sarei venuto' = would not have come."
         }
-      ]
+      ],
+      "learningMaterial": {
+        "title": "Condizionale & Hypotheticals",
+        "intro": "Express conditions, wishes, and polite requests using the conditional.",
+        "concepts": [
+          {
+            "term": "Se hai fame, mangia",
+            "explanation": "Real condition: se + presente → presente/imperativo. Unreal: se + congiuntivo imperfetto → condizionale."
+          },
+          {
+            "term": "passeresti",
+            "explanation": "Unreal present condition: se + congiuntivo imperfetto → condizionale presente."
+          },
+          {
+            "term": "Potrebbe passarmi il sale per favore",
+            "explanation": "'Potrebbe' = condizionale of potere (3rd person). More polite than 'può'."
+          },
+          {
+            "term": "Vorrei",
+            "explanation": "'Vorrei' = I would like. One of the most useful Italian phrases. Irregular conditional stem: vorr-."
+          },
+          {
+            "term": "sarei",
+            "explanation": "Past hypothetical: se + congiuntivo trapassato → condizionale passato. 'Non sarei venuto' = would not have come."
+          }
+        ]
+      }
     }
   ]
 }

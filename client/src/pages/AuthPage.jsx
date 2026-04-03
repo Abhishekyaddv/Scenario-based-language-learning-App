@@ -69,7 +69,7 @@ const AuthPage = ({ initialMode = 'login' }) => {
 
       const user = response.data.user;
       if (user.isOnboarded) {
-        navigate('/journey');
+        navigate('/language-selection');
       } else {
         navigate('/onboarding');
       }
