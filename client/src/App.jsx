@@ -13,13 +13,13 @@ import ScenarioSession from "./pages/ScenarioSession"
 import PastScenarios from "./pages/PastScenarios"
 import { PrivateRoute, OnboardedRoute } from "./components/PrivateRoute";
 import LanguageSelection from "./pages/LanguageSelection";
-
+import { Analytics } from '@vercel/analytics/react';
 function App() {
 
   return (
     <>
     <BrowserRouter>
-    
+    <Analytics />
     <Routes>
 
       {/* ── Public routes ── */}
