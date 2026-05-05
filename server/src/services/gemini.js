@@ -67,3 +67,58 @@ Return JSON only, no extra text:
   const clean = text.replace(/```json|```/g, '').trim()
   return JSON.parse(clean)
 }
+
+// 3. Generate flashcards
+export async function generateFlashcardsScript({ topic, language, level }) {
+  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_FLASHCARD_KEY || process.env.GEMINI_API_KEY)
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' })
+
+  const prompt = `You are a ${language} language teacher.
+Generate a set of 5 flashcards to help a ${level} learner practice ${language} vocabulary and phrases related to the topic: "${topic}".
+
+RULES:
+1. Each flashcard must have a "question" field containing a word, phrase, or short sentence in English.
+2. Each flashcard must have an "answer" field containing the correct translation in ${language}.
+3. The translation should be natural and appropriate for a ${level} learner.
+4. Do NOT include any English in the "answer" field.
+
+Return JSON only, no extra text. Use the following format exactly:
+{
+  "flashcards": [
+    { "question": "Good morning", "answer": "Buenos días" },
+    ...
+  ]
+}`
+
+  const result = await model.generateContent(prompt)
+  const text = result.response.text()
+  const clean = text.replace(/```json|```/g, '').trim()
+  return JSON.parse(clean)
+}
+
+// 4. Validate flashcard answer
+export async function validateFlashcardAnswer({ question, expectedAnswer, userAnswer, language, level }) {
+  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_FLASHCARD_KEY || process.env.GEMINI_API_KEY)
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' })
+
+  const prompt = `You are a ${language} language teacher evaluating a student's answer to a flashcard.
+
+Question (English): "${question}"
+Expected Answer (${language}): "${expectedAnswer}"
+Student's Answer (${level} level): "${userAnswer}"
+
+RULES:
+- Evaluate the student's answer based on how correctly it translates the Question into ${language}.
+- Minor typos might be acceptable, but completely wrong words or wrong language should fail.
+- "correct": boolean true or false.
+- "score": 0-100 based on accuracy.
+- "feedback": A short encouraging tip or correction written in English.
+
+Return JSON only, no extra text:
+{"correct":true,"score":100,"feedback":"Perfect!"}`
+
+  const result = await model.generateContent(prompt)
+  const text = result.response.text()
+  const clean = text.replace(/```json|```/g, '').trim()
+  return JSON.parse(clean)
+}

@@ -11,6 +11,7 @@ import authRoute     from './src/routes/auth.js'
 import lessonsRoute  from './src/routes/lessons.js'
 import progressRoute from './src/routes/progress.js'
 import scenarioRoute from './src/routes/scenario.js'
+import flashcardsRoute from './src/routes/flashcards.js'
 import connectDB from "./src/config/db.js";
 
 
@@ -40,6 +41,7 @@ app.use('/api/auth',     authRoute)
 app.use('/api/lessons',  lessonsRoute)
 app.use('/api/progress', progressRoute)
 app.use('/api/scenario', scenarioRoute)
+app.use('/api/flashcards', flashcardsRoute)
 
 
 // Vercel serverless functions load this module instead of running 'node index.js' directly.

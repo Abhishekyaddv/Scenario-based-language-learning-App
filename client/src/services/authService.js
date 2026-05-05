@@ -51,3 +51,20 @@ export const saveScenarioSession = (data) => {
 export const fetchScenarioHistory = () => {
   return axiosInstance.get("/scenario/history");
 };
+
+// ── Flashcards ──
+export const generateFlashcards = (data) => {
+  return axiosInstance.post("/flashcards/generate", data);
+};
+
+export const validateFlashcard = (data) => {
+  return axiosInstance.post("/flashcards/validate", data);
+};
+
+export const saveFlashcardSession = (data) => {
+  return axiosInstance.post("/flashcards/save", data);
+};
+
+export const fetchFlashcardHistory = () => {
+  return axiosInstance.get("/flashcards/history");
+};

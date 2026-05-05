@@ -11,6 +11,8 @@ import Lessons from "./pages/Lessons";
 import ScenarioPage from "./pages/ScenarioPage";
 import ScenarioSession from "./pages/ScenarioSession"
 import PastScenarios from "./pages/PastScenarios"
+import FlashcardPage from "./pages/FlashcardPage"
+import FlashcardSession from "./pages/FlashcardSession"
 import { PrivateRoute, OnboardedRoute } from "./components/PrivateRoute";
 import LanguageSelection from "./pages/LanguageSelection";
 import { Analytics } from '@vercel/analytics/react';
@@ -54,6 +56,12 @@ function App() {
       } />
       <Route path="/scenario/history" element={
         <OnboardedRoute><PastScenarios /></OnboardedRoute>
+      } />
+      <Route path="/flashcards" element={
+        <OnboardedRoute><FlashcardPage /></OnboardedRoute>
+      } />
+      <Route path="/flashcards/session" element={
+        <OnboardedRoute><FlashcardSession /></OnboardedRoute>
       } />
 
     </Routes>
